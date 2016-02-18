@@ -39,7 +39,7 @@ html, body {
 	width: 100%;
 }
 body {}
-#base { background:rgba(255, 255, 255, 0.5 ); }
+#base { background:rgba(255, 255, 255, 0.5 ); overflow: auto;}
 .base { text-align:left; max-width:850px; margin:0 auto; }
 
 #header { background:#fff; padding:10px 0; border-bottom:1px solid #ddd; border-bottom:5px solid #303f9f; }
