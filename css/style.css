@@ -35,6 +35,9 @@ a:active { color:#DA0009; text-decoration:none; }
 
 /* layout
 ------------------------------------------------------------*/
+html, body {
+	width: 100%;
+}
 body {}
 #base { background:rgba(255, 255, 255, 0.5 ); }
 .base { text-align:left; max-width:850px; margin:0 auto; }
@@ -72,11 +75,11 @@ body {}
 #top_main section { letter-spacing:normal;  vertical-align:bottom; }
 .top_unit { box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); 
 		background:#fff; display:inline-block; margin:0 1% 10px; }
-	.top_unit_wrap { display:block; padding:20px; text-decoration:none; }
+	.top_unit_wrap { display:block; text-decoration:none; }
 	a.top_unit_wrap:hover { opacity:0.7; }
-	.top_unit_sub { background:#eceff1; }
-	.top_unit_icon { display:block; text-align:center; color:#90a4ae; font-size:5em; line-height:120%; }
-	.top_unit_icon_cap { display:block; text-align:center; color:#90a4ae; }
+	.top_unit_sub { display:block; text-decoration:none; background:#eceff1; padding: 20px;}
+	.top_unit_icon { display:block; text-align:center; color:#90a4ae; font-size:5em; line-height:120%; padding:20px 20px 0; }
+	.top_unit_icon_cap { display:block; text-align:center; color:#90a4ae; padding:0 20px 20px; }
 
 #top_about { width:48%; }
 #top_qa { width:23%; }
@@ -84,7 +87,12 @@ body {}
 	#top_sponsor .top_unit_icon { color:#fff; }
 	#top_sponsor .top_unit_icon_cap { color:#fff; }
 
+@media screen and (max-width: 640px) {
+	#top_about { width:98%; }
+	#top_qa { width:48%; }
+	#top_sponsor { width:48%; background:#303f9f; }
 
+}
 /* pages
 ------------------------------------------------------------*/
 #body h2 { background:#303f9f; padding:20px 0; margin-bottom:40px; font-weight:bold; font-size:2em; color:#fff; letter-spacing:10px; }
