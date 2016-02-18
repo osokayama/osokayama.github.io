@@ -83,9 +83,9 @@ body {}
 
 #top_about { width:48%; }
 #top_qa { width:23%; }
-#top_sponsor { width:23%; background:#303f9f; }
-	#top_sponsor .top_unit_icon { color:#fff; }
-	#top_sponsor .top_unit_icon_cap { color:#fff; }
+#top_sponsor { width:23%; }
+	#top_sponsor .top_unit_icon { background:#303f9f; color:#fff; }
+	#top_sponsor .top_unit_icon_cap { background:#303f9f; color:#fff; }
 
 @media screen and (max-width: 640px) {
 	#top_about { width:98%; }
