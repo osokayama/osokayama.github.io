@@ -19,6 +19,8 @@ a:visited { color:#551A8B; text-decoration:underline; }
 a:hover { color:#DA0009; text-decoration:none; }
 a:active { color:#DA0009; text-decoration:none; }
 
+.x-large   { font-size:1.5em;}
+
 /* common class
 ------------------------------------------------------------*/
 .fl_left  { float:left; }
