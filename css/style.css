@@ -48,7 +48,7 @@ body {}
 #header h1 img { max-width:250px; }
 
 #page_main { display:table; width:100%; }
-#navi { display:table-cell; width:20%; vertical-align:top; text-align:left; 
+#navi { display:table-cell; width:20%; min-width: 230px; vertical-align:top; text-align:left; 
 		 box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); }
 #body { display:table-cell; width:80%; vertical-align:top; }
 
@@ -123,13 +123,11 @@ body {}
 
 /* size
 ------------------------------------------------------------*/
-@media screen and (max-width: 1024px){
-	#page #body, 
-	#page #navi { width:100%; float:none; }
-	#page #navi li a { margin-left:auto; }
-}
-
 @media screen and (max-width: 768px){
+	#page #body, 
+	#page #navi { width:100%; float:none; display: block;}
+	#page #navi li a { margin-left:auto; }
+
 	#navi li a, 
 	#page #navi li a { margin-left:10px; padding:1.2em 0 1.2em 50px; }
 	
