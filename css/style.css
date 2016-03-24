@@ -34,6 +34,7 @@ a:active { color:#DA0009; text-decoration:none; }
 .pos_vb { vertical-align:bottom; }
 .tbl_cell { display:table-cell; vertical-align:middle; }
 .wrap { margin-bottom:40px; }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
 
 /* layout
 ------------------------------------------------------------*/
@@ -65,6 +66,20 @@ body {}
 	#navi_list .navi_7 i { background:#303f9f; }
 
 #footer_copy { background:#424242; color:#fff; padding:10px 0; }
+
+/* off-canvas
+------------------------------------------------------------*/
+.off_canvas_toggle { display: none; }
+.off_canvas_menu { display: block; }
+
+@media screen and (max-width: 768px){
+    .off_canvas_container {display: table; }
+	.off_canvas_toggle { display: table-cell; vertical-align: middle; padding-left: 10px; }
+    .off_canvas_toggle_button {display: block; padding: 5px 10px; background-color: #303f9f; color: white; }
+    .off_canvas_toggle_button:visited { color: white; }
+    .off_canvas_section { display: table-cell; }
+    .off_canvas_menu { display: none; }
+}
 
 /* #top
 ------------------------------------------------------------*/

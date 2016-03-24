@@ -18,14 +18,18 @@
   ga('send', 'pageview');
 
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ></script>
 </head>
 <body id="page">
 <header id="header">
-	<h1><a href="./"><img src="images/logo.svg" alt="オープンセミナー2016@岡山"></a></h1>
+    <div class="off_canvas_container">
+        <div class="off_canvas_toggle"><a href="#" class="off_canvas_toggle_button" onclick="$('.off_canvas_menu').slideToggle()"><i class="fa fa-bars"></i><span class="sr-only">メニュー</span></a></div>
+	    <div class="off_canvas_section"><h1><a href="./"><img src="images/logo.svg" alt="オープンセミナー2016@岡山"></a></h1></div>
+    </div>
 </header>
 <main id="page_main">
 	<nav id="navi">
-		<ul id="navi_list">
+		<ul id="navi_list" class="off_canvas_menu">
 			<li class="navi_1"><a href="about.html"><i class="fa fa-info-circle"></i>開催概要</a></li>
 			<li class="navi_2"><a href="timetable.html">タイムテーブル・セッション内容</a></li>
 			<li class="navi_3"><a href="exhibition.html">展示ブース紹介</a></li>
