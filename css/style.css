@@ -70,8 +70,11 @@ body {}
 /* off-canvas
 ------------------------------------------------------------*/
 .off_canvas_toggle { display: none; }
-.off_canvas_menu { display: block; }
 
+
+@media screen and (min-width: 769px){
+    .off_canvas_menu { display: block; }
+}
 @media screen and (max-width: 768px){
     .off_canvas_container {display: table; }
 	.off_canvas_toggle { display: table-cell; vertical-align: middle; padding-left: 10px; }
@@ -79,6 +82,7 @@ body {}
     .off_canvas_toggle_button:visited { color: white; }
     .off_canvas_section { display: table-cell; }
     .off_canvas_menu { display: none; }
+    .off_canvas_menu_show { display: block; }
 }
 
 /* #top
