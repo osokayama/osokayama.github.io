@@ -34,6 +34,7 @@ a:active { color:#DA0009; text-decoration:none; }
 .pos_vb { vertical-align:bottom; }
 .tbl_cell { display:table-cell; vertical-align:middle; }
 .wrap { margin-bottom:40px; }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
 
 /* layout
 ------------------------------------------------------------*/
@@ -48,7 +49,7 @@ body {}
 #header h1 img { max-width:250px; }
 
 #page_main { display:table; width:100%; }
-#navi { display:table-cell; width:20%; vertical-align:top; text-align:left; 
+#navi { display:table-cell; width:20%; min-width: 230px; vertical-align:top; text-align:left; 
 		 box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2); }
 #body { display:table-cell; width:80%; vertical-align:top; }
 
@@ -65,6 +66,24 @@ body {}
 	#navi_list .navi_7 i { background:#303f9f; }
 
 #footer_copy { background:#424242; color:#fff; padding:10px 0; }
+
+/* off-canvas
+------------------------------------------------------------*/
+.off_canvas_toggle { display: none; }
+
+
+@media screen and (min-width: 769px){
+    .off_canvas_menu { display: block; }
+}
+@media screen and (max-width: 768px){
+    .off_canvas_container {display: table; }
+	.off_canvas_toggle { display: table-cell; vertical-align: middle; padding-left: 10px; }
+    .off_canvas_toggle_button {display: block; padding: 5px 10px; background-color: #303f9f; color: white; }
+    .off_canvas_toggle_button:visited { color: white; }
+    .off_canvas_section { display: table-cell; }
+    .off_canvas_menu { display: none; }
+    .off_canvas_menu_show { display: block; }
+}
 
 /* #top
 ------------------------------------------------------------*/
@@ -123,13 +142,11 @@ body {}
 
 /* size
 ------------------------------------------------------------*/
-@media screen and (max-width: 1024px){
-	#page #body, 
-	#page #navi { width:100%; float:none; }
-	#page #navi li a { margin-left:auto; }
-}
-
 @media screen and (max-width: 768px){
+	#page #body, 
+	#page #navi { width:100%; float:none; display: block;}
+	#page #navi li a { margin-left:auto; }
+
 	#navi li a, 
 	#page #navi li a { margin-left:10px; padding:1.2em 0 1.2em 50px; }
 	

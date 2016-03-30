@@ -8,6 +8,8 @@
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="script/offCanvas.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,11 +23,14 @@
 </head>
 <body id="page">
 <header id="header">
-	<h1><a href="./"><img src="images/logo.svg" alt="オープンセミナー2016@岡山"></a></h1>
+    <div class="off_canvas_container">
+        <div class="off_canvas_toggle"><a href="#" class="off_canvas_toggle_button" onclick="toggleCanvas()"><i class="fa fa-bars"></i><span class="sr-only">メニュー</span></a></div>
+	    <div class="off_canvas_section"><h1><a href="./"><img src="images/logo.svg" alt="オープンセミナー2016@岡山"></a></h1></div>
+    </div>
 </header>
 <main id="page_main">
 	<nav id="navi">
-		<ul id="navi_list">
+		<ul id="navi_list" class="off_canvas_menu">
 			<li class="navi_1"><a href="about.html"><i class="fa fa-info-circle"></i>開催概要</a></li>
 			<li class="navi_2"><a href="timetable.html">タイムテーブル・セッション内容</a></li>
 			<li class="navi_3"><a href="exhibition.html">展示ブース紹介</a></li>
