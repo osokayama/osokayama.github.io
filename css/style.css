@@ -19,7 +19,9 @@ a:visited { color:#551A8B; text-decoration:underline; }
 a:hover { color:#DA0009; text-decoration:none; }
 a:active { color:#DA0009; text-decoration:none; }
 
-.x-large   { font-size:1.5em;}
+.x-large { font-size:1.5em;}
+.x-small { font-size: 0.9em; }
+.strong { font-weight: bold; }
 
 /* common class
 ------------------------------------------------------------*/
@@ -127,7 +129,7 @@ body {}
 	#page_detail tbody th { background:#ddd; }
 	#page_detail dl {}
 	#page_detail dt { padding:5px 0 5px 15px; background:#e3f2fd; border-left:5px solid #303f9f; font-size:1.2em; }
-	#page_detail dd { padding:10px 0 40px 20px; }
+	#page_detail dd { padding:10px 0 40px 10px; }
 
 #time_table {}
 	#time_table tbody tr:hover { opacity:0.7; }
