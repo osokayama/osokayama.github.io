@@ -67,6 +67,15 @@ body {}
 	#navi_list .navi_6 i { background:#ff1744; }
 	#navi_list .navi_7 i { background:#303f9f; }
 
+.footer_sponsor_area { background: #FFF; padding: 20px; }
+.sponsor_rank_area { padding: 10px; margin-bottom: 15px; }
+.sponsor_rank_title { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
+.sponsor_link_platina img { width: 300px; }
+.sponsor_link_gold img { width: 229px; }
+.sponsor_link_bronze img { width: 150px; }
+.sposor_links { list-style: none; text-align: center; }
+.sposor_links li { display: inline-block; }
+
 #footer_copy { background:#424242; color:#fff; padding:10px 0; }
 
 /* off-canvas
