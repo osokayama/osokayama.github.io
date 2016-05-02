@@ -133,7 +133,7 @@ body {}
 ------------------------------------------------------------*/
 #body h2 { background:#303f9f; padding:20px 0; margin-bottom:40px; font-weight:bold; font-size:2em; color:#fff; letter-spacing:10px; }
 #page_detail { text-align:left; width:80%; margin:0 auto; padding-bottom:50px; }
-	#page_detail h2 {padding:20px;}
+	#page_detail h2 {padding:20px; margin-bottom: 15px; }
 	#page_detail h3 { padding:8px 0 8px 15px; background:#e3f2fd; border-left:5px solid #303f9f; font-size:1.5em; margin-bottom:20px; }
 	#page_detail h4 { padding:2px 5px; border-left:4px solid #303f9f; border-bottom:2px solid #303f9f; font-size:1.2em; margin-bottom:20px; }
 	#page_detail p { margin-bottom:10px; }
