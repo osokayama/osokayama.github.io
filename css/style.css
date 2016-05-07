@@ -37,6 +37,7 @@ a:active { color:#DA0009; text-decoration:none; }
 .tbl_cell { display:table-cell; vertical-align:middle; }
 .wrap { margin-bottom:40px; }
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+.img-responsive { display: block; height: auto; max-width: 100%;}
 
 /* layout
 ------------------------------------------------------------*/
