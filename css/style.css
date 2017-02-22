@@ -73,6 +73,7 @@ body {}
 .sponsor_rank_title { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
 .sponsor_link_platina img { width: 300px; }
 .sponsor_link_gold img { width: 229px; }
+.sponsor_link_silver img { width: 200px; }
 .sponsor_link_bronze img { width: 150px; }
 .sposor_links { list-style: none; text-align: center; }
 .sposor_links li { display: inline-block; }
@@ -85,16 +86,16 @@ body {}
 
 
 @media screen and (min-width: 769px){
-    .off_canvas_menu { display: block; }
+	.off_canvas_menu { display: block; }
 }
 @media screen and (max-width: 768px){
-    .off_canvas_container {display: table; }
+	.off_canvas_container {display: table; }
 	.off_canvas_toggle { display: table-cell; vertical-align: middle; padding-left: 10px; }
-    .off_canvas_toggle_button {display: block; padding: 5px 10px; background-color: #303f9f; color: white; }
-    .off_canvas_toggle_button:visited { color: white; }
-    .off_canvas_section { display: table-cell; }
-    .off_canvas_menu { display: none; }
-    .off_canvas_menu_show { display: block; }
+	.off_canvas_toggle_button {display: block; padding: 5px 10px; background-color: #303f9f; color: white; }
+	.off_canvas_toggle_button:visited { color: white; }
+	.off_canvas_section { display: table-cell; }
+	.off_canvas_menu { display: none; }
+	.off_canvas_menu_show { display: block; }
 }
 
 /* #top
@@ -116,7 +117,7 @@ body {}
 
 #top_about { width:48%; }
 #top_qa { width:23%; }
-#top_sponsor { width:23%; }
+#top_sponsor { width:48%; }
 	#top_sponsor .top_unit_icon { background:#303f9f; color:#fff; }
 	#top_sponsor .top_unit_icon_cap { background:#303f9f; color:#fff; }
 
