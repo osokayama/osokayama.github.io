@@ -71,10 +71,10 @@ body {}
 .footer_sponsor_area { background: #FFF; padding: 20px; border-top: solid 1px #424242; }
 .sponsor_rank_area { padding: 10px; margin-bottom: 15px; }
 .sponsor_rank_title { font-size: 20px; font-weight: bold; margin-bottom: 10px; }
-.sponsor_link_platina img { width: 300px; }
-.sponsor_link_gold img { width: 229px; }
-.sponsor_link_silver img { width: 200px; }
-.sponsor_link_bronze img { width: 150px; }
+.sponsor_link_platina img { width: 300px; max-width: 100% }
+.sponsor_link_gold img { width: 229px; max-width: 100%}
+.sponsor_link_silver img { width: 200px; max-width: 100% }
+.sponsor_link_bronze img { width: 150px; max-width: 100% }
 .sposor_links { list-style: none; text-align: center; }
 .sposor_links li { display: inline-block; padding: 10px; vertical-align: middle;}
 
@@ -168,7 +168,7 @@ body {}
 	#navi li a,
 	#page #navi li a { margin-left:10px; padding:1.2em 0 1.2em 50px; }
 
-	h1 a { padding:0 1em; }
+	h1 a img{ max-width: 100%; }
 	#main_image { height:700px; }
 	.main_image_area { height:700px; }
 	.main_image_area img { margin-left:-600px; }
