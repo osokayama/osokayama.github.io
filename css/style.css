@@ -76,7 +76,7 @@ body {}
 .sponsor_link_silver img { width: 200px; }
 .sponsor_link_bronze img { width: 150px; }
 .sposor_links { list-style: none; text-align: center; }
-.sposor_links li { display: inline-block; }
+.sposor_links li { display: inline-block; padding: 10px; vertical-align: middle;}
 
 #footer_copy { background:#424242; color:#fff; padding:10px 0; }
 
