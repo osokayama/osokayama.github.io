@@ -123,8 +123,7 @@ body {}
 
 @media screen and (max-width: 640px) {
 	#top_about { width:98%; }
-	#top_qa { width:48%; }
-	#top_sponsor { width:48%; background:#303f9f; }
+	#top_sponsor { width:98%; background:#303f9f; }
 
 }
 .main_btn_container { letter-spacing:normal; margin-bottom: 30px;  text-align: center;}
