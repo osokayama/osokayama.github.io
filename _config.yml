@@ -1,0 +1,6 @@
+safe: true
+exclude:
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
