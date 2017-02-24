@@ -1,0 +1,6 @@
+safe: true
+exclude:
+  - package.json
+  - bs-config.js
+  - yarn.lock
+  - README.md

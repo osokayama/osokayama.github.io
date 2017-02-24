@@ -1,0 +1,12 @@
+{
+  "name": "osokayama.github.io",
+  "version": "1.0.0",
+  "repository": "https://github.com/osokayama/osokayama.github.io",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
