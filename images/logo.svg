@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo_2017.svg"
+   sodipodi:docname="logo_2017_path.svg"
    inkscape:export-filename="/home/razon/Documents/oso2012/logo.png"
    inkscape:export-xdpi="97.410004"
    inkscape:export-ydpi="97.410004">
@@ -1264,19 +1264,27 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-182.78692,-482.56871)">
-    <text
-       xml:space="preserve"
+    <g
+       transform="scale(0.92091885,1.085872)"
        style="font-style:normal;font-weight:normal;font-size:24.91578865px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#3f3fff;fill-opacity:1;stroke:none"
-       x="488.48798"
-       y="471.32919"
-       id="text3146"
-       sodipodi:linespacing="125%"
-       transform="scale(0.92091885,1.085872)"><tspan
-         sodipodi:role="line"
-         id="tspan3148"
-         x="488.48798"
-         y="471.32919"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:NationalyzeALP;-inkscape-font-specification:'NationalyzeALP Bold';fill:#3f3fff;fill-opacity:1">2017</tspan></text>
+       id="text3146">
+      <path
+         d="m 488.98629,471.30428 16.94274,-13.03096 -7.35016,0 -0.0498,4.03636 -8.6707,0 0.0249,-2.56633 q 0.0498,-2.66599 2.19259,-3.71245 0.89697,-0.44849 2.14276,-0.54815 l 19.03566,0.0249 q 0.82222,0 1.34545,0.52323 0.54815,0.52323 0.54815,1.32054 0,1.32053 -1.02155,2.09292 l -12.05924,9.06935 8.07272,0 q 0.4734,0 0.77239,0.3239 0.3239,0.29899 0.3239,0.77239 0,0.64781 -0.52323,1.17105 -0.52323,0.52323 -1.17104,0.52323 l -20.55553,0 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:NationalyzeALP;-inkscape-font-specification:'NationalyzeALP Bold';fill:#3f3fff;fill-opacity:1"
+         id="path4295" />
+      <path
+         d="m 522.46922,455.48275 q -1.24579,0.0997 -2.24242,0.54815 -2.34209,1.04646 -2.91515,3.71245 l -1.54478,7.27541 q -0.12458,0.59798 -0.12458,1.12121 0,2.94007 3.48821,3.13939 l 16.39459,0 q 1.27071,-0.0747 2.24242,-0.52323 2.367,-1.07138 2.91515,-3.73737 l 1.54478,-7.27541 q 0.12458,-0.59798 0.12458,-1.12121 0,-2.91515 -3.4633,-3.13939 l -16.4195,0 z m 11.41143,2.79057 -2.16767,10.21547 -7.5744,0 2.16767,-10.21547 7.5744,0 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:NationalyzeALP;-inkscape-font-specification:'NationalyzeALP Bold';fill:#3f3fff;fill-opacity:1"
+         id="path4297" />
+      <path
+         d="m 545.9979,455.48275 q -0.6229,0 -1.14613,0.52323 -0.52323,0.49832 -0.52323,1.14613 0,0.4734 0.29899,0.7973 0.32391,0.29899 0.79731,0.29899 l 1.79393,0 -2.76565,13.03096 8.67069,0 3.36364,-15.79661 -10.48955,0 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:NationalyzeALP;-inkscape-font-specification:'NationalyzeALP Bold';fill:#3f3fff;fill-opacity:1"
+         id="path4299" />
+      <path
+         d="m 584.35225,457.12719 q 0,-0.62289 -0.4734,-1.12121 -0.4734,-0.52323 -1.04646,-0.52323 l -20.97909,0 q -1.24579,0.0747 -2.14276,0.52323 -2.14276,1.07138 -2.19259,3.71246 l -0.0249,2.59124 8.69561,0 0.0249,-4.06128 9.01952,0 -9.99124,13.03096 8.6707,0 10.24039,-13.35486 q 0.19932,-0.34882 0.19932,-0.79731 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:NationalyzeALP;-inkscape-font-specification:'NationalyzeALP Bold';fill:#3f3fff;fill-opacity:1"
+         id="path4301" />
+    </g>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Dunn;-inkscape-font-specification:Dunn"
