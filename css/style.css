@@ -164,10 +164,18 @@ body {}
 	#time_table .t30 th,
 	#time_table .t30 td { background:#afe0ff; }
 
-.speaker_profile { display: table; margin-bottom: 20px; }
-.speaker_photo,.speaker_info { display: table-cell; vertical-align: top;}
+
+@media screen and (min-width: 769px) {
+	.speaker_profile { display: table; }
+	.speaker_photo,.speaker_info { display: table-cell;}
+}
+.speaker_profile { margin-bottom: 20px; }
+.speaker_photo,.speaker_info { vertical-align: top;}
 .speaker_photo { padding-right: 20px; }
 	.speaker_photo img { width: 120px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+@media screen and (max-width: 768px) {
+	.speaker_photo { margin-bottom: 10px;}
+}
 .speaker_info { font-size: 1.2em; }
 .speaker_social_icons { margin-bottom: 10px; }
 	.speaker_social_icons li { display: inline; text-align: center; margin-right: 5px; background-color: #fff; }
