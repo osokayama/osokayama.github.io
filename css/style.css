@@ -189,6 +189,7 @@ body {}
 	#past .past_bg:hover:before {background-color: rgba(255,255,255,0.1);}
 	#past .past_text { width: 100%; position: absolute; top: 50%; left: 50%; -webkit-transform: translateY(-50%) translateX(-50%); transform: translateY(-50%) translateX(-50%); }
 	#past a { text-decoration:none; color: #fff; text-shadow: 0 0 3px #444; }
+	#past_2017 .past_bg { background-image: url(../2017/images/image_1.jpg); background-position: 50% 50%; }
 	#past_2016 .past_bg { background-image: url(../2016/images/image_1.jpg); background-position: 50% 50%; }
 	#past_2015 .past_bg { background-image: url(../2015/images/main_1.jpg); background-position: 50% 50%; }
 	#past_2014 .past_bg { background-image: url(../2014/images/main_1.jpg); background-position: 50% 50%; }
