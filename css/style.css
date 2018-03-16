@@ -201,9 +201,9 @@ body {}
 	.venue_map object,
 	.venue_map embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
+.staff_list li {height: 42px;}
 .staff_list div:first-child {width: 90px;}
-.staff_list div {display: inline-block; font-size: 1.2em;}
-.staff_social_icons { margin-bottom: 10px; }
+.staff_list div {display: inline-block; font-size: 1.2em; vertical-align: middle;}
 .staff_social_icons li { display: inline; text-align: center; margin-right: 5px; background-color: #fff; }
 .staff_social_icons li i { width: 32px; height: 32px; line-height: 32px; border: solid 1px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; background-color: #00399D; color: #fff; margin: auto; font-size: 1.0em; transition: 0.5s;}
 .staff_social_icons li i:hover { border: solid 1px; color: #00399D; background-color: #fff;}
