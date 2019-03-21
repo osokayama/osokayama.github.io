@@ -113,7 +113,7 @@ export default {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: linear-gradient(rgba(64, 64, 64, .7), rgba(64, 64, 64, .7)), url(../../images/top.jpg);
+  background-image: linear-gradient(rgba(64, 64, 64, .7), rgba(64, 64, 64, .7)), url(/images/top.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   -moz-background-size: cover;
