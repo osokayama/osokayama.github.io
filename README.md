@@ -1,6 +1,6 @@
 # okayama.open-seminar.org
 
-[![CircleCI](https://circleci.com/gh/osokayama/osokayama.github.io.svg?style=svg)](https://circleci.com/gh/osokayama/osokayama.github.io)
+[![CircleCI](https://circleci.com/gh/osokayama/osokayama.github.io/tree/ci.svg?style=svg)](https://circleci.com/gh/osokayama/osokayama.github.io/tree/ci)
 
 ## ローカルでの確認方法
 
