@@ -6,7 +6,7 @@ jobs:
       - image: circleci/node:11
     branches:
       only:
-        - master
+        - ci
     steps:
       - checkout
       - restore_cache:
@@ -29,4 +29,4 @@ jobs:
             git config --global user.name razon
             git add .
             git commit -m "[ci skip] Deploy by CI"
-            git push -f git@github.com:osokayama/osokayama.github.io.git master:gh-pages
+            git push -f git@github.com:osokayama/osokayama.github.io.git master:master
