@@ -29,4 +29,4 @@ jobs:
             git config --global user.name razon
             git add .
             git commit -m "[ci skip] Deploy by CI"
-            git push -f git@github.com:osokayama/osokayama.github.io.git master:master
+            git push -f git@github.com:osokayama/osokayama.github.io.git master:test
