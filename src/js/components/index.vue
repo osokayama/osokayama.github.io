@@ -10,23 +10,16 @@
         <ul class="top_social_buttons">
           <li>
             <a
-              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12018&amp;url=http%3A%2F%2Fokayama.open-seminar.org%2F"
+              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12019&amp;url=http%3A%2F%2Fokayama.open-seminar.org%2F"
               onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=1'); return false;">
               <i class="fab fa-twitter"/>
             </a>
           </li>
           <li>
             <a
-              href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12018"
+              href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12019"
               onclick="window.open(this.href, 'fbsharewindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;">
               <i class="fab fa-facebook-f"/>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://plus.google.com/share?url=http%3A%2F%2Fokayama.open-seminar.org%2F"
-              onclick="window.open(this.href, 'gpsharewindow', 'width=400, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;">
-              <i class="fab fa-google-plus-g"/>
             </a>
           </li>
         </ul>
