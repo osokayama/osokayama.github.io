@@ -1,0 +1,32 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/workspace
+    docker:
+      - image: circleci/node:11
+    branches:
+      only:
+        - ci
+    steps:
+      - checkout
+      - restore_cache:
+          key: projectname-{{ .Branch }}-{{ checksum "package.json" }}
+
+      - run:
+          name: Install dependencies
+          command: npm install
+      - run:
+          name: Build
+          command: npm run build
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: projectname-{{ .Branch }}-{{ checksum "package.json" }}
+
+      - run: |
+            git config --global user.email shizonera@gmail.com
+            git config --global user.name razon
+            git add .
+            git commit -m "[ci skip] Deploy by CI"
+            git push -f git@github.com:osokayama/osokayama.github.io.git master:master
