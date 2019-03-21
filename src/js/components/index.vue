@@ -71,7 +71,7 @@
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2018年6月29日（土） 10:00 - 18:30
+        2019年6月29日（土） 10:00 - 18:30
         <a
           class="siimple-link"
           href="http://www.sj-smile.com/hall/hall01.html">
