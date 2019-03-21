@@ -1,12 +1,38 @@
 {
-  "name": "osokayama.github.io",
-  "version": "1.0.0",
-  "repository": "https://github.com/osokayama/osokayama.github.io",
-  "license": "MIT",
+  "name": "oso-next-concept",
+  "version": "0.0.1",
   "scripts": {
-    "start": "browser-sync start --config bs-config.js"
+    "build": "webpack --config ./webpack.config.js --mode=production",
+    "watch": "webpack --config ./webpack.config.js --mode=development --watch",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osokayama/osokayama.github.io.git"
+  },
+  "author": "razon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osokayama/osokayama.github.io/issues"
+  },
+  "homepage": "https://github.com/osokayama/osokayama.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "vue": "^2.5.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.8"
+    "@babel/core": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "file-loader": "^2.0.0",
+    "vue-loader": "^15.4.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7"
   }
 }

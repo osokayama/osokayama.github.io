@@ -1,18 +1,19 @@
 # okayama.open-seminar.org
 
+[![CircleCI](https://circleci.com/gh/osokayama/osokayama.github.io.svg?style=svg)](https://circleci.com/gh/osokayama/osokayama.github.io)
+
 ## ローカルでの確認方法
 
-
 ```
-$ yarn run start
+$ npm run start
 ```
 
 ### 初めて使う場合
 
-nodejsとyarnをインストール後
+nodejsをインストール後
 
 ```
-$ yarn install
+$ npm install
 ```
 
-http://localhost:8000/ で確認ができます。
+http://localhost:3000/ で確認ができます。
