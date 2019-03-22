@@ -35,4 +35,5 @@ export default {
 }
 </script>
 <style scoped>
+.content h2, .content p { margin-left: 10px; margin-right: 10px; }
 </style>

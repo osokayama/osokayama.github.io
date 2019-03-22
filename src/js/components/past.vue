@@ -36,7 +36,7 @@ export default {
 </script>
 <style scoped>
 /* past */
-.past { text-align: center; text-shadow: 0 0 3px #444; }
+.past { text-align: center; text-shadow: 0 0 3px #444; margin: 0 10px; }
 .past a { text-decoration: none; }
 .past_bg { background-position: 50% 50%; z-index: 0; background-size: cover; position: relative; overflow: hidden; margin-bottom: 40px; }
 </style>

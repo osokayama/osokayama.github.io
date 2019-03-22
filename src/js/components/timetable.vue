@@ -243,4 +243,5 @@ export default {
     overflow-wrap: break-word;
     white-space: normal;
   }
+  .siimple-table { margin-left: 10px; margin-right: 10px; width: calc(100% - 20px); }
 </style>
