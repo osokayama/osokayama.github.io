@@ -86,7 +86,7 @@ export default {
 </script>
 <style scoped>
 /* sponsor */
-.sponsor { text-align: center; }
+.sponsor { text-align: center; margin: 0 10px; }
 .sponsor .siimple-grid-row { display: -webkit-flex; display: flex; -webkit-justify-content: center; justify-content: center; -webkit-align-items: stretch; align-items: stretch; }
 .sponsor .platina img {width: 300px; }
 .sponsor .gold img {width: 229px; }
