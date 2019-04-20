@@ -59,8 +59,21 @@
             </a>
           </div>
         </div>
-        <h2>後援（50音順・敬称略）</h2>
-        <ul>
+        <h3>ツール支援</h3>
+        <div class="siimple-grid-row tool">
+          <div
+            v-for="targetToolSupporter in tool"
+            :key="targetToolSupporter.name"
+            class="siimple-grid-col siimple-grid-col--xl-2 siimple-grid-col--md-4 siimple-grid-col--sm-6">
+            <a :href="targetToolSupporter.url">
+              <img
+                :src="targetToolSupporter.image"
+                :alt="targetToolSupporter.name">
+            </a>
+          </div>
+        </div>
+        <h2 v-if="support.length > 0">後援（50音順・敬称略）</h2>
+        <ul v-if="support.length > 0">
           <li
             v-for="supporter in support"
             :key="supporter">
@@ -87,10 +100,11 @@ export default {
 <style scoped>
 /* sponsor */
 .sponsor { text-align: center; margin: 0 10px; }
-.sponsor .siimple-grid-row { display: -webkit-flex; display: flex; -webkit-justify-content: center; justify-content: center; -webkit-align-items: stretch; align-items: stretch; }
-.sponsor .platina img {width: 300px; }
-.sponsor .gold img {width: 229px; }
-.sponsor .silver img {width: 200px; }
-.sponsor .bronze img {width: 150px; }
+.sponsor .siimple-grid-row { display: -webkit-flex; display: flex; -webkit-justify-content: center; justify-content: center; -webkit-align-items: center; align-items: center; }
+.sponsor .platina img {width: 300px; max-height: 200px; object-fit: contain;}
+.sponsor .gold img {width: 229px; max-height: 153px; object-fit: contain;}
+.sponsor .silver img {width: 200px; max-height: 134px; object-fit: contain;}
+.sponsor .bronze img {width: 150px; max-height: 100px; object-fit: contain;}
+.sponsor .tool img {width: 229px; max-height: 153px; object-fit: contain;}
 .sponsor ul { list-style: none; }
 </style>
