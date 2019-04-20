@@ -35,8 +35,8 @@
             <td class="siimple-table-cell">60分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('jnchito')">
-              {{ timetable.timetable['jnchito'].title }}<br>{{ timetable.timetable['jnchito'].name }}
+              @click="show('nakazawa')">
+              {{ timetable.timetable['nakazawa'].title }}<br>{{ timetable.timetable['nakazawa'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -46,12 +46,12 @@
           </tr>
           <tr class="siimple-table-row session">
             <td
-              rowspan="7"
+              rowspan="6"
               class="siimple-table-cell">
               11:20 - 12:10
             </td>
             <td
-              rowspan="7"
+              rowspan="6"
               class="siimple-table-cell">
               50分
             </td>
@@ -60,40 +60,37 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('nakamura')">
-              {{ timetable.timetable['nakamura'].title }}<br>{{ timetable.timetable['nakamura'].name }}
+              @click="show('tbd2')">
+              {{ timetable.timetable['tbd2'].title }}<br>{{ timetable.timetable['tbd2'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('tanaka')">
-              {{ timetable.timetable['tanaka'].title }}<br>{{ timetable.timetable['tanaka'].name }}
+              @click="show('tbd3')">
+              {{ timetable.timetable['tbd3'].title }}<br>{{ timetable.timetable['tbd3'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('nakayama')">
-              {{ timetable.timetable['nakayama'].title }}<br>{{ timetable.timetable['nakayama'].name }}
+              @click="show('tbd4')">
+              {{ timetable.timetable['tbd4'].title }}<br>{{ timetable.timetable['tbd4'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('makowis')">
-              {{ timetable.timetable['makowis'].title }}<br>{{ timetable.timetable['makowis'].name }}
+              @click="show('tbd5')">
+              {{ timetable.timetable['tbd5'].title }}<br>{{ timetable.timetable['tbd5'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('kotanin')">
-              {{ timetable.timetable['kotanin'].title }}<br>{{ timetable.timetable['kotanin'].name }}
+              @click="show('tbd6')">
+              {{ timetable.timetable['tbd6'].title }}<br>{{ timetable.timetable['tbd6'].name }}
             </td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">PR動画<br>Forkwell</td>
           </tr>
           <tr class="siimple-table-row">
             <td class="siimple-table-cell">12:10 - 13:30</td>
@@ -105,8 +102,8 @@
             <td class="siimple-table-cell">30分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('murakami')">
-              {{ timetable.timetable['murakami'].title }}<br>{{ timetable.timetable['murakami'].name }}
+              @click="show('hatsuya')">
+              {{ timetable.timetable['hatsuya'].title }}<br>{{ timetable.timetable['hatsuya'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -119,8 +116,8 @@
             <td class="siimple-table-cell">30分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('hira')">
-              {{ timetable.timetable['hira'].title }}<br>{{ timetable.timetable['hira'].name }}
+              @click="show('yamamoto')">
+              {{ timetable.timetable['yamamoto'].title }}<br>{{ timetable.timetable['yamamoto'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -133,8 +130,8 @@
             <td class="siimple-table-cell">30分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('maekawa')">
-              {{ timetable.timetable['maekawa'].title }}<br>{{ timetable.timetable['maekawa'].name }}
+              @click="show('tbd9')">
+              {{ timetable.timetable['tbd9'].title }}<br>{{ timetable.timetable['tbd9'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -147,8 +144,8 @@
             <td class="siimple-table-cell">60分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('minatogawa')">
-              {{ timetable.timetable['minatogawa'].title }}<br>{{ timetable.timetable['minatogawa'].name }}
+              @click="show('tbd10')">
+              {{ timetable.timetable['tbd10'].title }}<br>{{ timetable.timetable['tbd10'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -161,8 +158,8 @@
             <td class="siimple-table-cell">60分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('ikeike443')">
-              {{ timetable.timetable['ikeike443'].title }}<br>{{ timetable.timetable['ikeike443'].name }}
+              @click="show('tbd11')">
+              {{ timetable.timetable['tbd11'].title }}<br>{{ timetable.timetable['tbd11'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
