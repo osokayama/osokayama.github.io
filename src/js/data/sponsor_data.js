@@ -10,6 +10,11 @@ export default {
         name: 'クラスメソッド株式会社',
         url: 'https://classmethod.jp/',
         image: 'images/sponsor/classmethod.svg'
+      },
+      {
+        name: '株式会社リゾーム',
+        url: 'https://www.rhizome-e.com/',
+        image: 'images/sponsor/rhizome.png'
       }
     ],
     gold: [
