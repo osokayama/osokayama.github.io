@@ -34,6 +34,42 @@ export default {
       facebook: 'https://www.facebook.com/yukarin2018',
       github: '',
       external: 'https://www.inet88.co.jp/blog',
+      profile: `岡山県倉敷市在住。創業48年の老舗IT企業である株式会社アイネットの二代目代表。出版社の版下デザインなどを経て、1990年よりプログラマとして働き始める。子育てをしながらプログラマを続け、2001年より父親の経営する株式会社アイネットに入社。プレイングマネージャーとして奮闘する。2006年に株式会社アイネット代表取締役社長に就任。`
+    },
+    'takano': {
+      title: 'ひとりでできるもん！',
+      name: '高野 孝一',
+      affiliation: 'Sujiya Systems 代表',
+      image: 'takano.png',
+      detail: ``,
+      twitter: 'https://twitter.com/Sujiya_System',
+      facebook: '',
+      github: '',
+      external: 'http://www.sinjidai.com/',
+      profile: `調理師から交通系プログラマーへ。そしてブラック企業からホワイト起業へ。`
+    },
+    'hashimoto': {
+      title: 'タイトル未定',
+      name: '橋本 正徳',
+      affiliation: '',
+      image: 'printing.png',
+      detail: ``,
+      twitter: '',
+      facebook: '',
+      github: '',
+      external: '',
+      profile: ``
+    },
+    'iwakiri': {
+      title: 'タイトル未定',
+      name: '岩切 晃子',
+      affiliation: '',
+      image: 'printing.png',
+      detail: ``,
+      twitter: '',
+      facebook: '',
+      github: '',
+      external: '',
       profile: ``
     },
     'tbd2': {
@@ -85,42 +121,6 @@ export default {
       profile: ``
     },
     'tbd6': {
-      title: 'タイトル未定',
-      name: '調整中',
-      affiliation: '',
-      image: 'printing.png',
-      detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
-      profile: ``
-    },
-    'tbd9': {
-      title: 'タイトル未定',
-      name: '調整中',
-      affiliation: '',
-      image: 'printing.png',
-      detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
-      profile: ``
-    },
-    'tbd10': {
-      title: 'タイトル未定',
-      name: '調整中',
-      affiliation: '',
-      image: 'printing.png',
-      detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
-      profile: ``
-    },
-    'tbd11': {
       title: 'タイトル未定',
       name: '調整中',
       affiliation: '',
