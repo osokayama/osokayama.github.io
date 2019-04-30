@@ -36,7 +36,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('nakazawa')">
-              {{ timetable.timetable['nakazawa'].title }}<br>{{ timetable.timetable['nakazawa'].name }}
+              <span v-html="timetable.timetable['nakazawa'].title" /><br>{{ timetable.timetable['nakazawa'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -46,12 +46,12 @@
           </tr>
           <tr class="siimple-table-row session">
             <td
-              rowspan="6"
+              rowspan="4"
               class="siimple-table-cell">
               11:10 - 12:00
             </td>
             <td
-              rowspan="6"
+              rowspan="4"
               class="siimple-table-cell">
               50分
             </td>
@@ -60,36 +60,22 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('tbd2')">
-              {{ timetable.timetable['tbd2'].title }}<br>{{ timetable.timetable['tbd2'].name }}
+              @click="show('takahashi')">
+              <span v-html="timetable.timetable['takahashi'].title" /><br>{{ timetable.timetable['takahashi'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
               @click="show('tbd3')">
-              {{ timetable.timetable['tbd3'].title }}<br>{{ timetable.timetable['tbd3'].name }}
+              <span v-html="timetable.timetable['tbd3'].title" /><br>{{ timetable.timetable['tbd3'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
               @click="show('tbd4')">
-              {{ timetable.timetable['tbd4'].title }}<br>{{ timetable.timetable['tbd4'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td
-              class="siimple-table-cell hover"
-              @click="show('tbd5')">
-              {{ timetable.timetable['tbd5'].title }}<br>{{ timetable.timetable['tbd5'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td
-              class="siimple-table-cell hover"
-              @click="show('tbd6')">
-              {{ timetable.timetable['tbd6'].title }}<br>{{ timetable.timetable['tbd6'].name }}
+              <span v-html="timetable.timetable['tbd4'].title" /><br>{{ timetable.timetable['tbd4'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -103,7 +89,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('hatsuya')">
-              {{ timetable.timetable['hatsuya'].title }}<br>{{ timetable.timetable['hatsuya'].name }}
+              <span v-html="timetable.timetable['hatsuya'].title" /><br>{{ timetable.timetable['hatsuya'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -117,7 +103,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('yamamoto')">
-              {{ timetable.timetable['yamamoto'].title }}<br>{{ timetable.timetable['yamamoto'].name }}
+              <span v-html="timetable.timetable['yamamoto'].title" /><br>{{ timetable.timetable['yamamoto'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -131,7 +117,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('takano')">
-              {{ timetable.timetable['takano'].title }}<br>{{ timetable.timetable['takano'].name }}
+              <span v-html="timetable.timetable['takano'].title" /><br>{{ timetable.timetable['takano'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -145,7 +131,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('hashimoto')">
-              {{ timetable.timetable['hashimoto'].title }}<br>{{ timetable.timetable['hashimoto'].name }}
+              <span v-html="timetable.timetable['hashimoto'].title" /><br>{{ timetable.timetable['hashimoto'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -159,11 +145,11 @@
             <td
               class="siimple-table-cell hover"
               @click="show('iwakiri')">
-              {{ timetable.timetable['iwakiri'].title }}<br>{{ timetable.timetable['iwakiri'].name }}
+              <span v-html="timetable.timetable['iwakiri'].title" /><br>{{ timetable.timetable['iwakiri'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">17:55 - 18:30</td>
+            <td class="siimple-table-cell">17:55 - 18:05</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">クロージング</td>
           </tr>
@@ -197,11 +183,6 @@ export default {
       timetable: TimetableData
     }
   },
-  mounted () {
-    if (!location.hash) return
-    const speaker = location.hash.split('#')[1]
-    this.show(speaker)
-  },
   methods: {
     show (speaker) {
       if (!this.timetable.timetable[speaker]) return
@@ -219,7 +200,6 @@ export default {
       this.visible = true
     },
     hide () {
-      document.location.hash = ''
       this.visible = false
       this.title = ''
       this.name = ''

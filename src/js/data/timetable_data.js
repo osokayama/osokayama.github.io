@@ -12,6 +12,46 @@ export default {
       external: 'https://note.mu/nozo_omu',
       profile: `大学卒業後、保険会社、決済代行会社、グローバル企業の決済担当を経て2018年3月より株式会社Kyashで事業開発を担当。`
     },
+    'takahashi': {
+      title: '婚活といえばオミカレ 〜社内を支える文化とテクノロジー〜',
+      name: '高橋 一騎',
+      affiliation: '株式会社オミカレ システムエンジニア',
+      image: 'takahashi.jpg',
+      detail: `本セッションではオミカレの社会に対する取り組みと私のプレイヤーとしての観点から 東京・岡山の二拠点にいる開発チームがより成果を出せるように行った社内の文化に対しての取り組みなどをご紹介します。`,
+      twitter: '',
+      facebook: '',
+      github: '',
+      external: '',
+      profile: `
+      <a href="https://party-calendar.net/">https://party-calendar.net/</a><br>
+      兵庫県の田舎出身で今岡山に住んでいるシステムエンジニア。<br>
+      2018年5月に株式会社オミカレへ転職して、PHPやPythonでサーバーサイドの開発を担当。<br>
+      岡山コミュニティーとして中国地方DB勉強会や岡山アプリ開発もくもく会を主催しています。`
+    },
+    'tbd3': {
+      title: 'タイトル未定',
+      name: '調整中',
+      affiliation: '',
+      image: 'printing.png',
+      detail: ``,
+      twitter: '',
+      facebook: '',
+      github: '',
+      external: '',
+      profile: ``
+    },
+    'tbd4': {
+      title: 'タイトル未定',
+      name: '調整中',
+      affiliation: '',
+      image: 'printing.png',
+      detail: ``,
+      twitter: '',
+      facebook: '',
+      github: '',
+      external: '',
+      profile: ``
+    },
     'hatsuya': {
       title: 'タイトル未定',
       name: '初谷 昌彦',
@@ -49,87 +89,27 @@ export default {
       profile: `調理師から交通系プログラマーへ。そしてブラック企業からホワイト起業へ。`
     },
     'hashimoto': {
-      title: 'タイトル未定',
+      title: 'ヌーラボのサービスを支える技術や組織の話(仮)',
       name: '橋本 正徳',
-      affiliation: '',
-      image: 'printing.png',
+      affiliation: '株式会社ヌーラボ 代表取締役',
+      image: 'hashimoto.jpg',
       detail: ``,
-      twitter: '',
-      facebook: '',
+      twitter: 'https://twitter.com/hsmt',
+      facebook: 'https://www.facebook.com/hashimoto.masanori.account',
       github: '',
       external: '',
       profile: ``
     },
     'iwakiri': {
-      title: 'タイトル未定',
+      title: 'Hackすることは未来を期待すること<br>社会の中での役割を担おうとする態度だと思う<br>＠オープンセミナー2019バージョン',
       name: '岩切 晃子',
-      affiliation: '',
-      image: 'printing.png',
+      affiliation: '翔泳社取締役 / コンピュータ出版販売研究機構会長',
+      image: 'iwakiri.jpg',
       detail: ``,
-      twitter: '',
+      twitter: 'https://twitter.com/kohsei',
       facebook: '',
       github: '',
-      external: '',
-      profile: ``
-    },
-    'tbd2': {
-      title: 'タイトル未定',
-      name: '調整中',
-      affiliation: '',
-      image: 'printing.png',
-      detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
-      profile: ``
-    },
-    'tbd3': {
-      title: 'タイトル未定',
-      name: '調整中',
-      affiliation: '',
-      image: 'printing.png',
-      detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
-      profile: ``
-    },
-    'tbd4': {
-      title: 'タイトル未定',
-      name: '調整中',
-      affiliation: '',
-      image: 'printing.png',
-      detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
-      profile: ``
-    },
-    'tbd5': {
-      title: 'タイトル未定',
-      name: '調整中',
-      affiliation: '',
-      image: 'printing.png',
-      detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
-      profile: ``
-    },
-    'tbd6': {
-      title: 'タイトル未定',
-      name: '調整中',
-      affiliation: '',
-      image: 'printing.png',
-      detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
+      external: 'http://iwakiri.hatenablog.com/',
       profile: ``
     }
   }

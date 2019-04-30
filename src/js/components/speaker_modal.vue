@@ -9,7 +9,7 @@
             class="siimple-close"
             @click="hide()"/>
         </div>
-        <h1>{{ title }}</h1>
+        <h1 v-html="title"/>
         <p v-html="detail"/>
         <div class="speaker_profile">
           <div class="speaker_photo">
