@@ -49,6 +49,11 @@ export default {
       name: 'Backlog',
       url: 'https://backlog.com/',
       image: 'images/sponsor/backlog.png'
+    },
+    {
+      name: 'Typetalk',
+      url: 'https://www.typetalk.com/',
+      image: 'images/sponsor/typetalk.png'
     }
   ],
   support: [
