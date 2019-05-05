@@ -220,5 +220,12 @@ export default {
     overflow-wrap: break-word;
     white-space: normal;
   }
+  td.siimple-table-cell.hover {
+    text-decoration: underline;
+  }
+  td.siimple-table-cell.hover:hover {
+    background-color: #fbffff;
+    cursor: pointer;
+  }
   .siimple-table { margin-left: 10px; margin-right: 10px; width: calc(100% - 20px); }
 </style>
