@@ -9,7 +9,7 @@
             class="siimple-close"
             @click="hide()"/>
         </div>
-        <h1>{{ title }}</h1>
+        <h1 v-html="title"/>
         <p v-html="detail"/>
         <div class="speaker_profile">
           <div class="speaker_photo">
@@ -106,7 +106,7 @@ export default {
   line-height: 1.4em;
   transform: scale(0.3);
   transition: 0.3s;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .modal-content h1 {
@@ -138,6 +138,8 @@ export default {
   .speaker_photo img { width: 120px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
 @media screen and (max-width: 768px) {
   .speaker_photo { margin-bottom: 10px; }
+  .modal-content h1 { font-size: 1.5em; }
+  .modal-content h2 { font-size: 1.3em; }
 }
 .speaker_social_icons { padding-left: 0; margin-bottom: 10px; }
 .speaker_social_icons li { display: inline; text-align: center; margin-right: 5px; background-color: #fff; }

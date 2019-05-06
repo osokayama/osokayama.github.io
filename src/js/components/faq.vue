@@ -10,7 +10,7 @@
         岡山駅になります。今年も会場はさん太ホールです。
         <a
           class="siimple-link"
-          href="about.html#venue">
+          href="index.html#venue">
           会場の情報はこちら
         </a>
       </p>
