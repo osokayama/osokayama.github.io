@@ -8,7 +8,7 @@ module.exports = {
     index: './src/js/index.js',
     past: './src/js/past.js',
     sponsor: './src/js/sponsor.js',
-    // timetable: './src/js/timetable.js',
+    timetable: './src/js/timetable.js',
     staff: './src/js/staff.js'
   },
   output: {
