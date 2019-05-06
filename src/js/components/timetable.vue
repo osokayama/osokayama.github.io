@@ -186,7 +186,6 @@ export default {
   methods: {
     show (speaker) {
       if (!this.timetable.timetable[speaker]) return
-      document.location.hash = speaker
       this.title = this.timetable.timetable[speaker].title
       this.name = this.timetable.timetable[speaker].name
       this.affiliation = this.timetable.timetable[speaker].affiliation
