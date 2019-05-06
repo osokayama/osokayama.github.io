@@ -2,9 +2,9 @@ export default {
   sponsor: {
     platina: [
       {
-        name: 'CloudGarage',
-        url: 'https://cloudgarage.jp/',
-        image: 'images/sponsor/cloudgarage.png'
+        name: '株式会社アイネット',
+        url: 'https://www.inet88.co.jp/',
+        image: 'images/sponsor/inet.svg'
       },
       {
         name: 'クラスメソッド株式会社',
@@ -12,31 +12,21 @@ export default {
         image: 'images/sponsor/classmethod.svg'
       },
       {
-        name: '株式会社リゾーム ',
+        name: '株式会社リゾーム',
         url: 'https://www.rhizome-e.com/',
         image: 'images/sponsor/rhizome.png'
       }
     ],
     gold: [
       {
-        name: '株式会社アイネット',
-        url: 'https://www.inet88.co.jp/',
-        image: 'images/sponsor/inet.png'
-      },
-      {
-        name: '株式会社クレオフーガ',
-        url: 'http://creofuga.jp/',
-        image: 'images/sponsor/creofuga.jpg'
+        name: 'オミカレ',
+        url: 'https://party-calendar.net/',
+        image: 'images/sponsor/omikare.png'
       },
       {
         name: '株式会社サブスレッド',
         url: 'http://www.subthread.co.jp/',
         image: 'images/sponsor/subthread.png'
-      },
-      {
-        name: 'Forkwell',
-        url: 'https://forkwell.com/',
-        image: 'images/sponsor/forkwell.png'
       }
     ],
     silver: [
@@ -48,14 +38,24 @@ export default {
     ],
     bronze: [
       {
-        name: '株式会社YMK',
-        url: 'http://ymkinc.com/',
-        image: 'images/sponsor/ymk.png'
+        name: '株式会社クレオフーガ',
+        url: 'http://creofuga.jp/',
+        image: 'images/sponsor/creofuga.jpg'
       }
     ]
   },
+  tool: [
+    {
+      name: 'Backlog',
+      url: 'https://backlog.com/',
+      image: 'images/sponsor/backlog.png'
+    },
+    {
+      name: 'Typetalk',
+      url: 'https://www.typetalk.com/',
+      image: 'images/sponsor/typetalk.png'
+    }
+  ],
   support: [
-    '岡山県',
-    '岡山県立大学'
   ]
 }
