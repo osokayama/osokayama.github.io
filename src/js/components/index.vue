@@ -24,7 +24,7 @@
           </li>
         </ul>
       </div>
-      <div class="siimple-jumbotron-detail"><div class="siimple-btn siimple-btn--blue">お申込み開始まで今しばらくお待ちください</div></div>
+      <div class="siimple-jumbotron-detail"><a href="https://oso.connpass.com/event/129843/"><div class="siimple-btn siimple-btn--blue entry">お申し込みはこちらから</div></a></div>
     </div>
     <div class="siimple-content content">
       <!-- theme -->
@@ -47,13 +47,13 @@
       <!-- oso -->
       <h2 id="about-oso">オープンセミナーとは</h2>
       <p>オープンセミナーはソフトウェア技術をテーマにした無料セミナーです。このセミナーの企画・運営は、技術系ユーザコミュニティのボランティアで行われています。</p>
-      <p>昨年は香川県高松市、徳島県徳島市、愛媛県松山市、岡山県総社市、広島県広島市で開催された実績があります。コミュニティ主催のセミナーに参加が初めての方もお気軽にお越し下さい。</p>
+      <p>過去に香川県高松市、徳島県徳島市、愛媛県松山市、岡山県総社市、広島県広島市で開催された実績があります。コミュニティ主催のセミナーに参加が初めての方もお気軽にお越し下さい。</p>
       <!-- more info -->
       <h2 id="price">参加費</h2>
       <p>無料</p>
       <h2 id="caution">注意事項</h2>
       <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation">
-        未成年の方は、必ず保護者の方の同意を得た上でお申込み・ご参加下さい。
+        未成年の方は、必ず保護者の方の同意を得た上でお申し込み・ご参加下さい。
       </div>
       <h2 id="after-party">懇親会</h2>
       <p>
@@ -118,5 +118,11 @@ export default {
   background-position: top center;
   -moz-background-size: cover;
   background-size: cover;
+}
+
+.entry {
+  font-size: 1.0em;
+  line-height: 40px;
+  height: 40px;
 }
 </style>
