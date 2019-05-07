@@ -53,7 +53,7 @@ export default {
       profile: ``
     },
     'hatsuya': {
-      title: 'タイトル未定',
+      title: '住宅業界の情報格差を無くすビズ・クリエイションの戦略と挑戦',
       name: '初谷 昌彦',
       affiliation: '株式会社ビズ・クリエイション 代表取締役CEO',
       image: 'hatsuya.jpg',
