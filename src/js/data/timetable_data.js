@@ -57,7 +57,7 @@ export default {
       name: '初谷 昌彦',
       affiliation: '株式会社ビズ・クリエイション 代表取締役CEO',
       image: 'hatsuya.jpg',
-      detail: ``,
+      detail: `電話や紙の書類、リアルな対面打ち合わせなどが業務の大半を占めている住宅業界は、これからが変化していくチャンス。ユーザー、業務従事者双方にメリットのある仕組みを構築することで、情報格差をなくし、より自由に取引の出来るようにしていくために私たちがやっていること、これからやろうとしていることをお話ししたいと思います。`,
       twitter: '',
       facebook: 'https://www.facebook.com/masahiko.hatsuya',
       github: '',
