@@ -64,7 +64,7 @@
           Ryoutei 座・スタジアム
         </a>
       </p>
-      <p>費用：社会人3,000円/学生1,000円</p>
+      <p>費用：社会人4,000円/学生2,000円</p>
       <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation">
         ※事前にお申し込みが必要です。
       </div>
