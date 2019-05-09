@@ -81,7 +81,7 @@ export default {
       name: '高野 孝一',
       affiliation: 'Sujiya Systems 代表',
       image: 'takano.png',
-      detail: ``,
+      detail: `ブラックＩＴ企業を辞めた後、何もない状態から個人事業主としてスタートして、日本初となる色々なシステムを（ひとりで節約しながら）開発してきた経験と製品の紹介を行います。`,
       twitter: 'https://twitter.com/Sujiya_System',
       facebook: '',
       github: '',
