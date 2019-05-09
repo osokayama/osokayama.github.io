@@ -26,7 +26,7 @@
       </div>
       <div class="siimple-jumbotron-detail"><a href="https://oso.connpass.com/event/129843/"><div class="siimple-btn siimple-btn--blue entry">お申し込みはこちらから</div></a></div>
     </div>
-    <div class="siimple-content content">
+    <div class="siimple-content siimple-content--medium siimple--mt-5">
       <!-- theme -->
       <h2 id="theme">テーマ</h2>
       <p>「Technology X Society」</p>

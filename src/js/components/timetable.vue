@@ -14,7 +14,7 @@
       :profile="profile"
       @hide="hide"/>
     <app-header/>
-    <div class="siimple-content content">
+    <div class="siimple-content siimple-content--medium siimple--mt-5">
       <div class="siimple-box page-title">
         <div class="siimple-box-title"><i class="far fa-clock"/> タイムテーブル</div>
       </div>
