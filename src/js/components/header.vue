@@ -1,5 +1,5 @@
 <template>
-  <header class="siimple-navbar siimple-navbar--navy siimple-navbar--large">
+  <header class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
     <div class="siimple-layout--left">
       <a
         class="siimple-navbar-title"
