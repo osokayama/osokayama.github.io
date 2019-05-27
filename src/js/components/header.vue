@@ -4,7 +4,7 @@
       <a
         class="siimple-navbar-title"
         href="./">
-        OSO
+        <img src="images/logo_white.svg">
       </a>
     </div>
     <div class="siimple-layout--right bars">
@@ -59,6 +59,12 @@ export default {
 }
 </script>
 <style scoped>
+.siimple-navbar-title img {
+  width: 90px;
+  height: 60px;
+  line-height: 60px;
+}
+
 @media screen and (max-width: 764px) {
   .siimple-navbar {
     min-height: 60px;
