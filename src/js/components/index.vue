@@ -3,7 +3,7 @@
     <app-header/>
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
-      <div class="siimple-jumbotron-title">オープンセミナー2019@岡山</div>
+      <div class="siimple-jumbotron-title"><img src="images/logo.svg"></div>
       <div class="siimple-jumbotron-subtitle">Technology X Society</div>
       <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2019年6月29日(土)開催</div>
       <div class="siimple-jumbotron-detail">
@@ -124,5 +124,9 @@ export default {
   font-size: 1.0em;
   line-height: 40px;
   height: 40px;
+}
+
+.siimple-jumbotron-title img {
+  max-width: 480px;
 }
 </style>
