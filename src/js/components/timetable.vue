@@ -67,8 +67,8 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('tbd3')">
-              <span v-html="timetable.timetable['tbd3'].title" /><br>{{ timetable.timetable['tbd3'].name }}
+              @click="show('seino')">
+              <span v-html="timetable.timetable['seino'].title" /><br>{{ timetable.timetable['seino'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
