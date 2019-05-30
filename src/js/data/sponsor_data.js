@@ -57,5 +57,6 @@ export default {
     }
   ],
   support: [
+    '岡山県'
   ]
 }
