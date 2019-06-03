@@ -1,11 +1,11 @@
 export default {
   timetable: {
     'nakazawa': {
-      title: '(仮)Kyashのミッション、ビジネスと技術',
+      title: 'Kyashの目指す世界とプロダクト、テクノロジー',
       name: '中澤 望',
       affiliation: '株式会社Kyash Business Development',
       image: 'nakazawa.jpg',
-      detail: ``,
+      detail: `ウォレットアプリ「Kyash」とプラットフォーム「Kyash Direct」の2つの事業と、その背景にあるKyashのミッションやテクノロジーについて`,
       twitter: 'https://twitter.com/nozo_omu',
       facebook: 'https://www.facebook.com/nozomu.nakazawa',
       github: '',
