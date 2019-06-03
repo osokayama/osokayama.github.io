@@ -91,11 +91,14 @@ export default {
       profile: `調理師から交通系プログラマーへ。そしてブラック企業からホワイト起業へ。`
     },
     'hashimoto': {
-      title: 'ヌーラボのサービスを支える技術や組織の話(仮)',
+      title: 'ヌーラボのサービスを支える技術や組織の話',
       name: '橋本 正徳',
       affiliation: '株式会社ヌーラボ 代表取締役',
       image: 'hashimoto.jpg',
-      detail: ``,
+      detail: `
+      株式会社ヌーラボのカルチャーと組織、そして技術のお話をします。<br>
+      "When you adopt a tool you adopt the management philosophy embedded in that tool." - Clay Shirky<br>
+      ある会社が提供しているツールを導入するとき、その提供企業の哲学も導入することになるそうで、今回は哲学も多めにお話しようかな？と考えています。ヌーラボへの質問を各自1つ、ご用意お願いします。`,
       twitter: 'https://twitter.com/hsmt',
       facebook: 'https://www.facebook.com/hashimoto.masanori.account',
       github: '',
