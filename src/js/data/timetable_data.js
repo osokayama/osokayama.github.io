@@ -41,16 +41,16 @@ export default {
       profile: `主に事業会社を中心にAlexaを使ったビジネスサービスのコンサルティング、構築作業、 Alexaを使用した新規ソリューションのR&D業務に従事する。`
     },
     'tbd4': {
-      title: 'タイトル未定',
-      name: '調整中',
-      affiliation: '',
-      image: 'printing.png',
-      detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
+      title: '長期開発され続けるRailsアプリへのリゾームの取り組み',
+      name: '山本 和久',
+      affiliation: '株式会社リゾーム 開発第2グループ課長',
+      image: 'kazuhisa.jpg',
+      detail: `私が担当しているBOND GATEのファーストコミットは2011年。8年間に渡って開発され続けるRailsアプリケーションにチームとしてどう取り組んでいるのか。リゾームの事例を紹介いたします。`,
+      twitter: 'https://twitter.com/kazuhisa1976',
+      facebook: 'https://www.facebook.com/kazuhisa.yamamoto.54',
+      github: 'https://github.com/kazuhisa',
       external: '',
-      profile: ``
+      profile: `岡山県出身。地元SIerを経て2011年リゾームに入社。Ruby on Railsを使ったショッピングセンター向けグループウェア「BOND GATE」の開発に携わる。趣味はバイクツーリング。`
     },
     'hatsuya': {
       title: '住宅業界の情報格差を無くすビズ・クリエイションの戦略と挑戦',
