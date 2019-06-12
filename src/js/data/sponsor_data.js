@@ -57,6 +57,7 @@ export default {
     }
   ],
   support: [
-    '岡山県'
+    '岡山県',
+    '山陽新聞社'
   ]
 }
