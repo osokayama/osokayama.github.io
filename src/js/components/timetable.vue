@@ -48,12 +48,12 @@
             <td
               rowspan="4"
               class="siimple-table-cell">
-              11:10 - 12:00
+              11:10 - 11:50
             </td>
             <td
               rowspan="4"
               class="siimple-table-cell">
-              50分
+              40分
             </td>
             <td class="siimple-table-cell">スポンサーセッション</td>
           </tr>
@@ -79,7 +79,7 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">12:00 - 13:30</td>
+            <td class="siimple-table-cell">11:50 - 13:30</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">昼休憩</td>
           </tr>
