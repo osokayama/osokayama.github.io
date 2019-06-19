@@ -19,6 +19,11 @@ export default {
     ],
     gold: [
       {
+        name: '株式会社オープンストリーム',
+        url: 'https://www.opst.co.jp/',
+        image: 'images/sponsor/open-stream.jpg'
+      },
+      {
         name: 'オミカレ',
         url: 'https://party-calendar.net/',
         image: 'images/sponsor/omikare.png'
