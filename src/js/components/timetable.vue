@@ -40,7 +40,7 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">11:10 - 11:20</td>
+            <td class="siimple-table-cell">11:00 - 11:10</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">休憩</td>
           </tr>
