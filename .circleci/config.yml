@@ -17,7 +17,7 @@ jobs:
           command: npm install
       - run:
           name: Build
-          command: npm run build
+          command: npm run generate
 
       - save_cache:
           paths:
@@ -25,6 +25,7 @@ jobs:
           key: projectname-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run: |
+            cd dist
             git config --global user.email shizonera@gmail.com
             git config --global user.name razon
             git add .

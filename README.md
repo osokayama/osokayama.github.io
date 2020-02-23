@@ -5,15 +5,21 @@
 ## ローカルでの確認方法
 
 ```
-$ npm run start
+$ npm run dev
 ```
 
-### 初めて使う場合
+http://localhost:3000/ で確認ができます。
+
+## ファイルの生成
+
+```
+$ npm run generate
+```
+
+### 初めて使う場合(依存ライブラリのインストール)
 
 nodejsをインストール後
 
 ```
 $ npm install
 ```
-
-http://localhost:3000/ で確認ができます。
