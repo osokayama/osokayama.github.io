@@ -25,7 +25,7 @@ jobs:
           key: projectname-{{ .Branch }}-{{ checksum "package.json" }}
 
       - run: |
-            cd dist
+            cp -fr dist/* .
             git config --global user.email shizonera@gmail.com
             git config --global user.name razon
             git add .
