@@ -12,7 +12,10 @@
       <h2><i class="fas fa-question"/> 会場での飲食は可能ですか？</h2>
       <p class="siimple-p"><b>ホール内では飲食不可です。</b></p>
       <h2><i class="fas fa-question"/> 車で行こうと思うのですが駐車場はありますか？</h2>
-      <p class="siimple-p">[あります](https://www.ivysquare.co.jp/access/#parking) が、混雑することが予測されますので、なるべく公共の交通機関をご利用ください。</p>
+      <p class="siimple-p">
+        ありますが、混雑することが予測されますので、なるべく公共の交通機関をご利用ください。<br />
+        <a href="https://www.ivysquare.co.jp/access/#parking" target="blank" >アイビースクエア駐車場</a>
+      </p>
       <h2><i class="fas fa-question"/> 来年もやりますか？</h2>
       <p class="siimple-p">やります。</p>
     </div>
