@@ -5,7 +5,7 @@
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="images/logo.svg"></div>
       <div class="siimple-jumbotron-subtitle">【エンジニアリング x ○○】<br>（えんじにありんぐ かける なんか）</div>
-      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2020年5月16日(土)開催</div>
+      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 10月頃開催予定</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
           <li>
@@ -67,7 +67,7 @@
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2020年5月16日（土） 10:00 - 18:00
+        2020年10月頃予定
         <a
           class="siimple-link"
           href="https://www.ivysquare.co.jp/party/opal.html">
