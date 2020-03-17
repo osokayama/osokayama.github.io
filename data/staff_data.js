@@ -19,6 +19,15 @@ export default {
       external: 'https://mako-wis.hatenablog.com/'
     },
     {
+      name: '吉田 貴文',
+      roll: '会計',
+      image: 'tyoshida.jpg',
+      twitter: 'https://twitter.com/zephiransas',
+      facebook: 'https://www.facebook.com/takafumi.yoshida.718',
+      github: 'https://github.com/zephiransas',
+      external: ''
+    },
+    {
       name: '阿部 信介',
       roll: '',
       image: 'abe.jpg',
