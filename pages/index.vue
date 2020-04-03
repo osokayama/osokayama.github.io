@@ -3,6 +3,18 @@
     <app-header/>
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
+      <div class="delay-message">
+        <div class="siimple-alert">
+          <h2>オープンセミナー岡山2020 開催時期延期のお知らせ</h2>
+          一部コミュニティの皆様には、徐々にお知らせもしはじめてはいたのですが、当初、2020年5月の開催を目指して準備を進めておりましたオープンセミナー岡山2020ですが、昨今の社会情勢を鑑みて、<span class="bold">【2020年10月付近】</span>での開催に延期をさせていただく決断をしました。<br>
+          オープンセミナー岡山が何年も続く中で、「初夏の岡山の風物詩」になっていた方もおられるのではないかとは思いましたが、大事なことは、参加者・支援者の皆様の健康と、オープンセミナー岡山というコミュニティ自体の存続である、と考え、このような決断をいたしました。<br>
+          テーマも<a href="theme.html">【エンジニアリング x ○○】（エンジニアリング かける "なんか"）</a>と、既に決めており、またこれに賛同していただいているご登壇者の方も多くおられます。本当にありがとうございます。そんなオープンセミナー岡山2020の開催を一番心待ちにしているのは、他ならない私でもあります。<br>
+          開催時期は夏から秋へと変更となりますが、2020年10月、多くの皆様とお会いできることを心より楽しみにしています。ご理解のほど、どうぞよろしくお願いいたします。<br>
+          <h3 class="signature">
+            オープンセミナー2020@岡山 実行委員長 井上大輔(a-know)
+          </h3>
+        </div>
+      </div>
       <div class="siimple-jumbotron-title"><img src="images/logo.svg"></div>
       <div class="siimple-jumbotron-subtitle">【エンジニアリング x ○○】<br>（えんじにありんぐ かける なんか）</div>
       <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 10月頃開催予定</div>
@@ -113,8 +125,8 @@ export default {
 
 .jumbotron {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   background-image: linear-gradient(rgba(64, 64, 64, .7), rgba(64, 64, 64, .7)), url(/images/top.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -134,5 +146,25 @@ export default {
 
 .siimple-jumbotron-subtitle {
   font-size: 22px;
+}
+
+.delay-message {
+  margin: 0 auto 64px;
+}
+.siimple-alert {
+  text-align: left;
+  width: auto;
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 16px 32px;
+}
+.siimple-alert h2 {
+  text-align: center;
+}
+.siimple-alert .bold {
+  font-weight: bold;
+}
+.signature {
+  padding-top: 16px; text-align: right;
 }
 </style>
