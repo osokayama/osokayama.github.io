@@ -76,35 +76,12 @@
       </div>
       <h2 id="after-party">懇親会</h2>
       <p>
-        会場：
-        <a
-          class="siimple-link"
-          href="https://www.ivysquare.co.jp/party/ivyemerald.html">
-          倉敷アイビースクエア アイビーエメラルドホール
-        </a>
+        オンライン形式での実施を予定しています。
       </p>
-      <p>費用：社会人5,000円/学生3,000円</p>
-      <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation">
-        ※事前にお申し込みが必要です。
-      </div>
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2020年10月頃予定
-        <a
-          class="siimple-link"
-          href="https://www.ivysquare.co.jp/party/opal.html">
-          倉敷アイビースクエア オパール
-        </a>
-      </p>
-      <p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3621195727897!2d133.77197651522943!3d34.595003580461736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35515638418ebc0b%3A0x25f474cc4b0f0cfc!2z5YCJ5pW344Ki44Kk44OT44O844K544Kv44Ko44Ki!5e0!3m2!1sja!2sjp!4v1582428852853!5m2!1sja!2sjp"
-          width="100%"
-          height="400"
-          frameborder="0"
-          style="border:0"
-          allowfullscreen/>
+        2021年2月頃・オンライン形式での開催を予定
       </p>
 
       <!-- anti-harassment policy -->
