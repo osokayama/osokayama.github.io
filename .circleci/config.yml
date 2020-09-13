@@ -31,4 +31,3 @@ jobs:
             git add .
             git commit -m "[ci skip] Deploy by CI"
             git push -f git@github.com:osokayama/osokayama.github.io.git ci:master
-
