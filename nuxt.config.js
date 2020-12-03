@@ -15,7 +15,9 @@ export default {
       { property: 'og:url', content: 'https://okayama.open-seminar.org/' },
       { property: 'og:image', content: 'https://okayama.open-seminar.org/images/ogp_image.png' },
       { property: 'og:site_name', content: 'オープンセミナー2020@岡山' },
-      { property: 'og:description', content: 'オープンセミナー2020@岡山公式ページ。オープンセミナーはソフトウェア技術をテーマにした無料セミナーです。' }
+      { property: 'og:description', content: 'オープンセミナー2020@岡山公式ページ。オープンセミナーはソフトウェア技術をテーマにした無料セミナーです。' },
+      { property: 'twitter:card', content: 'summary_large_image' },
+      { property: 'twitter:site', content: '@os_okayama' }
     ],
     link: [
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css'},
