@@ -1,7 +1,7 @@
 <template>
   <div>
     <app-header/>
-    <div class="siimple-content siimple-content--medium siimple--mt-5">
+    <div class="siimple-content siimple-content--medium siimple--mt-5" v-if="title">
       <div class="siimple-box page-title">
         <div class="siimple-box-title"><i class="fas fa-user"/> 講師詳細</div>
       </div>
@@ -83,16 +83,18 @@ export default {
   mounted: function () {
     const params = location.search.substring(1).split('&').map((p) => p.split('=')).reduce((obj, e) => ({...obj, [e[0]]: e[1]}), {})
     const speaker = TimetableData.timetable[params['speaker']]
-    this.title = speaker.title
-    this.name = speaker.name
-    this.affiliation = speaker.affiliation
-    this.image = speaker.image
-    this.detail = speaker.detail
-    this.twitter = speaker.twitter
-    this.facebook = speaker.facebook
-    this.github = speaker.github
-    this.externals = speaker.externals
-    this.profile = speaker.profile
+    if (speaker) {
+      this.title = speaker.title
+      this.name = speaker.name
+      this.affiliation = speaker.affiliation
+      this.image = speaker.image
+      this.detail = speaker.detail
+      this.twitter = speaker.twitter
+      this.facebook = speaker.facebook
+      this.github = speaker.github
+      this.externals = speaker.externals
+      this.profile = speaker.profile
+    }
   },
   methods: {
     back() {
