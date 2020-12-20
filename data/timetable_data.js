@@ -1,7 +1,7 @@
 export default {
   timetable: {
     'fujita': {
-      title: '調整中',
+      title: 'エンジニアリング×家業',
       name: '藤田 圭一郎',
       affiliation: '有限会社藤田酒店 店主 / 株式会社 COMPUS CEO',
       image: 'fujita.png',
