@@ -104,54 +104,6 @@ export default {
 }
 </script>
 <style scoped>
-.modal-overlay {
-  display: flex;
-  justify-content: center;
-  overflow: auto;
-  position: fixed;
-  z-index: 9999;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.7);
-  opacity: 0;
-  transition: opacity 0.3s, transform 0s 0.3s;
-  transform: scale(0);
-}
-
-.modal-content {
-  font-size: 1.2em;
-  align-self: center;
-  width: 90%;
-  max-width: 800px;
-  max-height: 90%;
-  padding: 30px 30px 15px;
-  box-sizing: border-box;
-  background: #fff;
-  line-height: 1.4em;
-  transform: scale(0.3);
-  transition: 0.3s;
-  overflow-y: auto;
-}
-
-.modal-content h1 {
-  line-height: 1.5em;
-}
-
-.modal-close {
-  width: 100%;
-  text-align: right;
-}
-
-.modal .modal-overlay.visible {
-  opacity: 1;
-  transform: scale(1);
-  transition: opacity 0.3s;
-}
-
-.modal .modal-overlay.visible .modal-content {
-  transform: scale(1);
-}
-
 @media screen and (min-width: 769px) {
   .speaker_profile { display: table; }
   .speaker_photo,.speaker_info { display: table-cell; }
