@@ -76,13 +76,13 @@ export default {
     }
   },
   head() {
+    const speaker = this.getSpeaker()
     return {
-      title: '講師詳細'
+      title: `講師詳細(${speaker.name})`
     }
   },
   mounted: function () {
-    const params = location.search.substring(1).split('&').map((p) => p.split('=')).reduce((obj, e) => ({...obj, [e[0]]: e[1]}), {})
-    const speaker = TimetableData.timetable[params['speaker']]
+    const speaker = this.getSpeaker()
     if (speaker) {
       this.title = speaker.title
       this.name = speaker.name
@@ -97,6 +97,10 @@ export default {
     }
   },
   methods: {
+    getSpeaker() {
+      const params = location.search.substring(1).split('&').map((p) => p.split('=')).reduce((obj, e) => ({...obj, [e[0]]: e[1]}), {})
+      return TimetableData.timetable[params['speaker']]
+    },
     back() {
       history.back()
     }
