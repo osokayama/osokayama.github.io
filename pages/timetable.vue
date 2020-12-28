@@ -18,6 +18,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('fujita')">
+              <span class="theme" v-html="themeString(timetable.timetable['fujita'])" /><br v-if="themeString(timetable.timetable['fujita'])">
               <span v-html="timetable.timetable['fujita'].title" /><br>{{ timetable.timetable['fujita'].name }}
             </td>
           </tr>
@@ -27,6 +28,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('yoshida')">
+              <span class="theme" v-html="themeString(timetable.timetable['yoshida'])" /><br v-if="themeString(timetable.timetable['yoshida'])">
               <span v-html="timetable.timetable['yoshida'].title" /><br>{{ timetable.timetable['yoshida'].name }}
             </td>
           </tr>
@@ -41,6 +43,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('sueda')">
+              <span class="theme" v-html="themeString(timetable.timetable['sueda'])" /><br v-if="themeString(timetable.timetable['sueda'])">
               <span v-html="timetable.timetable['sueda'].title" /><br>{{ timetable.timetable['sueda'].name }}
             </td>
           </tr>
@@ -50,6 +53,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('tanaka')">
+              <span class="theme" v-html="themeString(timetable.timetable['tanaka'])" /><br v-if="themeString(timetable.timetable['tanaka'])">
               <span v-html="timetable.timetable['tanaka'].title" /><br>{{ timetable.timetable['tanaka'].name }}
             </td>
           </tr>
@@ -64,6 +68,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('maeda')">
+              <span class="theme" v-html="themeString(timetable.timetable['maeda'])" /><br v-if="themeString(timetable.timetable['maeda'])">
               <span v-html="timetable.timetable['maeda'].title" /><br>{{ timetable.timetable['maeda'].name }}
             </td>
           </tr>
@@ -73,6 +78,7 @@
             <td
               class="siimple-table-cell hover"
               @click="show('shoji')">
+              <span class="theme" v-html="themeString(timetable.timetable['shoji'])" /><br v-if="themeString(timetable.timetable['shoji'])">
               <span v-html="timetable.timetable['shoji'].title" /><br>{{ timetable.timetable['shoji'].name }}
             </td>
           </tr>
@@ -109,18 +115,9 @@ export default {
       if (!this.timetable.timetable[speaker]) return
       location.href = `detail.html?speaker=${speaker}`
     },
-    hide () {
-      this.visible = false
-      this.title = ''
-      this.name = ''
-      this.affiliation = ''
-      this.image = ''
-      this.detail = ''
-      this.twitter = ''
-      this.facebook = ''
-      this.github = ''
-      this.externals = []
-      this.profile = ''
+    themeString (speaker) {
+      if (!speaker || !speaker.theme) return ''
+      return `【エンジニアリング x ${speaker.theme}】`
     }
   }
 }
@@ -138,4 +135,5 @@ export default {
     cursor: pointer;
   }
   .siimple-table { margin-left: 10px; margin-right: 10px; width: calc(100% - 20px); }
+  .theme { font-weight: bold; }
 </style>

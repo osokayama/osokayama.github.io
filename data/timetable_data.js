@@ -1,6 +1,7 @@
 export default {
   timetable: {
     'fujita': {
+      theme: '家業',
       title: 'エンジニアリング×家業',
       name: '藤田 圭一郎',
       affiliation: '有限会社藤田酒店 店主 / 株式会社 COMPUS CEO',
@@ -16,6 +17,7 @@ export default {
       2016年より岡山にスタートアップ文化を根付かせる為の活動を行なっており、岡山市スタートアップ支援拠点「ももスタ」のコーディネーターも務める。`
     },
     'yoshida': {
+      theme: 'データ活用',
       title: 'これから始めるデータ活用',
       name: '吉田 康久',
       affiliation: '株式会社はてな サービスシステム開発本部 Mackerelチーム Customer Reliability Engineer',
@@ -28,6 +30,7 @@ export default {
       profile: `サーバー監視システムMackerelのCRE(Customer Reliability Engineer)。カスタマーサクセスのためのデータ基盤構築やデータ分析を担当しています。以前はアプリケーションエンジニアとして開発もしていました(教師なし学習による異常検知機能などを担当)`
     },
     'sueda': {
+      theme: '',
       title: '調整中',
       name: '末田 卓巳（すえだ たくみ）/ puhitaku',
       affiliation: 'フリーランス・NICT 情報通信研究機構 招聘専門員・HOMMA Inc. Consultant',
@@ -40,6 +43,7 @@ export default {
       profile: `岡山県高梁市出身。小中学生時代を赤磐市で過ごし、津山高専の入寮を経て情報工学科を卒業。以降、家庭用ロボット "LOVOT" を筆頭に、Web サービスから FPGA まで幅広いレイヤーの開発を手掛ける。現在はフリーランスとして、低レイヤーを得意としながら全レイヤーにわたるエンジニアリングを提供している。`
     },
     'tanaka': {
+      theme: 'モノづくり',
       title: 'SUZURIを支える"モノづくり"の心',
       name: '田中 健太郎',
       affiliation: 'GMOペパボ株式会社 SUZURI事業部',
@@ -64,6 +68,7 @@ export default {
       現在はGMOペパボ株式会社で<a href="https://suzuri.jp">SUZURI</a>と株式会社キャスターで<a href="https://bosyu.me">bosyu</a>の開発に携わっています。`
     },
     'maeda': {
+      theme: '医療',
       title: '医療現場で働くシステム担当者として伝えたいこと',
       name: '前田 浩幸(まえだ ひろゆき)',
       affiliation: '猪原歯科・リハビリテーション科 医療情報・広報部',
@@ -85,6 +90,7 @@ export default {
       大学在学中に医療情報技師(医療現場とITを繋ぐ専門職)資格を取得。2016年に猪原歯科・リハビリテーション科に入職し、医療情報・広報部に配属。サイボウズ社のクラウド型業務改善プラットフォーム「kintone」を利用した主に訪問診療における院内情報共有システムの開発と運用を行う。kintone cafe広島の運営メンバー。`
     },
     'shoji': {
+      theme: '',
       title: '調整中',
       name: '庄司 嘉織',
       affiliation: 'Launchable, Inc. Engineering',
