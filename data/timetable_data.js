@@ -68,7 +68,11 @@ export default {
       name: '前田 浩幸(まえだ ひろゆき)',
       affiliation: '猪原歯科・リハビリテーション科 医療情報・広報部',
       image: 'maeda.jpg',
-      detail: `調整中`,
+      detail: `
+      今回はOSO2020に登壇させていただきありがとうございます！<br>
+      私は現場で情報システム担当として働きつつ、簡素な開発を行っております。<br>
+      その経験から、医療現場でのシステムにまつわる経験談などお話させていただければなと思っております！現場でニーズをどのように捉えるか…そもそもニーズをくみ上げるためにどんな工夫を行っているか？技術どっぷりのお話というよりはノウハウ寄りのお話になるかもしれません・・・・。
+      `,
       twitter: 'https://twitter.com/hiroyukimaeda_3',
       facebook: 'https://www.facebook.com/hiroyuki.maeda.73',
       github: '',
