@@ -30,12 +30,12 @@ export default {
       profile: `サーバー監視システムMackerelのCRE(Customer Reliability Engineer)。カスタマーサクセスのためのデータ基盤構築やデータ分析を担当しています。以前はアプリケーションエンジニアとして開発もしていました(教師なし学習による異常検知機能などを担当)`
     },
     'sueda': {
-      theme: '',
-      title: '調整中',
+      theme: 'エンジニアリング',
+      title: 'フォーク、ナイフ、ものづくり',
       name: '末田 卓巳（すえだ たくみ）/ puhitaku',
       affiliation: 'フリーランス・NICT 情報通信研究機構 招聘専門員・HOMMA Inc. Consultant',
       image: 'sueda.jpg',
-      detail: `調整中`,
+      detail: `私達が使うあらゆる製品は、実に数多くの技術を内に秘めています。ものづくりという視点でそれらを切り取ってみるくせを付けると、自分だけのエンジニアリング観が育ち、能動的に世界を広げていくきっかけになります。手段や目的を超えたものづくりという視点を、実例と共にお伝えします。`,
       twitter: 'https://twitter.com/puhitaku',
       facebook: 'https://www.facebook.com/puhitaku',
       github: 'https://github.com/puhitaku',
