@@ -58,10 +58,10 @@ export default {
       また、自身のこれまでのキャリアやいま抱いている漠然とした不安にもふれつつ、「エンジニアリング x モノづくり」の観点でどのようなチャレンジをしていこうと考えているか、についてもお話しします。
       </p>
       聞いてくださったみなさんにとって、新たな分野にチャレンジするきっかけとなれば嬉しく思います。`,
-      twitter: 'https://twitter.com/kazuhisa1976',
-      facebook: 'https://www.facebook.com/kazuhisa.yamamoto.54',
-      github: 'https://github.com/kazuhisa',
-      externals: [],
+      twitter: 'https://twitter.com/tanaken0515',
+      facebook: 'https://facebook.com/tanaken0515',
+      github: 'https://github.com/tanaken0515',
+      externals: ['https://tanaken0515.hatenablog.com'],
       profile: `
       東京在住ですが、鹿児島のRubyコミュニティである<a href="https://k-ruby.github.io">K-Ruby</a>のメンバーです。<br>
       興味のある分野はWebアプリケーションの開発とCRE(Customer Reliability Engineering)と自然言語処理で、飼っている犬はゴールデンレトリバーです。<br>
