@@ -90,8 +90,8 @@ export default {
       大学在学中に医療情報技師(医療現場とITを繋ぐ専門職)資格を取得。2016年に猪原歯科・リハビリテーション科に入職し、医療情報・広報部に配属。サイボウズ社のクラウド型業務改善プラットフォーム「kintone」を利用した主に訪問診療における院内情報共有システムの開発と運用を行う。kintone cafe広島の運営メンバー。`
     },
     'shoji': {
-      theme: 'US とのリモートワーク',
-      title: 'エンジニアリング x US とのリモートワーク',
+      theme: '海外とのコラボレーション',
+      title: 'エンジニアリング x US 海外とのコラボレーション',
       name: '庄司 嘉織',
       affiliation: 'Launchable, Inc. Engineering',
       image: 'shoji.png',
