@@ -1,18 +1,5 @@
 <template>
   <div>
-    <speaker-modal
-      :visible="visible"
-      :title="title"
-      :name="name"
-      :affiliation="affiliation"
-      :image="image"
-      :detail="detail"
-      :twitter="twitter"
-      :facebook="facebook"
-      :github="github"
-      :external="external"
-      :profile="profile"
-      @hide="hide"/>
     <app-header/>
     <div class="siimple-content siimple-content--medium siimple--mt-5">
       <div class="siimple-box page-title">
@@ -21,135 +8,82 @@
       <table class="siimple-table siimple-table--border">
         <tbody class="siimple-table-body">
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">9:30 - 10:00</td>
-            <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">受付</td>
-          </tr>
-          <tr class="siimple-table-row">
-            <td class="siimple-table-cell">10:00 - 10:10</td>
-            <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">オープニング</td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">10:10 - 11:00</td>
-            <td class="siimple-table-cell">50分</td>
-            <td
-              class="siimple-table-cell hover"
-              @click="show('nakazawa')">
-              <span v-html="timetable.timetable['nakazawa'].title" /><br>{{ timetable.timetable['nakazawa'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row">
-            <td class="siimple-table-cell">11:00 - 11:10</td>
-            <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">休憩</td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td
-              rowspan="4"
-              class="siimple-table-cell">
-              11:10 - 11:50
-            </td>
-            <td
-              rowspan="4"
-              class="siimple-table-cell">
-              40分
-            </td>
-            <td class="siimple-table-cell">スポンサーセッション</td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td
-              class="siimple-table-cell hover"
-              @click="show('takahashi')">
-              <span v-html="timetable.timetable['takahashi'].title" /><br>{{ timetable.timetable['takahashi'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td
-              class="siimple-table-cell hover"
-              @click="show('seino')">
-              <span v-html="timetable.timetable['seino'].title" /><br>{{ timetable.timetable['seino'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td
-              class="siimple-table-cell hover"
-              @click="show('tbd4')">
-              <span v-html="timetable.timetable['tbd4'].title" /><br>{{ timetable.timetable['tbd4'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row">
-            <td class="siimple-table-cell">11:50 - 13:30</td>
-            <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">昼休憩</td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">13:30 - 14:00</td>
-            <td class="siimple-table-cell">30分</td>
-            <td
-              class="siimple-table-cell hover"
-              @click="show('hatsuya')">
-              <span v-html="timetable.timetable['hatsuya'].title" /><br>{{ timetable.timetable['hatsuya'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row">
             <td class="siimple-table-cell">14:00 - 14:10</td>
             <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">休憩</td>
+            <td class="siimple-table-cell">オープニング</td>
           </tr>
           <tr class="siimple-table-row session">
             <td class="siimple-table-cell">14:10 - 14:40</td>
             <td class="siimple-table-cell">30分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('yamamoto')">
-              <span v-html="timetable.timetable['yamamoto'].title" /><br>{{ timetable.timetable['yamamoto'].name }}
+              @click="show('fujita')">
+              <span class="theme" v-html="themeString(timetable.timetable['fujita'])" /><br v-if="themeString(timetable.timetable['fujita'])">
+              <span v-html="timetable.timetable['fujita'].title" /><br>{{ timetable.timetable['fujita'].name }}
+            </td>
+          </tr>
+          <tr class="siimple-table-row session">
+            <td class="siimple-table-cell">14:40 - 15:30</td>
+            <td class="siimple-table-cell">50分</td>
+            <td
+              class="siimple-table-cell hover"
+              @click="show('yoshida')">
+              <span class="theme" v-html="themeString(timetable.timetable['yoshida'])" /><br v-if="themeString(timetable.timetable['yoshida'])">
+              <span v-html="timetable.timetable['yoshida'].title" /><br>{{ timetable.timetable['yoshida'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">14:40 - 14:55</td>
+            <td class="siimple-table-cell">15:30 - 15:45</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">休憩</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">14:55 - 15:25</td>
+            <td class="siimple-table-cell">15:45 - 16:15</td>
             <td class="siimple-table-cell">30分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('takano')">
-              <span v-html="timetable.timetable['takano'].title" /><br>{{ timetable.timetable['takano'].name }}
+              @click="show('sueda')">
+              <span class="theme" v-html="themeString(timetable.timetable['sueda'])" /><br v-if="themeString(timetable.timetable['sueda'])">
+              <span v-html="timetable.timetable['sueda'].title" /><br>{{ timetable.timetable['sueda'].name }}
+            </td>
+          </tr>
+          <tr class="siimple-table-row session">
+            <td class="siimple-table-cell">16:15 - 17:05</td>
+            <td class="siimple-table-cell">50分</td>
+            <td
+              class="siimple-table-cell hover"
+              @click="show('tanaka')">
+              <span class="theme" v-html="themeString(timetable.timetable['tanaka'])" /><br v-if="themeString(timetable.timetable['tanaka'])">
+              <span v-html="timetable.timetable['tanaka'].title" /><br>{{ timetable.timetable['tanaka'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">15:25 - 15:40</td>
+            <td class="siimple-table-cell">17:05 - 17:20</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">休憩</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">15:40 - 16:40</td>
-            <td class="siimple-table-cell">60分</td>
+            <td class="siimple-table-cell">17:20 - 17:50</td>
+            <td class="siimple-table-cell">30分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('hashimoto')">
-              <span v-html="timetable.timetable['hashimoto'].title" /><br>{{ timetable.timetable['hashimoto'].name }}
+              @click="show('maeda')">
+              <span class="theme" v-html="themeString(timetable.timetable['maeda'])" /><br v-if="themeString(timetable.timetable['maeda'])">
+              <span v-html="timetable.timetable['maeda'].title" /><br>{{ timetable.timetable['maeda'].name }}
             </td>
-          </tr>
-          <tr class="siimple-table-row">
-            <td class="siimple-table-cell">16:40 - 16:55</td>
-            <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">休憩</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">16:55 - 17:55</td>
-            <td class="siimple-table-cell">60分</td>
+            <td class="siimple-table-cell">17:50 - 18:40</td>
+            <td class="siimple-table-cell">50分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('iwakiri')">
-              <span v-html="timetable.timetable['iwakiri'].title" /><br>{{ timetable.timetable['iwakiri'].name }}
+              @click="show('shoji')">
+              <span class="theme" v-html="themeString(timetable.timetable['shoji'])" /><br v-if="themeString(timetable.timetable['shoji'])">
+              <span v-html="timetable.timetable['shoji'].title" /><br>{{ timetable.timetable['shoji'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">17:55 - 18:05</td>
+            <td class="siimple-table-cell">18:40 - 18:50</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">クロージング</td>
           </tr>
@@ -160,26 +94,14 @@
   </div>
 </template>
 <script>
-import SpeakerModal from '@/components/speaker_modal'
 import AppHeader from '@/components/header'
 import AppFooter from '@/components/footer'
 import TimetableData from '@/data/timetable_data'
 
 export default {
-  components: { SpeakerModal, AppHeader, AppFooter },
+  components: { AppHeader, AppFooter },
   data: function () {
     return {
-      visible: false,
-      title: '',
-      name: '',
-      affiliation: '',
-      image: '',
-      detail: '',
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
-      profile: '',
       timetable: TimetableData
     }
   },
@@ -191,30 +113,11 @@ export default {
   methods: {
     show (speaker) {
       if (!this.timetable.timetable[speaker]) return
-      this.title = this.timetable.timetable[speaker].title
-      this.name = this.timetable.timetable[speaker].name
-      this.affiliation = this.timetable.timetable[speaker].affiliation
-      this.image = this.timetable.timetable[speaker].image
-      this.detail = this.timetable.timetable[speaker].detail
-      this.twitter = this.timetable.timetable[speaker].twitter
-      this.facebook = this.timetable.timetable[speaker].facebook
-      this.github = this.timetable.timetable[speaker].github
-      this.external = this.timetable.timetable[speaker].external
-      this.profile = this.timetable.timetable[speaker].profile
-      this.visible = true
+      location.href = `detail.html?speaker=${speaker}`
     },
-    hide () {
-      this.visible = false
-      this.title = ''
-      this.name = ''
-      this.affiliation = ''
-      this.image = ''
-      this.detail = ''
-      this.twitter = ''
-      this.facebook = ''
-      this.github = ''
-      this.external = ''
-      this.profile = ''
+    themeString (speaker) {
+      if (!speaker || !speaker.theme) return ''
+      return `【エンジニアリング x ${speaker.theme}】`
     }
   }
 }
@@ -232,4 +135,5 @@ export default {
     cursor: pointer;
   }
   .siimple-table { margin-left: 10px; margin-right: 10px; width: calc(100% - 20px); }
+  .theme { font-weight: bold; }
 </style>

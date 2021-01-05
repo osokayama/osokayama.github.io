@@ -1,129 +1,111 @@
 export default {
   timetable: {
-    'nakazawa': {
-      title: 'Kyashの目指す世界とプロダクト、テクノロジー',
-      name: '中澤 望',
-      affiliation: '株式会社Kyash Business Development',
-      image: 'nakazawa.jpg',
-      detail: `ウォレットアプリ「Kyash」とプラットフォーム「Kyash Direct」の2つの事業と、その背景にあるKyashのミッションやテクノロジーについて`,
-      twitter: 'https://twitter.com/nozo_omu',
-      facebook: 'https://www.facebook.com/nozomu.nakazawa',
+    'fujita': {
+      theme: '家業',
+      title: 'エンジニアリング×家業',
+      name: '藤田 圭一郎',
+      affiliation: '有限会社藤田酒店 店主 / 株式会社 COMPUS CEO',
+      image: 'fujita.png',
+      detail: `調整中`,
+      twitter: 'https://twitter.com/keiichilo',
+      facebook: 'https://www.facebook.com/keiichilo',
       github: '',
-      external: 'https://note.mu/nozo_omu',
-      profile: `大学卒業後、保険会社、決済代行会社、グローバル企業の決済担当を経て2018年3月より株式会社Kyashで事業開発を担当。`
-    },
-    'takahashi': {
-      title: '婚活といえばオミカレ 〜社内を支える文化とテクノロジー〜',
-      name: '高橋 一騎',
-      affiliation: '株式会社オミカレ システムエンジニア',
-      image: 'takahashi.jpg',
-      detail: `本セッションではオミカレの社会に対する取り組みと私のプレイヤーとしての観点から 東京・岡山の二拠点にいる開発チームがより成果を出せるように行った社内の文化に対しての取り組みなどをご紹介します。`,
-      twitter: '',
-      facebook: '',
-      github: '',
-      external: '',
+      externals: ['https://note.com/keiichilo'],
       profile: `
-      <a href="https://party-calendar.net/">https://party-calendar.net/</a><br>
-      兵庫県の田舎出身で今岡山に住んでいるシステムエンジニア。<br>
-      2018年5月に株式会社オミカレへ転職して、PHPやPythonでサーバーサイドの開発を担当。<br>
-      岡山コミュニティーとして中国地方DB勉強会や岡山アプリ開発もくもく会を主催しています。`
+      大学卒業後、会社勤務を経て2011年に家業の業務用酒販店にアトツギとして入社「飲食店の繁盛を応援する」をミッションにFujitaEats等、お酒と×ITを掛け合わせたサービスを運営している。<br>
+      その傍らで2015年株式会社コンテンツクルーを設立し「ローカル×コンテンツ」をテーマに様々なサービスを展開中。現在は「地方学生のための長期インターン求人COMPUS」に注力している。<br>
+      2016年より岡山にスタートアップ文化を根付かせる為の活動を行なっており、岡山市スタートアップ支援拠点「ももスタ」のコーディネーターも務める。`
     },
-    'seino': {
-      title: 'クラスメソッド（クラメソ）の「やってみた」文化を紹介してみる',
-      name: '清野 剛史（せーの つよし）',
-      affiliation: 'クラスメソッド株式会社 AIソリューション部 Alexaテクニカルエバンジェリスト / VUI アーキテクト',
-      image: 'seino.jpg',
-      detail: `私たちクラスメソッドは非常に「自由な社風」として有名です。その根底にあるのは社員個人がそれぞれ持つプロフェッショナリズムと「とりあえずやってみる」文化です。このセッションではクラスメソッド流の働き方や事例のご紹介を通じて、大人が本気で「やってみる」とどうなるのか、を感じていただきます。`,
-      twitter: 'https://twitter.com/chao2suke',
+    'yoshida': {
+      theme: 'データ活用',
+      title: 'これから始めるデータ活用',
+      name: '吉田 康久',
+      affiliation: '株式会社はてな サービスシステム開発本部 Mackerelチーム Customer Reliability Engineer',
+      image: 'yoshida.jpg',
+      detail: `データの重要性が認識され、活用していくことは最近では珍しいことではなくなってきました。一方で「データ活用するにはどういったことが必要か分からない」「データ活用の文化が自社にはまだまだない」と悩んでおられる方もまだまだたくさんいらっしゃると思います。本発表ではデータ活用にあたり登壇者がチーム内外で行なった、技術的な側面やコミュニケーションや文化的な側面などをご紹介します。`,
+      twitter: 'https://twitter.com/syou6162',
       facebook: '',
-      github: '',
-      external: 'https://dev.classmethod.jp/author/seino-tsuyoshi/',
-      profile: `主に事業会社を中心にAlexaを使ったビジネスサービスのコンサルティング、構築作業、 Alexaを使用した新規ソリューションのR&D業務に従事する。`
+      github: 'https://github.com/syou6162',
+      externals: ['https://www.yasuhisay.info/'],
+      profile: `サーバー監視システムMackerelのCRE(Customer Reliability Engineer)。カスタマーサクセスのためのデータ基盤構築やデータ分析を担当しています。以前はアプリケーションエンジニアとして開発もしていました(教師なし学習による異常検知機能などを担当)`
     },
-    'tbd4': {
-      title: '長期開発され続けるRailsアプリへのリゾームの取り組み',
-      name: '山本 和久',
-      affiliation: '株式会社リゾーム 開発第2グループ課長',
-      image: 'kazuhisa.jpg',
-      detail: `私が担当しているBOND GATEのファーストコミットは2011年。8年間に渡って開発され続けるRailsアプリケーションにチームとしてどう取り組んでいるのか。リゾームの事例を紹介いたします。`,
+    'sueda': {
+      theme: 'エンジニアリング',
+      title: 'フォーク、ナイフ、ものづくり',
+      name: '末田 卓巳（すえだ たくみ）/ puhitaku',
+      affiliation: 'フリーランス・NICT 情報通信研究機構 招聘専門員・HOMMA Inc. Consultant',
+      image: 'sueda.jpg',
+      detail: `私達が使うあらゆる製品は、実に数多くの技術を内に秘めています。ものづくりという視点でそれらを切り取ってみるくせを付けると、自分だけのエンジニアリング観が育ち、能動的に世界を広げていくきっかけになります。手段や目的を超えたものづくりという視点を、実例と共にお伝えします。`,
+      twitter: 'https://twitter.com/puhitaku',
+      facebook: 'https://www.facebook.com/puhitaku',
+      github: 'https://github.com/puhitaku',
+      externals: ['https://zopfco.de'],
+      profile: `岡山県高梁市出身。小中学生時代を赤磐市で過ごし、津山高専の入寮を経て情報工学科を卒業。以降、家庭用ロボット "LOVOT" を筆頭に、Web サービスから FPGA まで幅広いレイヤーの開発を手掛ける。現在はフリーランスとして、低レイヤーを得意としながら全レイヤーにわたるエンジニアリングを提供している。`
+    },
+    'tanaka': {
+      theme: 'モノづくり',
+      title: 'SUZURIを支える"モノづくり"の心',
+      name: '田中 健太郎',
+      affiliation: 'GMOペパボ株式会社 SUZURI事業部',
+      image: 'tanaka.png',
+      detail: `
+      <p>
+      SUZURIは、画像をアップロードするだけで自分だけのTシャツやスマホケースなどのオリジナルアイテムを作成・販売できるプラットフォームです。<br>
+      物理的な「モノ」を製造してお客様のもとに届けている、という点で、SUZURIは「モノづくり」をしているサービスであるといえます。
+      </p>
+      <p>
+      今回の発表では、SUZURIにおける「モノづくり」にまつわるエピソードをお話しします。<br>
+      また、自身のこれまでのキャリアやいま抱いている漠然とした不安にもふれつつ、「エンジニアリング x モノづくり」の観点でどのようなチャレンジをしていこうと考えているか、についてもお話しします。
+      </p>
+      聞いてくださったみなさんにとって、新たな分野にチャレンジするきっかけとなれば嬉しく思います。`,
       twitter: 'https://twitter.com/kazuhisa1976',
       facebook: 'https://www.facebook.com/kazuhisa.yamamoto.54',
       github: 'https://github.com/kazuhisa',
-      external: '',
-      profile: `岡山県出身。地元SIerを経て2011年リゾームに入社。Ruby on Railsを使ったショッピングセンター向けグループウェア「BOND GATE」の開発に携わる。趣味はバイクツーリング。`
+      externals: [],
+      profile: `
+      東京在住ですが、鹿児島のRubyコミュニティである<a href="https://k-ruby.github.io">K-Ruby</a>のメンバーです。<br>
+      興味のある分野はWebアプリケーションの開発とCRE(Customer Reliability Engineering)と自然言語処理で、飼っている犬はゴールデンレトリバーです。<br>
+      現在はGMOペパボ株式会社で<a href="https://suzuri.jp">SUZURI</a>と株式会社キャスターで<a href="https://bosyu.me">bosyu</a>の開発に携わっています。`
     },
-    'hatsuya': {
-      title: '住宅業界の情報格差を無くすビズ・クリエイションの戦略と挑戦',
-      name: '初谷 昌彦',
-      affiliation: '株式会社ビズ・クリエイション 代表取締役CEO',
-      image: 'hatsuya.jpg',
-      detail: `電話や紙の書類、リアルな対面打ち合わせなどが業務の大半を占めている住宅業界は、これからが変化していくチャンス。ユーザー、業務従事者双方にメリットのある仕組みを構築することで、情報格差をなくし、より自由に取引の出来るようにしていくために私たちがやっていること、これからやろうとしていることをお話ししたいと思います。`,
-      twitter: '',
-      facebook: 'https://www.facebook.com/masahiko.hatsuya',
-      github: '',
-      external: '',
-      profile: `広島市出身。広島市立大学国際学部卒業。岡山県にて広告代理店勤務を経て2008年、株式会社ビズ・クリエイションを創業し代表取締役に就任。全国初の期間限定住宅展示場「岡山工務店EXPO」の理事を務める。住宅情報誌「家、買う？」の発刊や住宅見学マッチングサービス「iemiru」を公開。全ての住宅関連業者が使える法人向け見学クラウドツール「Kengaku Cloud」を自社開発。`
-    },
-    'yamamoto': {
-      title: 'これからのIT業界の幸せの話をしよう',
-      name: '山本 由佳里',
-      affiliation: '株式会社アイネット 代表取締役社長',
-      image: 'yamamoto.jpg',
+    'maeda': {
+      theme: '医療',
+      title: '医療現場で働くシステム担当者として伝えたいこと',
+      name: '前田 浩幸(まえだ ひろゆき)',
+      affiliation: '猪原歯科・リハビリテーション科 医療情報・広報部',
+      image: 'maeda.jpg',
       detail: `
-      これからの「技術者の幸せ」について語るということは、これまで「技術者の幸せ」について私がどう考えてきたかを語ることだと思います。<br>
-      プログラマだった私が会社の経営をすることになり、最初の五年ぐらいは何を目指して会社を経営すれば良いかまるで分らず手探りの状態が続いていました。その私があるときから「技術者の尊厳を損なわない経営判断をする」という理念を掲げることにしたのです。そのときから今まで、私は自分が掲げてきた理念を貫くことができているのか、ということについてお話します。`,
-      twitter: 'https://twitter.com/yukarin2016',
-      facebook: 'https://www.facebook.com/yukarin2018',
+      今回はOSO2020に登壇させていただきありがとうございます！<br>
+      私は現場で情報システム担当として働きつつ、簡素な開発を行っております。<br>
+      その経験から、医療現場でのシステムにまつわる経験談などお話させていただければなと思っております！現場でニーズをどのように捉えるか…そもそもニーズをくみ上げるためにどんな工夫を行っているか？技術どっぷりのお話というよりはノウハウ寄りのお話になるかもしれません・・・・。
+      `,
+      twitter: 'https://twitter.com/hiroyukimaeda_3',
+      facebook: 'https://www.facebook.com/hiroyuki.maeda.73',
       github: '',
-      external: 'https://www.inet88.co.jp/blog',
-      profile: `岡山県倉敷市在住。創業48年の老舗IT企業である株式会社アイネットの二代目代表。出版社の版下デザインなどを経て、1990年よりプログラマとして働き始める。子育てをしながらプログラマを続け、2001年より父親の経営する株式会社アイネットに入社。プレイングマネージャーとして奮闘する。2006年に株式会社アイネット代表取締役社長に就任。`
+      externals: ['https://note.com/hiroyukimaeda', 'https://www.kumaicon.net/'],
+      profile: `
+      猪原歯科・リハビリテーション科<br>
+      医療情報・広報部に所属。<br>
+      2014年 東京医療保健大学医療情報学科 卒業<br>
+      2016年 北里大学大学院医療情報学研究室 修了、修士(医科学)を取得。<br>
+      大学在学中に医療情報技師(医療現場とITを繋ぐ専門職)資格を取得。2016年に猪原歯科・リハビリテーション科に入職し、医療情報・広報部に配属。サイボウズ社のクラウド型業務改善プラットフォーム「kintone」を利用した主に訪問診療における院内情報共有システムの開発と運用を行う。kintone cafe広島の運営メンバー。`
     },
-    'takano': {
-      title: 'ひとりでできるもん！',
-      name: '高野 孝一',
-      affiliation: 'Sujiya Systems 代表',
-      image: 'takano.png',
-      detail: `ブラックＩＴ企業を辞めた後、何もない状態から個人事業主としてスタートして、日本初となる色々なシステムを（ひとりで節約しながら）開発してきた経験と製品の紹介を行います。`,
-      twitter: 'https://twitter.com/Sujiya_System',
+    'shoji': {
+      theme: '海外とのコラボレーション',
+      title: 'エンジニアリング x US 海外とのコラボレーション',
+      name: '庄司 嘉織',
+      affiliation: 'Launchable, Inc. Engineering',
+      image: 'shoji.png',
+      detail: `
+      コロナによってなんとなくリモートワークが始まり、なんとか手探りで仕事をしている方も多いと思います。<br>
+      僕もコロナが始まってからいわゆるシリコンバレーのベンチャーに転職し、リモートワークで働いています。<br>
+      入社した Launchable は出来て間もない会社ですがもともとコロナ以前からリモートで働いた人たちが作った会社です。<br>
+      そこにはリモートで働くためのノウハウがいっぱいつまっていました。<br>
+      リモートなだけでなく時差もある環境で実際に僕が働いてみて良いと思ったことを色々紹介していこうと思います。`,
+      twitter: 'https://twitter.com/yoshiori',
       facebook: '',
       github: '',
-      external: 'http://www.sinjidai.com/',
-      profile: `調理師から交通系プログラマーへ。そしてブラック企業からホワイト起業へ。`
-    },
-    'hashimoto': {
-      title: 'ヌーラボのサービスを支える技術や組織の話',
-      name: '橋本 正徳',
-      affiliation: '株式会社ヌーラボ 代表取締役',
-      image: 'hashimoto.jpg',
-      detail: `
-      株式会社ヌーラボのカルチャーと組織、そして技術のお話をします。<br>
-      "When you adopt a tool you adopt the management philosophy embedded in that tool." - Clay Shirky<br>
-      ある会社が提供しているツールを導入するとき、その提供企業の哲学も導入することになるそうで、今回は哲学も多めにお話しようかな？と考えています。ヌーラボへの質問を各自1つ、ご用意お願いします。`,
-      twitter: 'https://twitter.com/hsmt',
-      facebook: 'https://www.facebook.com/hashimoto.masanori.account',
-      github: '',
-      external: '',
-      profile: ``
-    },
-    'iwakiri': {
-      title: 'Hackすることは未来を期待すること<br>社会の中での役割を担おうとする態度だと思う<br>＠オープンセミナー2019バージョン',
-      name: '岩切 晃子',
-      affiliation: '翔泳社取締役 / コンピュータ出版販売研究機構会長',
-      image: 'iwakiri.jpg',
-      detail: `
-      リチャード・シャリダンの著書『ジョイ・インク』（翔泳社,2016年刊）の言葉を引用します。
-      <blockquote class="siimple-blockquote">働いているときも、休んでいるときも、子供の学校にも、教会のコミュニティにも、家族のあいだに、国家に、誰もが喜びを求めている。人間は自身を超えるものを目指し、お互いにつながろうとするように、生まれついている。だからこそ僕たちはチームに参加し、会社に属し、必死に努力を重ねて困難なゴールを共有し、立ち向かう</blockquote>
-      <p/>
-      みなさんも、そんな日常を生きていらっしゃるのではないでしょうか？<br>
-      「仲間と困難に立ち向かい、喜びを得る」ことを目指して<br>
-      どうしたらいいのか、考えるきっかけにこの場がなれれば幸いです
-      <p/>
-      2017年3月18日(土)に名古屋大学にて開催された情報処理学会第79回全国大会の企画セッション「Life Hacks for WorkPlace」の元に再構成してお送りします`,
-      twitter: 'https://twitter.com/kohsei',
-      facebook: '',
-      github: '',
-      external: 'http://iwakiri.hatenablog.com/',
-      profile: ``
+      externals: [],
+      profile: `25 歳から本格的にプログラミングを勉強。 前職で電子書籍の立ちあげ開発リーダーなどを行った後、クックパッドに転職。 投稿部門の部長を経て、動画配信基盤の開発、サービスの microservices 化などに従事したあと、人事部長、技術部長、エンジニア統括マネージャ、CTO 室長を担った。その後、次のチャレンジとして Launchable, Inc. に転職。`
     }
   }
 }
