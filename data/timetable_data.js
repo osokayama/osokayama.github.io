@@ -6,12 +6,13 @@ export default {
       name: '藤田 圭一郎',
       affiliation: '有限会社藤田酒店 店主 / 株式会社 COMPUS CEO',
       image: 'fujita.png',
-      detail: '
-      ・ナイトワーク求人
-      ・オリジナルラベルのお酒EC
-      ・○ーバーイーツ的なやつ
-      
-      エンジニアリングのおかげで家業が生き長らえている話をさせて頂きます！',
+      detail: `
+      <ul>
+        <li>ナイトワーク求人</li>
+        <li>オリジナルラベルのお酒EC</li>
+        <li>○ーバーイーツ的なやつ</li>
+      </ul>
+      <P>エンジニアリングのおかげで家業が生き長らえている話をさせて頂きます！</P>`,
       twitter: 'https://twitter.com/keiichilo',
       facebook: 'https://www.facebook.com/keiichilo',
       github: '',
