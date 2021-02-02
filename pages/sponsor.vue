@@ -7,8 +7,8 @@
       </div>
       <div class="sponsor">
         <h2 class="siimple-h5">協賛企業（50音順・敬称略）</h2>
-        <h3 class="siimple-h4">プラチナスポンサー</h3>
-        <ul class="sponsor-list platina">
+        <h3 class="siimple-h4" v-if="sponsor.platina.length">プラチナスポンサー</h3>
+        <ul class="sponsor-list platina" v-if="sponsor.platina.length">
           <li
             v-for="targetSponsor in sponsor.platina"
             :key="targetSponsor.name"
@@ -20,8 +20,8 @@
             </a>
           </li>
         </ul>
-        <h3 class="siimple-h4">ゴールドスポンサー</h3>
-        <ul class="sponsor-list gold">
+        <h3 class="siimple-h4" v-if="sponsor.gold.length">ゴールドスポンサー</h3>
+        <ul class="sponsor-list gold" v-if="sponsor.gold.length">
           <li
             v-for="targetSponsor in sponsor.gold"
             :key="targetSponsor.name"
@@ -33,8 +33,8 @@
             </a>
           </li>
         </ul>
-        <h3 class="siimple-h4">シルバースポンサー</h3>
-        <ul class="sponsor-list silver">
+        <h3 class="siimple-h4" v-if="sponsor.silver.length">シルバースポンサー</h3>
+        <ul class="sponsor-list silver" v-if="sponsor.silver.length">
           <li
             v-for="targetSponsor in sponsor.silver"
             :key="targetSponsor.name"
@@ -46,8 +46,8 @@
             </a>
           </li>
         </ul>
-        <h3 class="siimple-h4">ブロンズスポンサー</h3>
-        <ul class="sponsor-list bronze">
+        <h3 class="siimple-h4" v-if="sponsor.bronze.length">ブロンズスポンサー</h3>
+        <ul class="sponsor-list bronze" v-if="sponsor.bronze.length">
           <li
             v-for="targetSponsor in sponsor.bronze"
             :key="targetSponsor.name"
@@ -59,8 +59,8 @@
             </a>
           </li>
         </ul>
-        <h3 class="siimple-h4">ツール支援</h3>
-        <ul class="sponsor-list tool">
+        <h3 class="siimple-h4" v-if="tool.length">ツール支援</h3>
+        <ul class="sponsor-list tool" v-if="tool.length">
           <li
             v-for="targetToolSupporter in tool"
             :key="targetToolSupporter.name"
@@ -72,8 +72,8 @@
             </a>
           </li>
         </ul>
-        <h2 v-if="support.length > 0">後援（50音順・敬称略）</h2>
-        <ul v-if="support.length > 0">
+        <h2 v-if="support.length">後援（50音順・敬称略）</h2>
+        <ul v-if="support.length">
           <li
             v-for="supporter in support"
             :key="supporter">
