@@ -73,7 +73,7 @@
           </li>
         </ul>
         <h2 v-if="support.length">後援（50音順・敬称略）</h2>
-        <ul v-if="support.length">
+        <ul class="support" v-if="support.length">
           <li
             v-for="supporter in support"
             :key="supporter">
@@ -113,5 +113,6 @@ export default {
 .sponsor .silver img {width: 200px; max-height: 134px; object-fit: contain;}
 .sponsor .bronze img {width: 170px; max-height: 100px; object-fit: contain;}
 .sponsor .tool img {width: 229px; max-height: 153px; object-fit: contain;}
-.sponsor ul { list-style: none; }
+.sponsor ul { list-style: none; padding: 0; margin-left: 0; }
+.support li { font-size: 1.5em; list-style-position: outside; }
 </style>
