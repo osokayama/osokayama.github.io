@@ -65,7 +65,7 @@ export default {
   line-height: 60px;
 }
 
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 792px) {
   .siimple-navbar {
     min-height: 60px;
     height: auto;
@@ -87,7 +87,7 @@ export default {
     padding-right: 0px;
   }
 }
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 792px) {
   .siimple-navbar .bars {
     display: none;
   }
