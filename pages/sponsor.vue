@@ -72,6 +72,32 @@
             </a>
           </li>
         </ul>
+        <h3 class="siimple-h4" v-if="audio.length">音源提供</h3>
+        <ul class="sponsor-list audio" v-if="audio.length">
+          <li
+            v-for="targetAudio in audio"
+            :key="targetAudio.name"
+            class="sponsor-list-item">
+            <a :href="targetAudio.url">
+              <img
+                :src="targetAudio.image"
+                :alt="targetAudio.name">
+            </a>
+          </li>
+        </ul>
+        <h3 class="siimple-h4" v-if="moderator.length">司会</h3>
+        <ul class="sponsor-list moderator" v-if="moderator.length">
+          <li
+            v-for="targetModerator in moderator"
+            :key="targetModerator.name"
+            class="sponsor-list-item">
+            <a :href="targetModerator.url">
+              <img
+                :src="targetModerator.image"
+                :alt="targetModerator.name">
+            </a>
+          </li>
+        </ul>
         <h2 v-if="support.length">後援（50音順・敬称略）</h2>
         <ul class="support" v-if="support.length">
           <li
@@ -113,6 +139,8 @@ export default {
 .sponsor .silver img {width: 200px; max-height: 134px; object-fit: contain;}
 .sponsor .bronze img {width: 170px; max-height: 100px; object-fit: contain;}
 .sponsor .tool img {width: 229px; max-height: 153px; object-fit: contain;}
+.sponsor .audio img {width: 270px; max-height: 153px; object-fit: contain;}
+.sponsor .moderator img {width: 300px; max-height: 153px; object-fit: contain;}
 .sponsor ul { list-style: none; padding: 0; margin-left: 0; }
 .support li { font-size: 1.5em; list-style-position: outside; }
 </style>
