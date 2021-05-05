@@ -4,41 +4,34 @@
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="images/logo.svg"></div>
-      <div class="siimple-jumbotron-subtitle">【エンジニアリング x ○○】<br>（えんじにありんぐ かける なんか）</div>
-      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2021年2月13日(土)オンライン開催</div>
+      <div class="siimple-jumbotron-subtitle">extend engineering<div class="subtheme">～人と技術を繋げよう～</div></div>
+      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2021年11月 オンライン開催</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
           <li>
             <a
-              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12020&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
+              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12021&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
               onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=1'); return false;">
               <i class="fab fa-twitter"/>
             </a>
           </li>
           <li>
             <a
-              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12020"
+              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12021"
               onclick="window.open(this.href, 'fbsharewindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;">
               <i class="fab fa-facebook-f"/>
             </a>
           </li>
         </ul>
       </div>
-      <div class="siimple-jumbotron-detail"><a href="https://oso.connpass.com/event/200031/"><div class="siimple-btn siimple-btn--blue entry">お申込みはこちら</div></a></div>
+      <div class="siimple-jumbotron-detail"><a href="#"><div class="siimple-btn siimple-btn--blue entry">お申込み開始までしばらくお待ち下さい</div></a></div>
     </div>
     <div class="siimple-content siimple-content--medium siimple--mt-5">
       <!-- theme -->
       <h2 id="theme">テーマ</h2>
-      <p>【エンジニアリング x ○○】（えんじにありんぐ かける なんか）</p>
+      <div class="content-theme">extend engineering<div class="subtheme">～人と技術を繋げよう～</div></div>
       <p>
-        エンジニアリング、「エンジニアとしての経験」は、現在世の中でとても必要とされています。<br>
-        実際に、エンジニアリングと "なんか" との掛け合わせにより、かけがえのない価値を生み出している。という事例も増えてきているように思います。
-      </p>
-      <p>
-        一方で、先が見えにくい現代社会において、エンジニアリングを突き詰めたい、という人が、それとは少し異なる分野に踏み込むことがしづらい、という側面もあると思います。<br>
-        【エンジニアリング x ○○】（えんじにありんぐ かける なんか）をテーマに掲げたOSO2020で、<br>
-        色々な人の【エンジニアリング x ○○】を見聞きしていただき、みなさんが持っている漠然とした不安が少しでも和らぐこと、<br>
-        そしてみなさんもそれぞれの "なんか" を見つけ出してもらえたら、と考えています。
+        実行委員長の作文待ち
       </p>
       <!-- oso -->
       <h2 id="about-oso">オープンセミナーとは</h2>
@@ -58,7 +51,7 @@
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2021年2月13日(土) 14:00 - 19:00・オンライン形式(Zoom)で開催
+        2021年11月 オンライン形式で開催予定
       </p>
 
       <!-- anti-harassment policy -->
@@ -82,7 +75,7 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .top_social_buttons {margin: 20px; padding: 0px}
 .top_social_buttons li { display: inline; margin: 20px; }
 .top_social_buttons li i { width: 40px; height: 40px; line-height: 40px; border-style: none; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; background-color: #4894f0; color: #fff; margin: auto; font-size: 1.2em; transition: 0.5s;}
@@ -92,7 +85,7 @@ export default {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px;
-  background-image: linear-gradient(rgba(64, 64, 64, .7), rgba(64, 64, 64, .7)), url(/images/top.jpg);
+  background-image: linear-gradient(rgba(64, 64, 64, .8), rgba(64, 64, 64, .8)), url(/images/top.png);
   background-repeat: no-repeat;
   background-position: top center;
   -moz-background-size: cover;
@@ -110,7 +103,18 @@ export default {
 }
 
 .siimple-jumbotron-subtitle {
-  font-size: 22px;
+  font-size: 30px;
+  .subtheme {
+    font-size: 0.7em;
+    line-height: 28px;
+  }
+}
+
+.content-theme {
+  font-size: 1.3em;
+  .subtheme {
+    font-size: 0.8em;
+  }
 }
 
 .delay-message {

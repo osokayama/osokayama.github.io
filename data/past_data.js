@@ -1,6 +1,11 @@
 export default {
   histories: [
     {
+      year: 2020,
+      theme: '【エンジニアリング x ○○】（えんじにありんぐ かける なんか）',
+      image: '../2020/images/top.jpg'
+    },
+    {
       year: 2019,
       theme: 'Technology X Society',
       image: '../2019/images/top.jpg'
