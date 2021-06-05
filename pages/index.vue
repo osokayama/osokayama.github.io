@@ -5,7 +5,7 @@
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="images/logo.svg"></div>
       <div class="siimple-jumbotron-subtitle">extend engineering<div class="subtheme">～人と技術を繋げよう～</div></div>
-      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2021年11月 オンライン開催</div>
+      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2021年11月27日(土) オンライン開催</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
           <li>
@@ -59,7 +59,7 @@
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2021年11月 オンライン形式で開催予定
+        2021年11月27日(土) 14:00 - 19:00・オンライン形式で開催
       </p>
 
       <!-- anti-harassment policy -->
