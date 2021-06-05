@@ -31,7 +31,15 @@
       <h2 id="theme">テーマ</h2>
       <div class="content-theme">extend engineering<div class="subtheme">～人と技術を繋げよう～</div></div>
       <p>
-        実行委員長の作文待ち
+         IT・Web業界では、コミュニティ活動をはじめとした様々な情報共有の文化がとても活発だと感じます。
+      </p>
+      <p>
+        自身の知見を共有し互いに高め合うことで、１人では超えられないような大きな壁をも超えられることがあるでしょう。<br>
+        今回のテーマ「extend engineering ～人と技術を繋げよう～」という言葉は、人と技術が繋がり継承されていく、そんな様子から生まれました。
+      </p>
+      <p>
+        OSO2021では、この文化に対して先陣を切って活躍された方々の思いをみなさんと共有します。
+        それによって、この文化がさらに発展していくきっかけになればと思います。<br>
       </p>
       <!-- oso -->
       <h2 id="about-oso">オープンセミナーとは</h2>
@@ -70,7 +78,7 @@ export default {
   components: { AppHeader, AppFooter },
   head() {
     return {
-      titleTemplate: 'オープンセミナー2020@岡山'
+      titleTemplate: 'オープンセミナー2021@岡山'
     }
   }
 }
