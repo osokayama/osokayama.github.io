@@ -12,8 +12,12 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
+    "dotenv": "^8.2.0",
     "jquery": "^3.4.1",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.15.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0"
+  }
 }
