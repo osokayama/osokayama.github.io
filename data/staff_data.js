@@ -1,22 +1,22 @@
 export default {
   staffs: [
     {
-      name: '井上 大輔',
+      name: '土屋 翔平',
       roll: '実行委員長',
+      image: 'tsuchiya.jpg',
+      twitter: 'https://twitter.com/kakeru_213',
+      facebook: '',
+      github: '',
+      external: 'http://kakerun-mouse.hatenablog.com/'
+    },
+    {
+      name: '井上 大輔',
+      roll: '副実行委員長',
       image: 'inoue.png',
       twitter: 'https://twitter.com/a_know',
       facebook: '',
       github: 'https://github.com/a-know',
       external: 'https://home.a-know.me/'
-    },
-    {
-      name: '逸見 誠',
-      roll: '副実行委員長',
-      image: 'henmi.jpg',
-      twitter: 'https://twitter.com/mako_wis',
-      facebook: 'https://www.facebook.com/makoto.henmi',
-      github: 'https://github.com/makowis',
-      external: 'https://mako-wis.hatenablog.com/'
     },
     {
       name: '吉田 貴文',
@@ -46,15 +46,6 @@ export default {
       external: 'https://about.me/shizone'
     },
     {
-      name: '土屋 翔平',
-      roll: '',
-      image: 'tsuchiya.jpg',
-      twitter: 'https://twitter.com/kakeru_213',
-      facebook: '',
-      github: '',
-      external: 'http://kakerun-mouse.hatenablog.com/'
-    },
-    {
       name: '早坂 竜二',
       roll: '',
       image: 'hayasaka.jpg',
@@ -73,6 +64,15 @@ export default {
       external: ''
     },
     {
+      name: '逸見 誠',
+      roll: '',
+      image: 'henmi.jpg',
+      twitter: 'https://twitter.com/mako_wis',
+      facebook: 'https://www.facebook.com/makoto.henmi',
+      github: 'https://github.com/makowis',
+      external: 'https://mako-wis.hatenablog.com/'
+    },
+    {
       name: '三輪 昭生',
       roll: '',
       image: 'miwa.png',
@@ -80,6 +80,15 @@ export default {
       facebook: '',
       github: '',
       external: ''
+    },
+    {
+      name: '山本 和久',
+      roll: '',
+      image: 'yamamoto.jpg',
+      twitter: 'https://twitter.com/kazuhisa1976',
+      facebook: 'https://www.facebook.com/kazuhisa.yamamoto.54',
+      github: 'https://github.com/kazuhisa',
+      external: 'https://tech-kazuhisa.hatenablog.com/'
     },
     {
       name: '吉田 圭佑',
