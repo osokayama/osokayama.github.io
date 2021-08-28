@@ -1,117 +1,95 @@
 export default {
   timetable: {
-    'fujita': {
-      theme: '家業',
-      title: 'エンジニアリング×家業',
-      name: '藤田 圭一郎',
-      affiliation: '有限会社藤田酒店 店主 / 株式会社 COMPUS CEO',
-      image: 'fujita.png',
-      detail: `
-      <ul>
-        <li>ナイトワーク求人</li>
-        <li>オリジナルラベルのお酒EC</li>
-        <li>○ーバーイーツ的なやつ</li>
-      </ul>
-      <P>エンジニアリングのおかげで家業が生き長らえている話をさせて頂きます！</P>`,
-      twitter: 'https://twitter.com/keiichilo',
-      facebook: 'https://www.facebook.com/keiichilo',
-      github: '',
-      externals: ['https://note.com/keiichilo'],
-      profile: `
-      大学卒業後、会社勤務を経て2011年に家業の業務用酒販店にアトツギとして入社「飲食店の繁盛を応援する」をミッションにFujitaEats等、お酒と×ITを掛け合わせたサービスを運営している。<br>
-      その傍らで2015年株式会社コンテンツクルーを設立し「ローカル×コンテンツ」をテーマに様々なサービスを展開中。現在は「地方学生のための長期インターン求人COMPUS」に注力している。<br>
-      2016年より岡山にスタートアップ文化を根付かせる為の活動を行なっており、岡山市スタートアップ支援拠点「ももスタ」のコーディネーターも務める。`
-    },
-    'yoshida': {
-      theme: 'データ活用',
-      title: 'これから始めるデータ活用',
-      name: '吉田 康久',
-      affiliation: '株式会社はてな サービスシステム開発本部 Mackerelチーム Customer Reliability Engineer',
-      image: 'yoshida.jpg',
-      detail: `データの重要性が認識され、活用していくことは最近では珍しいことではなくなってきました。一方で「データ活用するにはどういったことが必要か分からない」「データ活用の文化が自社にはまだまだない」と悩んでおられる方もまだまだたくさんいらっしゃると思います。本発表ではデータ活用にあたり登壇者がチーム内外で行なった、技術的な側面やコミュニケーションや文化的な側面などをご紹介します。`,
-      twitter: 'https://twitter.com/syou6162',
+    'iwata': {
+      title: '(講演タイトル調整中)',
+      name: '岩田 隆治（いわた りゅうじ）/ Ryuji Iwata',
+      affiliation: '岡山県下のSIerに勤務',
+      image: 'iwata.jpg',
+      detail: ``,
+      twitter: 'https://twitter.com/qt_luigi',
       facebook: '',
-      github: 'https://github.com/syou6162',
-      externals: ['https://www.yasuhisay.info/'],
-      profile: `サーバー監視システムMackerelのCRE(Customer Reliability Engineer)。カスタマーサクセスのためのデータ基盤構築やデータ分析を担当しています。以前はアプリケーションエンジニアとして開発もしていました(教師なし学習による異常検知機能などを担当)`
+      github: 'https://github.com/qt-luigi',
+      externals: ['https://sites.google.com/view/ryuji-iwata-portfolio'],
+      profile: `客先常駐にて業務用のWebおよびC/Sシステムの開発に従事。日本国内にてプログラミング言語Goを中心としたICTコミュニティ活動を実施。2021年6月にMicrosoft Azure カテゴリーにて3年ぶりに中国地方で唯一となるMicrosoft MVPを初受賞。`
     },
-    'sueda': {
-      theme: 'エンジニアリング',
-      title: 'フォーク、ナイフ、ものづくり',
-      name: '末田 卓巳（すえだ たくみ）/ puhitaku',
-      affiliation: 'フリーランス・NICT 情報通信研究機構 招聘専門員・HOMMA Inc. Consultant',
-      image: 'sueda.jpg',
-      detail: `私達が使うあらゆる製品は、実に数多くの技術を内に秘めています。ものづくりという視点でそれらを切り取ってみるくせを付けると、自分だけのエンジニアリング観が育ち、能動的に世界を広げていくきっかけになります。手段や目的を超えたものづくりという視点を、実例と共にお伝えします。`,
-      twitter: 'https://twitter.com/puhitaku',
-      facebook: 'https://www.facebook.com/puhitaku',
-      github: 'https://github.com/puhitaku',
-      externals: ['https://zopfco.de'],
-      profile: `岡山県高梁市出身。小中学生時代を赤磐市で過ごし、津山高専の入寮を経て情報工学科を卒業。以降、家庭用ロボット "LOVOT" を筆頭に、Web サービスから FPGA まで幅広いレイヤーの開発を手掛ける。現在はフリーランスとして、低レイヤーを得意としながら全レイヤーにわたるエンジニアリングを提供している。`
-    },
-    'tanaka': {
-      theme: 'モノづくり',
-      title: 'SUZURIを支える"モノづくり"の心',
-      name: '田中 健太郎',
-      affiliation: 'GMOペパボ株式会社 SUZURI事業部',
-      image: 'tanaka.png',
-      detail: `
-      <p>
-      SUZURIは、画像をアップロードするだけで自分だけのTシャツやスマホケースなどのオリジナルアイテムを作成・販売できるプラットフォームです。<br>
-      物理的な「モノ」を製造してお客様のもとに届けている、という点で、SUZURIは「モノづくり」をしているサービスであるといえます。
-      </p>
-      <p>
-      今回の発表では、SUZURIにおける「モノづくり」にまつわるエピソードをお話しします。<br>
-      また、自身のこれまでのキャリアやいま抱いている漠然とした不安にもふれつつ、「エンジニアリング x モノづくり」の観点でどのようなチャレンジをしていこうと考えているか、についてもお話しします。
-      </p>
-      聞いてくださったみなさんにとって、新たな分野にチャレンジするきっかけとなれば嬉しく思います。`,
-      twitter: 'https://twitter.com/tanaken0515',
-      facebook: 'https://facebook.com/tanaken0515',
-      github: 'https://github.com/tanaken0515',
-      externals: ['https://tanaken0515.hatenablog.com'],
-      profile: `
-      東京在住ですが、鹿児島のRubyコミュニティである<a href="https://k-ruby.github.io">K-Ruby</a>のメンバーです。<br>
-      興味のある分野はWebアプリケーションの開発とCRE(Customer Reliability Engineering)と自然言語処理で、飼っている犬はゴールデンレトリバーです。<br>
-      現在はGMOペパボ株式会社で<a href="https://suzuri.jp">SUZURI</a>と株式会社キャスターで<a href="https://bosyu.me">bosyu</a>の開発に携わっています。`
-    },
-    'maeda': {
-      theme: '医療',
-      title: '医療現場で働くシステム担当者として伝えたいこと',
-      name: '前田 浩幸(まえだ ひろゆき)',
-      affiliation: '猪原歯科・リハビリテーション科 医療情報・広報部',
-      image: 'maeda.jpg',
-      detail: `
-      今回はOSO2020に登壇させていただきありがとうございます！<br>
-      私は現場で情報システム担当として働きつつ、簡素な開発を行っております。<br>
-      その経験から、医療現場でのシステムにまつわる経験談などお話させていただければなと思っております！現場でニーズをどのように捉えるか…そもそもニーズをくみ上げるためにどんな工夫を行っているか？技術どっぷりのお話というよりはノウハウ寄りのお話になるかもしれません・・・・。
-      `,
-      twitter: 'https://twitter.com/hiroyukimaeda_3',
-      facebook: 'https://www.facebook.com/hiroyuki.maeda.73',
-      github: '',
-      externals: ['https://note.com/hiroyukimaeda', 'https://www.kumaicon.net/'],
-      profile: `
-      猪原歯科・リハビリテーション科<br>
-      医療情報・広報部に所属。<br>
-      2014年 東京医療保健大学医療情報学科 卒業<br>
-      2016年 北里大学大学院医療情報学研究室 修了、修士(医科学)を取得。<br>
-      大学在学中に医療情報技師(医療現場とITを繋ぐ専門職)資格を取得。2016年に猪原歯科・リハビリテーション科に入職し、医療情報・広報部に配属。サイボウズ社のクラウド型業務改善プラットフォーム「kintone」を利用した主に訪問診療における院内情報共有システムの開発と運用を行う。kintone cafe広島の運営メンバー。`
-    },
-    'shoji': {
-      theme: '海外とのコラボレーション',
-      title: 'エンジニアリング x US 海外とのコラボレーション',
-      name: '庄司 嘉織',
-      affiliation: 'Launchable, Inc. Engineering',
-      image: 'shoji.png',
-      detail: `
-      コロナによってなんとなくリモートワークが始まり、なんとか手探りで仕事をしている方も多いと思います。<br>
-      僕もコロナが始まってからいわゆるシリコンバレーのベンチャーに転職し、リモートワークで働いています。<br>
-      入社した Launchable は出来て間もない会社ですがもともとコロナ以前からリモートで働いた人たちが作った会社です。<br>
-      そこにはリモートで働くためのノウハウがいっぱいつまっていました。<br>
-      リモートなだけでなく時差もある環境で実際に僕が働いてみて良いと思ったことを色々紹介していこうと思います。`,
-      twitter: 'https://twitter.com/yoshiori',
+    'kawachi': {
+      title: '(講演タイトル調整中)',
+      name: '河内 一弘（かわち かずひろ）',
+      affiliation: '株式会社ヌーラボ 管理部 インハウスシステム課 課長',
+      image: 'kawachi.png',
+      detail: ``,
+      twitter: 'https://twitter.com/tamagawaconan',
       facebook: '',
       github: '',
-      externals: [],
-      profile: `25 歳から本格的にプログラミングを勉強。 前職で電子書籍の立ちあげ開発リーダーなどを行った後、クックパッドに転職。 投稿部門の部長を経て、動画配信基盤の開発、サービスの microservices 化などに従事したあと、人事部長、技術部長、エンジニア統括マネージャ、CTO 室長を担った。その後、次のチャレンジとして Launchable, Inc. に転職。`
+      externals: ['https://tamacona.hatenablog.com'],
+      profile: `大学卒業後、両備システムズ（岡山市）に入社。<br>
+                QAエンジニアや受託開発のプロジェクリーダーを経て、自社製品の品質改善や業務効率化を担当。<br>
+                業務の傍ら、ETロボコン、派生開発推進協議会、JBUG(Japan Backlog User Group)、Okayama.goなどのコミュニティ活動も経験。<br>
+                2021年1月にヌーラボ（福岡市）に転職し、社内の業務改善ツール・データ基盤の開発とマネジメントをフルリモートで行っている。`
+    },
+    'oko': {
+      title: '情報共有戦略と戦術',
+      name: '尾古 豊明（おこ とよあき）',
+      affiliation: '株式会社リゾーム　システム企画・開発部　第4グループ所属',
+      image: 'oko.jpg',
+      detail: `IT業界で働いてかれこれ17年になりますが、頻度は低いながらも細々とブログを書いたり、社内外でも勉強会を主催したり、登壇したり、読書会を行ったりしてきました。<br>
+              その活動がOSOの実行委員の方の目にとまり、登壇のオファーを頂きました。<br>
+              インプット・アウトプットの方法は様々です。<br>
+              今回は、インプット・アウトプットをどう捉えているか、どういう考え・戦略・戦術をもって情報共有を行ってきたかについてお話ししたいと思います。`,
+      twitter: 'https://twitter.com/patorash',
+      facebook: '',
+      github: 'https://github.com/patorash',
+      externals: ['https://patorash.hatenablog.com/'],
+      profile: `鳥取県大山町出身。畑違いからネットワークエンジニアになり、その後プログラマーになり、31歳で岡山にある株式会社リゾームに転職し、もうすぐ10年。全国のショッピングセンターの出店・退店をデータベース化したSC GATEの開発に企画段階から参加。長い間、ほぼ1人で開発してきたが、去年からチーム開発を開始。現在はリーダー業と若手の育成に取り組んでいる。Okayama.rbや中国地方DB勉強会に参加・登壇している。
+                <p>
+                趣味は読書とブログとPodCastを聴くこと。`
+    },
+    'koremura': {
+      title: '(講演タイトル調整中)',
+      name: '是村 潤（これむら じゅん）',
+      affiliation: 'Regional Director of Customer Success, Japan and APAC at CircleCI',
+      image: 'koremura.jpg',
+      detail: ``,
+      twitter: 'https://twitter.com/JKoremura',
+      facebook: 'https://facebook.com/jkoremura',
+      github: '',
+      externals: ['https://linkedin.com/in/jun-koremura/'],
+      profile: `沖縄生まれ沖縄育ちの純沖縄人。アメリカの大学院を卒業後、日系金融 SIer、日系ベンチャー、そして外資系日本法人にてエンジニア、エンジニアマネージャーを経験。その後、日本マイクロソフトにてテクニカルアカウントマネージャー、Dropbox Japan のカスタマーサクセスリードを務め、現在は CircleCI Japan にてカスタマーサクセスに奮闘中。空き時間には Duolingo で10ヶ国語を学びつつ、年内には180度開脚を目指している。`
+    },
+    'mochiko': {
+      title: '人と技術を繋げる「技術文書」について',
+      name: 'mochikoAsTech（もちこあずてっく）',
+      affiliation: 'LINE株式会社',
+      image: 'mochiko.jpg',
+      detail: `
+              私たちが新しい技術に触れるとき、よく最初の接点となるのは技術書、技術雑誌、公式のリファレンス、そして先達が書いてくれたQiita、Zenn、ブログなどの技術記事だと思います。
+              <p>
+              私はもともとWeb制作会社でインフラエンジニアをしていましたが、学びはじめたばかりの頃の自分や、その頃の自分と同じ初学者の人たちの役に立ちたい、という気持ちで技術書を書き始めました。そして好きが高じて、現在はドキュメントを書く専門職、テクニカルライターというポジションで仕事をしています。
+              <p>
+              このセッションでは、人と技術を繋げる「技術文書」について紹介すると共に、みなさんが技術文書を「書く人」になったときに、知っておくとよいことについてお話しします。`,
+      twitter: 'https://twitter.com/mochikoAsTech',
+      facebook: '',
+      github: 'https://github.com/mochikoAsTech',
+      externals: [
+        'https://mochikoastech.hatenablog.com/',
+        'https://mochikoastech.booth.pm/',
+        'https://www.amazon.co.jp/mochikoAsTech/e/B087NBL9VM'
+      ],
+      profile: `テクニカルライター。元Web制作会社のインフラエンジニア。ねこが好き。「分からない気持ち」に寄り添える技術者になれるように日々奮闘中。<a href="https://techbookfest.org/">技術書典</a>で「DNSをはじめよう 改訂第2版」「AWSをはじめよう 改訂第2版」「SSLをはじめよう」などのインフラ入門書を執筆および販売。テクニカルライティングをテーマにした技術者向けのミートアップ、<a href="https://www.youtube.com/playlist?list=PL80ip6bOwQsIfO757li02S42XDdWdnmED">LINE Technical Writing Meetup</a>も開催。`
+    },
+    'nakamichi': {
+      title: '(講演タイトル調整中)',
+      name: '中道 一志（なかみち かずし）',
+      affiliation: '広島のシステムエンジニア / Backlog World 2021 運営委員長',
+      image: 'nakamichi.jpg',
+      detail: ``,
+      twitter: 'https://twitter.com/ici_mici',
+      facebook: 'https://facebook.com/ichi.michi.12',
+      github: '',
+      externals: ['https://note.com/ici_mici/'],
+      profile: `広島在住のシステムエンジニア。元は営業職だったが、27才で心機一転IT業界に飛び込む。Web制作、インフラエンジニアを経て現在はSIerで企業向け基幹システムの設計構築を担当。3年ほど前からITコミュニティの魅力に取りつかれ、分野を問わずに参加、発信を続ける。<br>
+                Developers Summit 2021に登壇し、公募賞及びベストスピーカー5位のW受賞。プロジェクトマネジメントのカンファレンスであるBacklog World 2021の運営委員長を務めた。<br>
+                趣味はクラシックギター、落語、ねこ。`
     }
   }
 }

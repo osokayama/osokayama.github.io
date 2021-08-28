@@ -5,7 +5,6 @@
       <div class="siimple-box page-title">
         <div class="siimple-box-title"><i class="fas fa-user"/> 登壇内容・講師詳細</div>
       </div>
-      <h2 v-html="themeString(theme)" v-if="theme"/>
       <h1 v-html="title"/>
       <p v-html="detail"/>
       <div class="speaker_profile">
@@ -64,7 +63,6 @@ export default {
   components: { AppHeader, AppFooter },
   data: function () {
     return {
-      theme: '',
       title: '',
       name: '',
       affiliation: '',
@@ -80,13 +78,13 @@ export default {
   head() {
     const speaker = this.getSpeaker()
     return {
-      title: `登壇内容・講師詳細(${speaker.name})`
+      title: `登壇内容・講師詳細(${speaker ? speaker.name : ''})`
     }
   },
   mounted: function () {
     const speaker = this.getSpeaker()
     if (speaker) {
-      this.theme = speaker.theme
+      console.log(speaker)
       this.title = speaker.title
       this.name = speaker.name
       this.affiliation = speaker.affiliation
@@ -101,12 +99,9 @@ export default {
   },
   methods: {
     getSpeaker() {
+      if (!process.browser) return null
       const params = location.search.substring(1).split('&').map((p) => p.split('=')).reduce((obj, e) => ({...obj, [e[0]]: e[1]}), {})
       return TimetableData.timetable[params['speaker']]
-    },
-    themeString(theme) {
-      if (!theme) return ''
-      return `【エンジニアリング x ${theme}】`
     },
     back() {
       history.back()
