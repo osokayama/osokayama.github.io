@@ -17,9 +17,8 @@
             <td class="siimple-table-cell">30分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('fujita')">
-              <span class="theme" v-html="themeString(timetable.timetable['fujita'])" /><br v-if="themeString(timetable.timetable['fujita'])">
-              <span v-html="timetable.timetable['fujita'].title" /><br>{{ timetable.timetable['fujita'].name }}
+              @click="show('kawachi')">
+              <span v-html="timetable.timetable['kawachi'].title" /><br>{{ timetable.timetable['kawachi'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
@@ -27,9 +26,8 @@
             <td class="siimple-table-cell">50分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('yoshida')">
-              <span class="theme" v-html="themeString(timetable.timetable['yoshida'])" /><br v-if="themeString(timetable.timetable['yoshida'])">
-              <span v-html="timetable.timetable['yoshida'].title" /><br>{{ timetable.timetable['yoshida'].name }}
+              @click="show('koremura')">
+              <span v-html="timetable.timetable['koremura'].title" /><br>{{ timetable.timetable['koremura'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -42,9 +40,8 @@
             <td class="siimple-table-cell">30分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('sueda')">
-              <span class="theme" v-html="themeString(timetable.timetable['sueda'])" /><br v-if="themeString(timetable.timetable['sueda'])">
-              <span v-html="timetable.timetable['sueda'].title" /><br>{{ timetable.timetable['sueda'].name }}
+              @click="show('oko')">
+              <span v-html="timetable.timetable['oko'].title" /><br>{{ timetable.timetable['oko'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
@@ -52,9 +49,8 @@
             <td class="siimple-table-cell">50分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('tanaka')">
-              <span class="theme" v-html="themeString(timetable.timetable['tanaka'])" /><br v-if="themeString(timetable.timetable['tanaka'])">
-              <span v-html="timetable.timetable['tanaka'].title" /><br>{{ timetable.timetable['tanaka'].name }}
+              @click="show('mochiko')">
+              <span v-html="timetable.timetable['mochiko'].title" /><br>{{ timetable.timetable['mochiko'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -67,9 +63,8 @@
             <td class="siimple-table-cell">30分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('maeda')">
-              <span class="theme" v-html="themeString(timetable.timetable['maeda'])" /><br v-if="themeString(timetable.timetable['maeda'])">
-              <span v-html="timetable.timetable['maeda'].title" /><br>{{ timetable.timetable['maeda'].name }}
+              @click="show('iwata')">
+              <span v-html="timetable.timetable['iwata'].title" /><br>{{ timetable.timetable['iwata'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
@@ -77,9 +72,8 @@
             <td class="siimple-table-cell">50分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('shoji')">
-              <span class="theme" v-html="themeString(timetable.timetable['shoji'])" /><br v-if="themeString(timetable.timetable['shoji'])">
-              <span v-html="timetable.timetable['shoji'].title" /><br>{{ timetable.timetable['shoji'].name }}
+              @click="show('nakamichi')">
+              <span v-html="timetable.timetable['nakamichi'].title" /><br>{{ timetable.timetable['nakamichi'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -114,10 +108,6 @@ export default {
     show (speaker) {
       if (!this.timetable.timetable[speaker]) return
       location.href = `detail.html?speaker=${speaker}`
-    },
-    themeString (speaker) {
-      if (!speaker || !speaker.theme) return ''
-      return `【エンジニアリング x ${speaker.theme}】`
     }
   }
 }
