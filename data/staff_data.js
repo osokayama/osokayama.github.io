@@ -11,21 +11,12 @@ export default {
     },
     {
       name: '井上 大輔',
-      roll: '副実行委員長',
+      roll: '副実行委員長, 会計',
       image: 'inoue.png',
       twitter: 'https://twitter.com/a_know',
       facebook: '',
       github: 'https://github.com/a-know',
       external: 'https://home.a-know.me/'
-    },
-    {
-      name: '吉田 貴文',
-      roll: '会計',
-      image: 'tyoshida.jpg',
-      twitter: 'https://twitter.com/zephiransas',
-      facebook: 'https://www.facebook.com/takafumi.yoshida.718',
-      github: 'https://github.com/zephiransas',
-      external: ''
     },
     {
       name: '阿部 信介',
@@ -97,6 +88,15 @@ export default {
       twitter: 'https://twitter.com/kasoku_ksk',
       facebook: 'https://www.facebook.com/keicyanworld',
       github: 'https://github.com/kasoku',
+      external: ''
+    },
+    {
+      name: '吉田 貴文',
+      roll: '',
+      image: 'tyoshida.jpg',
+      twitter: 'https://twitter.com/zephiransas',
+      facebook: 'https://www.facebook.com/takafumi.yoshida.718',
+      github: 'https://github.com/zephiransas',
       external: ''
     }
   ]
