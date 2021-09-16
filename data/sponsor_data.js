@@ -29,13 +29,7 @@ export default {
     },
   ],
   moderator: [
-    {
-      name: '株式会社イベントハンドラ',
-      url: 'https://eventhandler.jp/',
-      image: 'images/sponsor/eventhandler.png'
-    },
   ],
   support: [
-    '岡山県'
   ]
 }
