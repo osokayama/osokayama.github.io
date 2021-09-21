@@ -1,11 +1,13 @@
 export default {
   timetable: {
     'iwata': {
-      title: '(講演タイトル調整中)',
+      title: '私の趣味TechとICTコミュニティ',
       name: '岩田 隆治（いわた りゅうじ）/ Ryuji Iwata',
       affiliation: '岡山県下のSIerに勤務',
       image: 'iwata.jpg',
-      detail: ``,
+      detail: `私は趣味で幾つかのICT技術（趣味Tech）を追っていますが、それらはやがてICTコミュニティと繋がり、その活動を通じて皆様に共有・還元されていくことが多く、その範囲は地元岡山から日本全国までと様々です。
+              <p>
+              本セッションでは「extend engineering」の一例として、私の趣味Techに関するICTコミュニティやその活動を通じて得られたモノをご紹介させて頂くことで、皆様がICTコミュニティ活動や新しいことを始める際の「きっかけ」をご提供できればと思います。`,
       twitter: 'https://twitter.com/qt_luigi',
       facebook: '',
       github: 'https://github.com/qt-luigi',
