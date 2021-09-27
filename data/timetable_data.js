@@ -47,11 +47,13 @@ export default {
                 趣味は読書とブログとPodCastを聴くこと。`
     },
     'koremura': {
-      title: '(講演タイトル調整中)',
+      title: '繋げ繋げられてきたこれまでとこれから',
       name: '是村 潤（これむら じゅん）',
       affiliation: 'Regional Director of Customer Success, Japan and APAC at CircleCI',
       image: 'koremura.jpg',
-      detail: ``,
+      detail: `20年以上前のアメリカ留学から始まり現在に至るまで、日系（大小）、外資（大小）のIT企業で働いてきました。その間、意図的なものかどうかは別として、これまで色々な人や技術を繋げたり、はたまた繋げられたりしてきたなあと思います。
+              <p>
+              「extend engineering ～人と技術を繋げよう～」というテーマの今回のオープンセミナーでは、程よい距離感で技術によって繋げられてきたこれまでを振り返りつつ、今とこれからについても話したいと思います。IT業界でのキャリアの形について何らかの参考になれば良いなと思います。`,
       twitter: 'https://twitter.com/JKoremura',
       facebook: 'https://facebook.com/jkoremura',
       github: '',
