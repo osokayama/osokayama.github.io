@@ -85,11 +85,15 @@ export default {
       profile: `テクニカルライター。元Web制作会社のインフラエンジニア。ねこが好き。「分からない気持ち」に寄り添える技術者になれるように日々奮闘中。<a href="https://techbookfest.org/">技術書典</a>で「DNSをはじめよう 改訂第2版」「AWSをはじめよう 改訂第2版」「SSLをはじめよう」などのインフラ入門書を執筆および販売。テクニカルライティングをテーマにした技術者向けのミートアップ、<a href="https://www.youtube.com/playlist?list=PL80ip6bOwQsIfO757li02S42XDdWdnmED">LINE Technical Writing Meetup</a>も開催。`
     },
     'nakamichi': {
-      title: '(講演タイトル調整中)',
+      title: 'エンジニアは技術の前に、人と出会うのではなかろうか',
       name: '中道 一志（なかみち かずし）',
       affiliation: '広島のシステムエンジニア / Backlog World 2021 運営委員長',
       image: 'nakamichi.jpg',
-      detail: ``,
+      detail: `コミュニティを通してたくさんの技術に触れるうちに、エンジニアが何かを学ぶとき、まず人と出会うのではないかと考えるようになった。テクノロジーは各人の歴史の中に宿り、人を触媒として双発的に進む。<br>
+              あなたは技術と出会っていますか？そして人と出会っていますか？<br>
+              当セッションではオンラインでの交流が主となった現在において、人と技術、人と人が繋がり、エンジニアとして生きてゆくには、的な話をします。
+              <p>
+              あと最近論語にはまってしまいました。なので論語をはじめとする先人たちの知見をちょいとお借りしていい感じにお話しできればと思います。`,
       twitter: 'https://twitter.com/ici_mici',
       facebook: 'https://facebook.com/ichi.michi.12',
       github: '',
