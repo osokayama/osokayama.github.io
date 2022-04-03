@@ -1,6 +1,11 @@
 export default {
   histories: [
     {
+      year: 2021,
+      theme: 'extend engineering ～人と技術を繋げよう～',
+      image: '../2021/images/top.png'
+    },
+    {
       year: 2020,
       theme: '【エンジニアリング x ○○】（えんじにありんぐ かける なんか）',
       image: '../2020/images/top.jpg'
