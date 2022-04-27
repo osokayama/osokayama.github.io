@@ -4,42 +4,46 @@
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="images/logo.svg"></div>
-      <div class="siimple-jumbotron-subtitle">extend engineering<div class="subtheme">～人と技術を繋げよう～</div></div>
-      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2021年11月27日(土) オンライン開催</div>
+      <div class="siimple-jumbotron-subtitle">【みんなのオープンセミナー】</div>
+      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2022年8月20日(土) オンライン開催</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
           <li>
             <a
-              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12021&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
+              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12022&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
               onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=1'); return false;">
               <i class="fab fa-twitter"/>
             </a>
           </li>
           <li>
             <a
-              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12021"
+              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12022"
               onclick="window.open(this.href, 'fbsharewindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;">
               <i class="fab fa-facebook-f"/>
             </a>
           </li>
         </ul>
       </div>
-      <div class="siimple-jumbotron-detail"><a href="https://oso.connpass.com/event/225435/"><div class="siimple-btn siimple-btn--blue entry">ご参加ありがとうございました</div></a></div>
+      <div class="siimple-jumbotron-detail"><a href="#"><div class="siimple-btn siimple-btn--blue entry">申し込み開始までお待ちください</div></a></div>
     </div>
     <div class="siimple-content siimple-content--medium siimple--mt-5">
       <!-- theme -->
       <h2 id="theme">テーマ</h2>
-      <div class="content-theme">extend engineering<div class="subtheme">～人と技術を繋げよう～</div></div>
+      <div class="content-theme">【みんなのオープンセミナー】</div>
       <p>
-         IT・Web業界では、コミュニティ活動をはじめとした様々な情報共有の文化がとても活発だと感じます。
+        オープンセミナー岡山の実行委員はみんな個性派揃い。いつもは裏方の彼らにスポットライトを当てたいと思っていました！
       </p>
       <p>
-        自身の知見を共有し互いに高め合うことで、１人では超えられないような大きな壁をも超えられることがあるでしょう。<br>
-        今回のテーマ「extend engineering ～人と技術を繋げよう～」という言葉は、人と技術が繋がり継承されていく、そんな様子から生まれました。
+        今回はテーマを決めずに「自分たちが聞きたい！」「皆さんに聞いて欲しい！」という観点でアイデアを出し合いました！
       </p>
       <p>
-        OSO2021では、この文化に対して先陣を切って活躍された方々の思いをみなさんと共有します。
-        それによって、この文化がさらに発展していくきっかけになればと思います。<br>
+        ICTからそれをチョット超えたものまで多種多彩にアイデアが集まりました。せっかくなので全部出し！！！！
+      </p>
+      <p>
+        ご参加のみなさまだけでなく、登壇者や実行委員も含めて「みんな」で楽しめる「みんなのオープンセミナー」を目指してまいりましょう！
+      </p>
+      <p>
+        実行委員長 Ryuji Iwata a.k.a.岩田プロ q@w@p
       </p>
       <!-- oso -->
       <h2 id="about-oso">オープンセミナーとは</h2>
@@ -59,7 +63,7 @@
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2021年11月27日(土) 14:00 - 19:00・オンライン形式で開催
+        2022年8月20日(土) 14:00 - 19:00・オンライン形式で開催
       </p>
 
       <!-- anti-harassment policy -->
@@ -78,7 +82,7 @@ export default {
   components: { AppHeader, AppFooter },
   head() {
     return {
-      titleTemplate: 'オープンセミナー2021@岡山'
+      titleTemplate: 'オープンセミナー2022@岡山'
     }
   }
 }
