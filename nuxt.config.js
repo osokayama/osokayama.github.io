@@ -5,17 +5,17 @@ export default {
   ** Headers of the page
   */
   head: {
-    titleTemplate: '%s :: オープンセミナー2021@岡山',
+    titleTemplate: '%s :: オープンセミナー2022@岡山',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
-      { property: 'og:title', content: 'オープンセミナー2021@岡山' },
+      { property: 'og:title', content: 'オープンセミナー2022@岡山' },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://okayama.open-seminar.org/' },
       { property: 'og:image', content: 'https://okayama.open-seminar.org/images/ogp_image.png' },
-      { property: 'og:site_name', content: 'オープンセミナー2021@岡山' },
-      { property: 'og:description', content: 'オープンセミナー2021@岡山公式ページ。オープンセミナーはソフトウェア技術をテーマにした無料セミナーです。' },
+      { property: 'og:site_name', content: 'オープンセミナー2022@岡山' },
+      { property: 'og:description', content: 'オープンセミナー2022@岡山公式ページ。オープンセミナーはソフトウェア技術をテーマにした無料セミナーです。' },
       { property: 'twitter:card', content: 'summary_large_image' },
       { property: 'twitter:site', content: '@os_okayama' },
       { property: 'twitter:creator', content: '@os_okayama' }
