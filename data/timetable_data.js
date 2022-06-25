@@ -68,14 +68,20 @@ export default {
     'tohoho': {
       title: 'タイトル未定',
       name: '杜甫々（とほほ）',
-      affiliation: '',
-      image: '',
+      affiliation: 'NECソリューションイノベータ株式会社',
+      image: 'tohoho.jpg',
       detail: `講演概要調整中`,
       twitter: '',
       facebook: '',
       github: '',
       externals: ['https://www.tohoho-web.com/'],
-      profile: ``
+      profile: `1960年代生まれ。大学卒業後、広島でソフトウェア会社に勤務。<br>
+                勤務の傍ら、1996年からWebに関する技術情報を紹介する「とほほのWWW入門」を開設。<br>
+                当時はまだHTMLに関するまともな日本語資料が無かったため、自分で整理を始めたのがきっかけ。<br>
+                たまに中断しながらも、かれこれ25年以上、趣味のひとつとして継続。<br>
+                最近は陶磁器にハマってる。<br>
+                著書：「すぐひける・よくわかるHTMLハンドブック」<br>
+                著書：「CGI&Perl究極のレシピ350」`
     }
   }
 }

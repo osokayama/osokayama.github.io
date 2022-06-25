@@ -42,7 +42,7 @@
               {{ timetable.timetable['kondo'].name }}
             </td>
           </tr>
-          <tr class="siimple-table-row session" v-if="false">
+          <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
               @click="show('tohoho')">
