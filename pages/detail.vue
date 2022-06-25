@@ -76,15 +76,13 @@ export default {
     }
   },
   head() {
-    const speaker = this.getSpeaker()
     return {
-      title: `登壇内容・講師詳細(${speaker ? speaker.name : ''})`
+      title: `登壇内容・講師詳細`
     }
   },
   mounted: function () {
     const speaker = this.getSpeaker()
     if (speaker) {
-      console.log(speaker)
       this.title = speaker.title
       this.name = speaker.name
       this.affiliation = speaker.affiliation
@@ -96,6 +94,7 @@ export default {
       this.externals = speaker.externals
       this.profile = speaker.profile
     }
+    document.title = `登壇内容・講師詳細(${speaker ? speaker.name : ''})`
   },
   methods: {
     getSpeaker() {
