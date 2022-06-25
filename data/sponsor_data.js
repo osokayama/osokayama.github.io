@@ -31,6 +31,5 @@ export default {
   moderator: [
   ],
   support: [
-    '岡山県'
   ]
 }
