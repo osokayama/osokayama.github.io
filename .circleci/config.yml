@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/workspace
     docker:
-      - image: circleci/node:11
+      - image: cimg/node:16.15.1
     branches:
       only:
         - ci
