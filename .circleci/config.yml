@@ -14,7 +14,9 @@ jobs:
 
       - run:
           name: Install dependencies
-          command: npm install
+          command: |
+            npm rebuild node-sass
+            npm install
       - run:
           name: Build
           command: npm run generate
