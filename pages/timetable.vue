@@ -31,7 +31,7 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('koremura')">
+              @click="show('sawada')">
               <span v-html="timetable.timetable['sawada'].title" /><br>{{ timetable.timetable['sawada'].name }}
             </td>
           </tr>
