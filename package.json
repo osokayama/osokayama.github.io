@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "oso official site",
   "author": "razon",
+  "engines": {
+    "node": "19.x"
+  },
   "private": true,
   "scripts": {
     "dev": "nuxt",
