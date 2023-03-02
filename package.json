@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
     "dotenv": "^10.0.0",
     "jquery": "^3.6.0",
     "nuxt": "^2.15.8"
