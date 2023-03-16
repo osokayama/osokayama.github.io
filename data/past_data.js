@@ -1,6 +1,11 @@
 export default {
   histories: [
     {
+      year: 2022,
+      theme: '【みんなのオープンセミナー】',
+      image: '../2022/images/top.png'
+    },
+    {
       year: 2021,
       theme: 'extend engineering ～人と技術を繋げよう～',
       image: '../2021/images/top.png'
