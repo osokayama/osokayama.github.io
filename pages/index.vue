@@ -4,46 +4,46 @@
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="images/logo.svg"></div>
-      <div class="siimple-jumbotron-subtitle">【みんなのオープンセミナー】</div>
-      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2022年8月20日(土) オンライン開催</div>
+      <div class="siimple-jumbotron-subtitle">【Re-Union】</div>
+      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2023年10月21日(土)</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
           <li>
             <a
-              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12022&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
+              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12023&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
               onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=1'); return false;">
               <i class="fab fa-twitter"/>
             </a>
           </li>
           <li>
             <a
-              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12022"
+              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12023"
               onclick="window.open(this.href, 'fbsharewindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;">
               <i class="fab fa-facebook-f"/>
             </a>
           </li>
         </ul>
       </div>
-      <div class="siimple-jumbotron-detail"><a href="https://oso.connpass.com/event/252366/"><div class="siimple-btn siimple-btn--blue entry">ご参加ありがとうございました</div></a></div>
+      <div class="siimple-jumbotron-detail"><a href="#"><div class="siimple-btn siimple-btn--blue entry">お申し込み開始までお待ち下さい</div></a></div>
     </div>
     <div class="siimple-content siimple-content--medium siimple--mt-5">
       <!-- theme -->
       <h2 id="theme">テーマ</h2>
-      <div class="content-theme">【みんなのオープンセミナー】</div>
+      <div class="content-theme">【Re-Union】</div>
       <p>
-        オープンセミナー岡山の実行委員はみんな個性派揃い。いつもは裏方の彼らにスポットライトを当てたいと思っていました！
+        新型コロナ、ライフステージの変化など様々な理由が重なり、多くの勉強会が休止状態に陥りました。
       </p>
       <p>
-        今回はテーマを決めずに「自分たちが聞きたい！」「皆さんに聞いて欲しい！」という観点でアイデアを出し合いました！
+        そんな中で今年になって勉強会を新しくはじめたい、勉強会を復活させたいという声を立て続けに聞くことがありました。
       </p>
       <p>
-        ICTからそれをチョット超えたものまで多種多彩にアイデアが集まりました。せっかくなので全部出し！！！！
+        「今年のオープンセミナー岡山をオフラインで開催することで、同じ思いの人に集まってもらいたい！！！」
       </p>
       <p>
-        ご参加のみなさまだけでなく、登壇者や実行委員も含めて「みんな」で楽しめる「みんなのオープンセミナー」を目指してまいりましょう！
+        そんな思いから今年の開催を企画しました。
       </p>
       <p>
-        実行委員長 Ryuji Iwata a.k.a.岩田プロ q@w@p
+        これからの勉強会のアイディアや同じ思いを持つ人に出会えるイベントになることを目指します。
       </p>
       <!-- oso -->
       <h2 id="about-oso">オープンセミナーとは</h2>
@@ -58,14 +58,16 @@
       </div>
       <h2 id="after-party">懇親会</h2>
       <p>
-        今回は懇親会を執り行いません。ご了承ください。
+        調整中
       </p>
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2022年8月20日(土) 14:00 - 19:00・オンライン形式で開催
+        2023年10月21日(土) 13:00 - 18:00 <a href="https://www.oka-pu.ac.jp/">岡山県立大学 学部共通棟(東) 8901講義室</a>
       </p>
-
+      <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4952807582463!2d133.77944021523194!3d34.692685780436506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3556aab2fc6cc11d%3A0xd527741060222184!2z5bKh5bGx55yM56uL5aSn5a2m!5e0!3m2!1sja!2sjp!4v1689228913299!5m2!1sja!2sjp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </p>
       <!-- anti-harassment policy -->
       <h2 id="anti-harassment">アンチハラスメントポリシー</h2>
       <p>ハラスメントとは、性差、性的指向、障害、外見や身体的特徴、人種、宗教、公共な場での性的な画像や類する表現、脅迫、ストーカー、望まない写真撮影や録音・録画、不適切な接触、暴力的な発言およびそれらに関連した不快な言動が含まれます。 このようなハラスメント行為を停止するように主催者が参加者に求めた場合、参加者はすぐに指示に従って下さい。</p>
@@ -82,7 +84,7 @@ export default {
   components: { AppHeader, AppFooter },
   head() {
     return {
-      titleTemplate: 'オープンセミナー2022@岡山'
+      titleTemplate: 'オープンセミナー2023@岡山'
     }
   }
 }
