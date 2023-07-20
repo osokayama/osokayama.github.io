@@ -77,7 +77,7 @@ export default {
       roll: '',
       image: 'hayasaka.jpg',
       twitter: 'https://twitter.com/r_hayakasa',
-      facebook: 'https://www.facebook.com/hayakasa',
+      facebook: '',
       github: 'https://github.com/hayakasa',
       external: 'https://hyks.jp'
     },

@@ -5,7 +5,7 @@
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="images/logo.svg"></div>
       <div class="siimple-jumbotron-subtitle">【Re-Union】</div>
-      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2023年10月21日(土)</div>
+      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2023年10月21日(土)開催</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
           <li>
