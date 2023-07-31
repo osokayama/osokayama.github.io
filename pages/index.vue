@@ -58,8 +58,15 @@
       </div>
       <h2 id="after-party">懇親会</h2>
       <p>
-        調整中
+        会場：
+        <a href="http://www.233-3959.com/ryoutei/ryoutei-co-su3.html" class="siimple-link">
+        Ryoutei 座・スタジアム
+        </a>
       </p>
+      <p>費用：社会人4,000円/学生2,000円</p>
+      <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation">
+        ※事前にお申し込みが必要です。
+      </div>
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
