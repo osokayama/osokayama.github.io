@@ -63,9 +63,10 @@
         Ryoutei 座・スタジアム
         </a>
       </p>
+      <p>時間：19:00～22:00</p>
       <p>費用：社会人4,000円/学生2,000円</p>
       <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation">
-        ※事前にお申し込みが必要です。
+        ※事前にお申し込みが必要です。connpass（準備中）からお申込み下さい。
       </div>
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
