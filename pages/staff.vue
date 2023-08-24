@@ -23,7 +23,7 @@
                       class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon">
                       <a :href="staff.twitter">
                         <i
-                          class="fab fa-twitter"
+                          class="fab fa-x-twitter"
                           aria-hidden="true"/>
                       </a>
                     </div>

@@ -22,7 +22,7 @@ export default {
     ],
     link: [
       { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css'},
-      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css',  integrity: 'sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp', crossorigin: 'anonymous'},
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css', integrity: 'sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==', crossorigin: 'anonymous', referrerpolicy: 'no-referrer' },
     ]
   },
   /*
