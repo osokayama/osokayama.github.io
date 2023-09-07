@@ -8,68 +8,54 @@
       <table class="siimple-table siimple-table--border">
         <tbody class="siimple-table-body">
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">13:30 - 13:40</td>
+            <td class="siimple-table-cell">13:00 - 13:10</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">オープニング</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">13:40 - 14:20</td>
+            <td class="siimple-table-cell">13:10 - 13:50</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('minodriven')">
-              <span v-html="timetable.timetable['minodriven'].title" /><br>{{ timetable.timetable['minodriven'].name }}
+              @click="show('sueda')">
+              <span v-html="timetable.timetable['sueda'].title" /><br>{{ timetable.timetable['sueda'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">14:20 - 14:25</td>
+            <td class="siimple-table-cell">13:50 - 13:55</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">14:25 - 15:05</td>
+            <td class="siimple-table-cell">13:55 - 14:35</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('sawada')">
-              <span v-html="timetable.timetable['sawada'].title" /><br>{{ timetable.timetable['sawada'].name }}
+              @click="show('littleossa')">
+              <span v-html="timetable.timetable['littleossa'].title" /><br>{{ timetable.timetable['littleossa'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">15:05 - 15:20</td>
+            <td class="siimple-table-cell">14:35 - 14:45</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">休憩</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">15:20 - 16:00</td>
+            <td class="siimple-table-cell">14:45 - 15:25</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('miyao')">
-              <span v-html="timetable.timetable['miyao'].title" /><br>{{ timetable.timetable['miyao'].name }}
+              @click="show('sinmetal')">
+              <span v-html="timetable.timetable['sinmetal'].title" /><br>{{ timetable.timetable['sinmetal'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">16:00 - 16:05</td>
+            <td class="siimple-table-cell">15:25 - 15:30</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">16:05 - 16:45</td>
-            <td class="siimple-table-cell">40分</td>
-            <td
-              class="siimple-table-cell hover"
-              @click="show('kuroda')">
-              <span v-html="timetable.timetable['kuroda'].title" /><br>{{ timetable.timetable['kuroda'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row">
-            <td class="siimple-table-cell">16:45 - 17:00</td>
-            <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">休憩</td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">17:00 - 17:40</td>
+            <td class="siimple-table-cell">15:30 - 16:10</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -78,21 +64,35 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">17:40 - 17:45</td>
+            <td class="siimple-table-cell">16:10 - 16:20</td>
+            <td class="siimple-table-cell">&nbsp;</td>
+            <td class="siimple-table-cell">休憩</td>
+          </tr>
+          <tr class="siimple-table-row session">
+            <td class="siimple-table-cell">16:20 - 17:00</td>
+            <td class="siimple-table-cell">40分</td>
+            <td
+              class="siimple-table-cell hover"
+              @click="show('nakamichi')">
+              <span v-html="timetable.timetable['nakamichi'].title" /><br>{{ timetable.timetable['nakamichi'].name }}
+            </td>
+          </tr>
+          <tr class="siimple-table-row">
+            <td class="siimple-table-cell">17:00 - 17:05</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">17:45 - 18:25</td>
+            <td class="siimple-table-cell">17:05 - 17:45</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('tohoho')">
-              <span v-html="timetable.timetable['tohoho'].title" /><br>{{ timetable.timetable['tohoho'].name }}
+              @click="show('terada')">
+              <span v-html="timetable.timetable['terada'].title" /><br>{{ timetable.timetable['terada'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">18:25 - 18:35</td>
+            <td class="siimple-table-cell">17:45 - 17:55</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">クロージング</td>
           </tr>
