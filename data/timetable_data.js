@@ -14,15 +14,19 @@ export default {
     },
     'littleossa': {
       title: 'タイトル調整中',
-      name: 'TBD',
-      affiliation: 'TBD',
-      image: 'littleossa.jpg',
+      name: 'リルオッサ',
+      affiliation: 'クラスメソッド株式会社(iOSエンジニア)',
+      image: 'littleossa.png',
       detail: ``,
-      twitter: '',
+      twitter: 'https://twitter.com/littleossa',
       facebook: '',
       github: '',
-      externals: [],
-      profile: ``
+      externals: ['https://dev.classmethod.jp/author/littleossa/', 'https://apps.apple.com/jp/developer/osamu-hiraoka/id1519443931'],
+      profile: `広島県広島市在住のiOSエンジニア。趣味は、ブレイクダンスと奇妙な絵を書くこと、誰の為にもならないアプリ開発。<br>
+      広島の高校を卒業後、自由の道を選択し、フリーターとして生きる。<br>
+      2007年にドイツで開催されたブレイクダンスの世界大会「Battle of the year」に日本代表として出場し、世界2位を獲得。<br>
+      32歳の時に「(自分の)子どもにアプリを作ってあげたい」という想いから全く縁のなかったプログラミングの勉強を開始。アプリ開発の楽しさに目覚め、33歳で駆け出しエンジニアとしてデビュー。<br>
+      年間100本の技術記事を書いたり、アウトプットが大好き。`
     },
     'sinmetal': {
       title: '東京にいたけど、岡山に帰ってきた',

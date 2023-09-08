@@ -8,12 +8,12 @@
       <table class="siimple-table siimple-table--border">
         <tbody class="siimple-table-body">
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">13:00 - 13:10</td>
+            <td class="siimple-table-cell">12:30 - 12:40</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">オープニング</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">13:10 - 13:50</td>
+            <td class="siimple-table-cell">12:40 - 13:20</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -22,12 +22,12 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">13:50 - 13:55</td>
+            <td class="siimple-table-cell">13:20 - 13:25</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">13:55 - 14:35</td>
+            <td class="siimple-table-cell">13:25 - 14:05</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -36,12 +36,12 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">14:35 - 14:45</td>
+            <td class="siimple-table-cell">14:05 - 14:20</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">休憩</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">14:45 - 15:25</td>
+            <td class="siimple-table-cell">14:20 - 15:00</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -50,12 +50,12 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">15:25 - 15:30</td>
+            <td class="siimple-table-cell">15:00 - 15:05</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">15:30 - 16:10</td>
+            <td class="siimple-table-cell">15:05 - 15:45</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -64,12 +64,12 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">16:10 - 16:20</td>
+            <td class="siimple-table-cell">15:45 - 16:00</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">休憩</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">16:20 - 17:00</td>
+            <td class="siimple-table-cell">16:00 - 16:40</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -78,12 +78,12 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">17:00 - 17:05</td>
+            <td class="siimple-table-cell">16:40 - 16:45</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">17:05 - 17:45</td>
+            <td class="siimple-table-cell">16:45 - 17:25</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -92,7 +92,7 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">17:45 - 17:55</td>
+            <td class="siimple-table-cell">17:25 - 17:35</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">クロージング</td>
           </tr>
