@@ -60,7 +60,7 @@ export default {
     },
     'nakamichi': {
       title: 'タイトル調整中',
-      name: '中道一志（ナカミチ カズシ）',
+      name: '中道 一志（ナカミチ カズシ）',
       affiliation: '株式会社ヌーラボ',
       image: 'nakamichi.jpg',
       detail: ``,
@@ -73,15 +73,16 @@ export default {
     },
     'terada': {
       title: 'タイトル調整中',
-      name: 'TBD',
-      affiliation: 'TBD',
-      image: 'terada.jpg',
+      name: '寺田 佳央（てらだ よしお）',
+      affiliation: 'Microsoft Corporation, Sr. Cloud Advocate',
+      image: 'terada.png',
       detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      externals: [],
-      profile: ``
+      twitter: 'https://twitter.com/yoshioterada',
+      facebook: 'https://www.facebook.com/yoshio.terada',
+      github: 'https://github.com/yoshioterada/',
+      externals: ['https://yoshio3.com', 'https://qiita.com/yoshioterada', 'https://dev.to/yoshioterada'],
+      profile: `2015年7月より日本マイクロソフト株式会社で Java エバンジェリストとして活動を開始し、2018年7月にマイクロソフト本社に移動し、現職のクラウド・アドボケイトとして活動中。マイクロソフトにおける Java の利用促進・啓蒙活動を実施中。<br>
+      2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。`
     },
   }
 }
