@@ -2,15 +2,15 @@ export default {
   timetable: {
     'sueda': {
       title: 'タイトル調整中',
-      name: 'TBD',
-      affiliation: 'TBD',
+      name: '末田 卓巳(puhitaku)',
+      affiliation: 'フリーランス',
       image: 'sueda.jpg',
       detail: ``,
-      twitter: '',
-      facebook: '',
-      github: '',
-      externals: [],
-      profile: ``
+      twitter: 'https://twitter.com/puhitaku',
+      facebook: 'https://www.facebook.com/puhitaku',
+      github: 'https://github.com/puhitaku',
+      externals: ['https://www.zopfco.de/'],
+     profile: `岡山県出身。小中学生時代を高梁市と赤磐市で過ごし、津山高専の寮生活を経て情報工学科を卒業。以降、家庭用ロボットの開発などに従事。現在は岡山県から北米のスマートホーム開発を行いつつ、リバースエンジニアリングや低レイヤーを中心とした発信者、ライター、セキュリティ・キャンプ講師として活動。`
     },
     'littleossa': {
       title: 'タイトル調整中',

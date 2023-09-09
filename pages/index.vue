@@ -71,7 +71,7 @@
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2023年10月21日(土) 13:00 - 18:00 <a href="https://www.oka-pu.ac.jp/">岡山県立大学 学部共通棟(南) 8206講義室</a>
+        2023年10月21日(土) 12:30 - 17:40 <a href="https://www.oka-pu.ac.jp/">岡山県立大学 学部共通棟(南) 8206講義室</a>
       </p>
       <p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4952807582463!2d133.77944021523194!3d34.692685780436506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3556aab2fc6cc11d%3A0xd527741060222184!2z5bKh5bGx55yM56uL5aSn5a2m!5e0!3m2!1sja!2sjp!4v1689228913299!5m2!1sja!2sjp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
