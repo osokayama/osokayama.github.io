@@ -24,7 +24,7 @@
           </li>
         </ul>
       </div>
-      <div class="siimple-jumbotron-detail"><a href="#"><div class="siimple-btn siimple-btn--blue entry">お申し込み開始までお待ち下さい</div></a></div>
+      <div class="siimple-jumbotron-detail"><a href="https://oso.connpass.com/event/295890/"><div class="siimple-btn siimple-btn--blue entry">お申し込みはこちらから</div></a></div>
     </div>
     <div class="siimple-content siimple-content--medium siimple--mt-5">
       <!-- theme -->
