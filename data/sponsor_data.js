@@ -1,10 +1,35 @@
 export default {
   sponsor: {
     platina: [
+      {
+        name: 'セリオ株式会社',
+        url: 'https://www.serio.inc/',
+        image: 'images/sponsor/serio.png'
+      },
+      {
+        name: 'ピープルソフトウェア株式会社',
+        url: 'https://pscsrv.co.jp/',
+        image: 'images/sponsor/psc.png'
+      },
+      {
+        name: '株式会社フィネット',
+        url: 'https://f-inet.co.jp/',
+        image: 'images/sponsor/finet.png'
+      },
     ],
     gold: [
     ],
     silver: [
+      {
+        name: 'モチヤ株式会社',
+        url: 'https://www.mochiya.ad.jp/',
+        image: 'images/sponsor/mochiya.png'
+      },
+      {
+        name: '株式会社リゾーム',
+        url: 'https://www.rhizome-e.com/',
+        image: 'images/sponsor/rhizome.png'
+      },
     ],
     bronze: [
     ]
@@ -22,15 +47,9 @@ export default {
     }
   ],
   audio: [
-    {
-      name: 'Audiostock',
-      url: 'https://audiostock.jp/',
-      image: 'images/sponsor/audiostock.png'
-    },
   ],
   moderator: [
   ],
   support: [
-    '岡山県'
   ]
 }
