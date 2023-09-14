@@ -66,7 +66,7 @@
       <p>時間：19:00～22:00</p>
       <p>費用：社会人4,000円/学生2,000円</p>
       <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation">
-        ※事前にお申し込みが必要です。<a href="https://oso.connpass.com/event/295923/">connpass</a>からお申込み下さい。
+        ※事前にお申し込みが必要です。<a href="https://oso.connpass.com/event/295890/">connpass</a>からお申込み下さい。
       </div>
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
