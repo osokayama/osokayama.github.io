@@ -50,11 +50,14 @@ export default {
       GCPUG Admin,Google Developers Expert 。2011年にGoogle App Engineに出会ってから、Google App Engineを使い続けていたが、最近はCloud Runを使っている。特に好きなのはGoogle App Engine, Cloud Run, BigQuery, Cloud Datastore, Cloud Firestore, Google Kubernetes Engine, Google Cloud Build。最近のマイブームは Application Performance Management。仕事では社内のGoogle Cloud Platformコンサルティングのようなことをしている。`
     },
     'kondo': {
-      title: 'タイトル調整中',
+      title: 'カンファレンス運営者の視点で伝えたい、アフターコロナのITコミュニティの未来',
       name: '近藤 佑子（こんどう ゆうこ）',
       affiliation: '株式会社翔泳社 CodeZine編集長',
       image: 'kondo.jpg',
-      detail: ``,
+      detail: `<p>翔泳社が主催するITエンジニアのためのカンファレンス「Developers Summit（デブサミ）」。イベントとしては20年以上継続し、私がオーガナイザーとして携わって7年目となりました。</p>
+      <p>オープンセミナー岡山2022では「みんなに愛されて20年！『Developers Summit』オーガナイザーとしてやったこと、考えたこと」というテーマで、ITエンジニアを取り巻く状況や、コロナ禍によるITカンファレンスのあり方が変わっていくなか、「デブサミ」を通じて変わらずITエンジニアに貢献するにはどうすればいいか、考え、行動したことについて話しました。</p>
+      <p>あれから1年。今回のオープンセミナー岡山2023がそうであるように、ITコミュニティはオフラインの場を急速に取り戻しつつあります。そのなかで、デブサミシリーズとしても、若手向けカンファレンス「Developers Boost」や、デブサミ関西オフライン開催にチャレンジしてきました。また、ここ近年の私自身のチャレンジとして、チームメンバーに、カンファレンス運営の「バトンを渡す」ことにも取り組んでいます。</p>
+      <p>今回は、デブサミを通じたチャレンジで得た学びを共有することで、ITコミュニティに携わる方々が新しい一歩を踏み出せるような場になることを目指します。</p>`,
       twitter: 'https://twitter.com/kondoyuko',
       facebook: '',
       github: '',
@@ -62,11 +65,17 @@ export default {
       profile: `株式会社翔泳社 CodeZine編集部 編集長、Developers Summit オーガナイザー。1986年岡山県生まれ。京都大学工学部建築学科、東京大学大学院工学系研究科建築学専攻修士課程修了。フリーランスを経て2014年株式会社翔泳社に入社。ソフトウェア開発者向けWebメディア「CodeZine」の編集・企画・運営に携わる。2017年より、ソフトウェア開発者向けカンファレンス「Developers Summit」のオーガナイザー。2020年6月よりCodeZine編集長。キャッチコピーは「踊る編集者」。`
     },
     'nakamichi': {
-      title: 'タイトル調整中',
+      title: 'はたして我々はコミュニティとどう向き会えばよいのだろうか？',
       name: '中道 一志（ナカミチ カズシ）',
       affiliation: '株式会社ヌーラボ',
       image: 'nakamichi.jpg',
-      detail: ``,
+      detail: `<blockquote>- 「コミュニティ」は「温かい」場所であり、居心地がよく、快適な場所である。<br>
+      - 「コミュニティ」は、「自然」で「暗黙」のうちに成り立つような理解の共通を意味する。</blockquote>
+      <p>と、ジグムント・バウマンは著書コミュニティの中で述べています。</p>
+      <p>エンジニアとしての自身を振り返った時、コミュニティの存在はとても大きく、私はそこから多大な恩恵を受けてきました。<br>
+      それは知識であったり、新たな友人であったり、働き口であったりとさまざまです。</p>
+      <p>このコミュニティってものと参加者、登壇者、運営者、皆は何を考えてどう向きあえばいいのか、<br>
+      そもそも人が集まるってどういうことなのか、といった話を自身の経験をもとにお話しします。</p>`,
       twitter: 'https://twitter.com/ici_mici',
       facebook: '',
       github: '',
