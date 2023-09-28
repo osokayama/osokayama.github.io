@@ -1,11 +1,11 @@
 export default {
   timetable: {
     'sueda': {
-      title: 'タイトル調整中',
+      title: '次世代の足元を舗装するコミュニティ',
       name: '末田 卓巳(puhitaku)',
       affiliation: 'フリーランス',
       image: 'sueda.jpg',
-      detail: ``,
+      detail: `私はこれまで、子供や学生にコンピューターを教える試みを個人で続けてきました。講師をやったり、学生を短期間養って一緒に開発したり、スタバでフラペチーノを飲みながらコードを教えたりして手応えを得てきました。個人対個人で教える活動だけでは、あまりスケールしないうちに人生が終わってしまうため、なんとかしてこの活動を加速しなければなりません。そこで思いつくのが、コミュニティを作ってみるという選択肢でした。本発表では、コミュニティを作る試みの実例や、学生と話すうちに見つけた事を共有します。また、主宰あるいは年長者として何をすべきで何をすべきでないかというノウハウについてもお話します。`,
       twitter: 'https://twitter.com/puhitaku',
       facebook: 'https://www.facebook.com/puhitaku',
       github: 'https://github.com/puhitaku',
