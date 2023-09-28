@@ -21,6 +21,11 @@ export default {
     ],
     silver: [
       {
+        name: 'モチヤ株式会社',
+        url: 'https://www.mochiya.ad.jp/',
+        image: 'images/sponsor/mochiya.svg'
+      },
+      {
         name: '株式会社リゾーム',
         url: 'https://www.rhizome-e.com/',
         image: 'images/sponsor/rhizome.png'
