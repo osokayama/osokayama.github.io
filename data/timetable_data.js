@@ -1,7 +1,7 @@
 export default {
   timetable: {
     'sueda': {
-      title: '次世代の足元を舗装するコミュニティ',
+      title: '次世代の足下を舗装するコミュニティ',
       name: '末田 卓巳(puhitaku)',
       affiliation: 'フリーランス',
       image: 'sueda.jpg',
