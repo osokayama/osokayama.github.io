@@ -21,6 +21,11 @@ export default {
     ],
     silver: [
       {
+        name: '株式会社サブスレッド',
+        url: 'https://subthread.co.jp/',
+        image: 'images/sponsor/subthread.png'
+      },
+      {
         name: 'モチヤ株式会社',
         url: 'https://www.mochiya.ad.jp/',
         image: 'images/sponsor/mochiya.svg'
