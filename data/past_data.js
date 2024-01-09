@@ -1,6 +1,11 @@
 export default {
   histories: [
     {
+      year: 2023,
+      theme: '【Re-Union】',
+      image: '../2023/images/top.png'
+    },
+    {
       year: 2022,
       theme: '【みんなのオープンセミナー】',
       image: '../2022/images/top.png'
