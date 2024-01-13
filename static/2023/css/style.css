@@ -1,0 +1,14 @@
+.page-title {
+  margin: 0 0 40px;
+  text-align: center;
+  width: auto;
+}
+
+@media screen and (max-width: 722px) {
+  .siimple-jumbotron-title {
+    font-size: 40px !important;
+  }
+  .siimple-box-title {
+    font-size: 30px !important;
+  }
+}
