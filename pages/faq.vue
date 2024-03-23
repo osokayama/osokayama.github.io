@@ -12,11 +12,9 @@
       <h2><i class="fas fa-question"/> 懇親会はありますか？</h2>
       <p class="siimple-p">開催します。<a href="../#after-party">懇親会</a>の情報をご確認ください。<br>参加者、登壇者と気軽に交流できるチャンスです。お気軽にご参加下さい。</p>
       <h2><i class="fas fa-question"/> 最寄り駅はどこですか？</h2>
-      <p class="siimple-p">服部駅になります。<a href="../#venue">会場の情報はこちら</a></p>
+      <p class="siimple-p">岡山駅西口より徒歩約7分です。<a href="../#venue">会場の情報はこちら</a></p>
       <h2><i class="fas fa-question"/> 会場での飲食は可能ですか？</h2>
       <p class="siimple-p">可能です。</p>
-      <h2><i class="fas fa-question"/> 車で行こうと思うのですが駐車場はありますか？</h2>
-      <p class="siimple-p"><a href="https://www.oka-pu.ac.jp/guide/page-397/">キャンパスマップ</a>の駐車場をご確認ください。</p>
       <h2><i class="fas fa-question"/> 来年もやりますか？</h2>
       <p class="siimple-p">やります。</p>
     </div>

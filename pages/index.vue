@@ -4,46 +4,40 @@
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="@/assets/images/logo.svg"></div>
-      <div class="siimple-jumbotron-subtitle">【Re-Union】</div>
-      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2023年10月21日(土)開催</div>
+      <div class="siimple-jumbotron-subtitle">【XXX】</div>
+      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2024年10月19日(土)開催</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
           <li>
             <a
-              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12023&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
+              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12024&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
               onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=1'); return false;">
               <i class="fab fa-x-twitter"/>
             </a>
           </li>
           <li>
             <a
-              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12023"
+              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12024"
               onclick="window.open(this.href, 'fbsharewindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;">
               <i class="fab fa-facebook-f"/>
             </a>
           </li>
         </ul>
       </div>
-      <div class="siimple-jumbotron-detail"><a href="https://oso.connpass.com/event/295890/"><div class="siimple-btn siimple-btn--blue entry">ご参加ありがとうございました</div></a></div>
+      <div class="siimple-jumbotron-detail"><a href="#"><div class="siimple-btn siimple-btn--blue entry">お申し込み開始までお待ち下さい</div></a></div>
     </div>
     <div class="siimple-content siimple-content--medium siimple--mt-5">
       <!-- theme -->
       <h2 id="theme">テーマ</h2>
-      <div class="content-theme">【Re-Union】</div>
+      <div class="content-theme">【XXX】</div>
       <p>
-        新型コロナ、ライフステージの変化など様々な理由が重なり、多くの勉強会が休止状態に陥りました。
+        オープンセミナー2024@岡山実行委員長の前川です。
       </p>
       <p>
-        そんな中で今年になって勉強会を新しくはじめたい、勉強会を復活させたいという声を立て続けに聞くことがありました。
+        「オープンセミナー2024@岡山」は、若手から中堅の方々のモチベーションを刺激し、彼らが業界内でより大きな活躍を目指せるようにすることを主な目的にします。今回のイベントを通じて、新たなアイディアや視点に触れ、自己成長への意欲を高めるきっかけにしてほしいです。
       </p>
       <p>
-        「今年のオープンセミナー岡山をオフラインで開催することで、同じ思いの人に集まってもらいたい！！！」
-      </p>
-      <p>
-        そんな思いから今年の開催を企画しました。
-      </p>
-      <p>
-        これからの勉強会のアイディアや同じ思いを持つ人に出会えるイベントになることを目指します。
+        この目的を実現するために、参加者に最も共感しやすいロールモデルを提供するため、登壇者を35歳以下に限定しています。登壇者の生き生きとした経験談や直面した課題の克服方法の共有は、同世代やそれに近い参加者にとって非常に価値ある刺激となり、彼らの成長とモチベーションの向上に大きく寄与します。
       </p>
       <!-- oso -->
       <h2 id="about-oso">オープンセミナーとは</h2>
@@ -63,7 +57,7 @@
         Ryoutei 座・スタジアム
         </a>
       </p>
-      <p>時間：19:00～22:00</p>
+      <p>時間：18:00～21:00</p>
       <p>費用：社会人4,000円/学生2,000円</p>
       <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation">
         ※事前にお申し込みが必要です。<a href="https://oso.connpass.com/event/295890/">connpass</a>からお申込み下さい。
@@ -71,10 +65,10 @@
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2023年10月21日(土) 12:30 - 17:40 <a href="https://www.oka-pu.ac.jp/">岡山県立大学 学部共通棟(南) 8206講義室</a>
+        2024年10月19日(土) <a href="https://okayama.coop/ps/hall/#hall1">オルガホール</a>
       </p>
       <p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.4952807582463!2d133.77944021523194!3d34.692685780436506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3556aab2fc6cc11d%3A0xd527741060222184!2z5bKh5bGx55yM56uL5aSn5a2m!5e0!3m2!1sja!2sjp!4v1689228913299!5m2!1sja!2sjp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5518.733563331652!2d133.91517748030932!3d34.668373160657154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7fdd05de77aa705!2z44Kq44Or44Ks44Ob44O844Or!5e0!3m2!1sja!2sjp!4v1466575776828" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </p>
       <!-- anti-harassment policy -->
       <h2 id="anti-harassment">アンチハラスメントポリシー</h2>
@@ -92,7 +86,7 @@ export default {
   components: { AppHeader, AppFooter },
   head() {
     return {
-      titleTemplate: 'オープンセミナー2023@岡山'
+      titleTemplate: 'オープンセミナー2024@岡山'
     }
   }
 }
