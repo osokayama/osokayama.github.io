@@ -3,12 +3,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta data-hid="description" name="description" content="">
-    <meta property="og:title" content="オープンセミナー2023@岡山">
+    <meta property="og:title" content="オープンセミナー2024@岡山">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://okayama.open-seminar.org/">
     <meta property="og:image" content="https://okayama.open-seminar.org/images/ogp_image.png">
-    <meta property="og:site_name" content="オープンセミナー2023@岡山">
-    <meta property="og:description" content="オープンセミナー2023@岡山公式ページ。オープンセミナーはソフトウェア技術をテーマにした無料セミナーです。">
+    <meta property="og:site_name" content="オープンセミナー2024@岡山">
+    <meta property="og:description" content="オープンセミナー2024@岡山公式ページ。オープンセミナーはソフトウェア技術をテーマにした無料セミナーです。">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:site" content="@os_okayama">
     <meta property="twitter:creator" content="@os_okayama">
