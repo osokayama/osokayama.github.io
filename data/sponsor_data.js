@@ -4,17 +4,17 @@ export default {
       {
         name: 'セリオ株式会社',
         url: 'https://www.serio.inc/',
-        image: 'images/sponsor/serio.png'
+        image: 'sponsor/serio.png'
       },
       {
         name: 'ピープルソフトウェア株式会社',
         url: 'https://pscsrv.co.jp/',
-        image: 'images/sponsor/psc.png'
+        image: 'sponsor/psc.png'
       },
       {
         name: '株式会社フィネット',
         url: 'https://f-inet.co.jp/',
-        image: 'images/sponsor/finet.png'
+        image: 'sponsor/finet.png'
       },
     ],
     gold: [
@@ -23,17 +23,17 @@ export default {
       {
         name: '株式会社サブスレッド',
         url: 'https://subthread.co.jp/',
-        image: 'images/sponsor/subthread.png'
+        image: 'sponsor/subthread.png'
       },
       {
         name: 'モチヤ株式会社',
         url: 'https://www.mochiya.ad.jp/',
-        image: 'images/sponsor/mochiya.svg'
+        image: 'sponsor/mochiya.svg'
       },
       {
         name: '株式会社リゾーム',
         url: 'https://www.rhizome-e.com/',
-        image: 'images/sponsor/rhizome.png'
+        image: 'sponsor/rhizome.png'
       },
     ],
     bronze: [
@@ -43,12 +43,12 @@ export default {
     {
       name: 'Backlog',
       url: 'https://backlog.com/',
-      image: 'images/sponsor/backlog.png'
+      image: 'sponsor/backlog.png'
     },
     {
       name: 'Typetalk',
       url: 'https://www.typetalk.com/',
-      image: 'images/sponsor/typetalk.png'
+      image: 'sponsor/typetalk.png'
     }
   ],
   audio: [

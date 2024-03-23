@@ -1,6 +1,22 @@
 <template>
+  <Head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta data-hid="description" name="description" content="">
+    <meta property="og:title" content="オープンセミナー2023@岡山">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://okayama.open-seminar.org/">
+    <meta property="og:image" content="https://okayama.open-seminar.org/images/ogp_image.png">
+    <meta property="og:site_name" content="オープンセミナー2023@岡山">
+    <meta property="og:description" content="オープンセミナー2023@岡山公式ページ。オープンセミナーはソフトウェア技術をテーマにした無料セミナーです。">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@os_okayama">
+    <meta property="twitter:creator" content="@os_okayama">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  </Head>
   <div>
-    <nuxt />
+    <NuxtPage />
   </div>
 </template>
 

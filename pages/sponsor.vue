@@ -15,7 +15,7 @@
             class="sponsor-list-item">
             <a :href="targetSponsor.url">
               <img
-                :src="targetSponsor.image"
+                :src="$imagePath(targetSponsor.image)"
                 :alt="targetSponsor.name">
             </a>
           </li>
@@ -28,7 +28,7 @@
             class="sponsor-list-item">
             <a :href="targetSponsor.url">
               <img
-                :src="targetSponsor.image"
+                :src="$imagePath(targetSponsor.image)"
                 :alt="targetSponsor.name">
             </a>
           </li>
@@ -41,7 +41,7 @@
             class="sponsor-list-item">
             <a :href="targetSponsor.url">
               <img
-                :src="targetSponsor.image"
+                :src="$imagePath(targetSponsor.image)"
                 :alt="targetSponsor.name">
             </a>
           </li>
@@ -54,7 +54,7 @@
             class="sponsor-list-item">
             <a :href="targetSponsor.url">
               <img
-                :src="targetSponsor.image"
+                :src="$imagePath(targetSponsor.image)"
                 :alt="targetSponsor.name">
             </a>
           </li>
@@ -67,7 +67,7 @@
             class="sponsor-list-item">
             <a :href="targetToolSupporter.url">
               <img
-                :src="targetToolSupporter.image"
+                :src="$imagePath(targetToolSupporter.image)"
                 :alt="targetToolSupporter.name">
             </a>
           </li>
@@ -80,7 +80,7 @@
             class="sponsor-list-item">
             <a :href="targetAudio.url">
               <img
-                :src="targetAudio.image"
+                :src="$imagePath(targetAudio.image)"
                 :alt="targetAudio.name">
             </a>
           </li>
@@ -93,7 +93,7 @@
             class="sponsor-list-item">
             <a :href="targetModerator.url">
               <img
-                :src="targetModerator.image"
+                :src="$imagePath(targetModerator.image)"
                 :alt="targetModerator.name">
             </a>
           </li>

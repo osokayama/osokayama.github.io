@@ -9,7 +9,7 @@
         <a
           v-for="history in histories"
           :key="history.year"
-          :href="'../' + history.year + '/'">
+          :href="'../' + history.year + '/index.html'">
           <div
             :style="{'background-image': (history.image ? 'url(' + history.image + ')' : 'none')}"
             class="siimple-box siimple-box--navy past_bg">
