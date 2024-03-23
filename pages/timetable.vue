@@ -122,7 +122,7 @@ export default {
   methods: {
     show (speaker) {
       if (!this.timetable.timetable[speaker]) return
-      location.href = `detail.html?speaker=${speaker}`
+      navigateTo(`detail/?speaker=${speaker}`)
     }
   }
 }

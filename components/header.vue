@@ -3,8 +3,8 @@
     <div class="siimple-layout--left">
       <nuxt-link
         class="siimple-navbar-title"
-        to="./">
-        <img src="images/logo_white.svg">
+        to="/">
+        <img src="@/assets/images/logo_white.svg">
       </nuxt-link>
     </div>
     <div class="siimple-layout--right bars">
@@ -20,7 +20,7 @@
       <nuxt-link
         v-for="menu in menus"
         :key="menu.text"
-        :to="menu.url"
+        :to="`/${menu.url}`"
         class="siimple-navbar-link">
         {{ menu.text }}
       </nuxt-link>
