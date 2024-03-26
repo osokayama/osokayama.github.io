@@ -10,7 +10,7 @@
       <div class="speaker_profile">
         <div class="speaker_photo">
           <img
-            :src="'images/speakers/' + image"
+            :src="$imagePath(`speakers/${image}`)"
             :alt="`講演者：${name}のプロフィール写真`">
         </div>
         <div class="speaker_info">
@@ -81,7 +81,8 @@ export default {
     }
   },
   mounted: function () {
-    const speaker = this.getSpeaker()
+    const route = useRoute()
+    const speaker = this.getSpeaker(route.query.speaker)
     if (speaker) {
       this.title = speaker.title
       this.name = speaker.name
@@ -97,10 +98,9 @@ export default {
     document.title = `登壇内容・講師詳細(${speaker ? speaker.name : ''})`
   },
   methods: {
-    getSpeaker() {
+    getSpeaker(speaker) {
       if (!process.browser) return null
-      const params = location.search.substring(1).split('&').map((p) => p.split('=')).reduce((obj, e) => ({...obj, [e[0]]: e[1]}), {})
-      return TimetableData.timetable[params['speaker']]
+      return TimetableData.timetable[speaker]
     },
     back() {
       history.back()

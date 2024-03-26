@@ -57,7 +57,7 @@ export default {
 $ npm run generate
 ```
 
-生成された `dist` 以下のファイルを `static/開催年` ディレクトリにコピー
+生成された `.output/public` 以下のファイルを `static/開催年` ディレクトリにコピー
 
 ### 過去の開催実績ページ修正
 

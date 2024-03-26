@@ -10,9 +10,9 @@
         オフライン形式での開催となります。
       </p>
       <h2><i class="fas fa-question"/> 懇親会はありますか？</h2>
-      <p class="siimple-p">開催します。<a href="./index.html#after-party">懇親会</a>の情報をご確認ください。<br>参加者、登壇者と気軽に交流できるチャンスです。お気軽にご参加下さい。</p>
+      <p class="siimple-p">開催します。<a href="../#after-party">懇親会</a>の情報をご確認ください。<br>参加者、登壇者と気軽に交流できるチャンスです。お気軽にご参加下さい。</p>
       <h2><i class="fas fa-question"/> 最寄り駅はどこですか？</h2>
-      <p class="siimple-p">服部駅になります。<a href="https://okayama.open-seminar.org/index.html#venue">会場の情報はこちら</a></p>
+      <p class="siimple-p">服部駅になります。<a href="../#venue">会場の情報はこちら</a></p>
       <h2><i class="fas fa-question"/> 会場での飲食は可能ですか？</h2>
       <p class="siimple-p">可能です。</p>
       <h2><i class="fas fa-question"/> 車で行こうと思うのですが駐車場はありますか？</h2>

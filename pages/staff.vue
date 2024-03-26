@@ -12,7 +12,7 @@
             :key="staff.name"
             class="siimple-grid-col siimple-grid-col-sm--6 siimple-grid-col-md--4 siimple-grid-col-lg--3 siimple-grid-col--2">
             <div class="siimple-box siimple-box--navy oso-staff-box">
-              <div class="oso-staff-image"><img :src="'images/staff/' + staff.image"></div>
+              <div class="oso-staff-image"><img :src="$imagePath(`staff/${staff.image}`)"></div>
               <div class="oso-staff-name">{{ staff.name }}</div>
               <div class="oso-staff-roll">{{ staff.roll }}</div>
               <div class="oso-staff-sns">
