@@ -3,7 +3,8 @@ export default defineNuxtPlugin(() => {
         provide: {
             imagePath: (path) => {
                 const runtimeConfig = useRuntimeConfig()
-                return `${runtimeConfig.app.baseURL}/images/${path}`
+                const pathlib = require('path')
+                return pathlib.join(runtimeConfig.app.baseURL, 'images', path)
             }
         }
     }
