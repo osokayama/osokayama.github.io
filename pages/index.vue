@@ -4,7 +4,7 @@
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="@/assets/images/logo.svg"></div>
-      <div class="siimple-jumbotron-subtitle">【XXX】</div>
+      <div class="siimple-jumbotron-subtitle">【のびしろ】</div>
       <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2024年10月19日(土)開催</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
@@ -29,7 +29,7 @@
     <div class="siimple-content siimple-content--medium siimple--mt-5">
       <!-- theme -->
       <h2 id="theme">テーマ</h2>
-      <div class="content-theme">【XXX】</div>
+      <div class="content-theme">【のびしろ】</div>
       <p>
         オープンセミナー2024@岡山実行委員長の前川です。
       </p>
