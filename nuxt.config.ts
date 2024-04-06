@@ -9,5 +9,12 @@ export default defineNuxtConfig({
     prerender: {
       ignore: ['**/20*']
     }
-  }
+  },
+  vite: {
+    server: {
+      watch: {
+        usePolling: true,
+      },
+    },
+  },
 })
