@@ -19,6 +19,7 @@
     "dotenv": "^16.4.5",
     "jquery": "^3.7.1",
     "nuxt": "^3.11.1",
+    "path-browserify": "^1.0.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
