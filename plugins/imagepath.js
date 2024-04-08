@@ -1,4 +1,5 @@
-import {posix as pathlib} from 'path-browserify'
+import pkg from 'path-browserify'
+const pathlib = pkg.posix
 
 export default defineNuxtPlugin(() => {
     return {
