@@ -3,7 +3,7 @@
     <app-header/>
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
-      <div class="siimple-jumbotron-title"><img src="images/logo.svg"></div>
+      <div class="siimple-jumbotron-title"><img src="@/assets/images/logo.svg"></div>
       <div class="siimple-jumbotron-subtitle">【Re-Union】</div>
       <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2023年10月21日(土)開催</div>
       <div class="siimple-jumbotron-detail">
@@ -107,7 +107,7 @@ export default {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px;
-  background-image: linear-gradient(rgba(64, 64, 64, .8), rgba(64, 64, 64, .8)), url(/images/top.png);
+  background-image: linear-gradient(rgba(64, 64, 64, .8), rgba(64, 64, 64, .8)), url(@/assets/images/top.png);
   background-repeat: no-repeat;
   background-position: top center;
   -moz-background-size: cover;
