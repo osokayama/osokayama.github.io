@@ -3,6 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta data-hid="description" name="description" content="">
+    <title>オープンセミナー2024@岡山</title>
     <meta property="og:title" content="オープンセミナー2024@岡山">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://okayama.open-seminar.org/">
