@@ -48,15 +48,17 @@ export default {
     },
     'tanabe': {
       title: '調整中',
-      name: '近藤 佑子（こんどう ゆうこ）',
-      affiliation: '株式会社翔泳社 CodeZine編集長',
-      image: 'kondo.jpg',
+      name: '田辺 雄大（たなべ ゆうだい）',
+      affiliation: '株式会社両備システムズ',
+      image: 'tanabe.jpg',
       detail: `調整中`,
-      twitter: 'https://twitter.com/kondoyuko',
+      twitter: '',
       facebook: '',
       github: '',
       externals: [],
-      profile: `株式会社翔泳社 CodeZine編集部 編集長、Developers Summit オーガナイザー。1986年岡山県生まれ。京都大学工学部建築学科、東京大学大学院工学系研究科建築学専攻修士課程修了。フリーランスを経て2014年株式会社翔泳社に入社。ソフトウェア開発者向けWebメディア「CodeZine」の編集・企画・運営に携わる。2017年より、ソフトウェア開発者向けカンファレンス「Developers Summit」のオーガナイザー。2020年6月よりCodeZine編集長。キャッチコピーは「踊る編集者」。`
+      profile: `1997年生まれ。岡山県新見市出身。徳島大学理工学部卒業。<br>
+      2020年に両備システムズ（岡山市）に入社。ヘルスケアソリューションカンパニーで健診予約サービスの開発、運用を経験。現在は新規プロダクトの企画・技術選定・設計・実装に取り組む。 <br>
+      .NETとPostgreSQLに触れることが多い。ソフトウェア設計の重要性と面白さを知り、技術書を読み漁ったり技術カンファレンスのために東京遠征したり。岡山のITコミュニティにも参加している。休日は国内旅行（船旅）や農業でリフレッシュ。好きな言葉は「やり切る」。`
     },
     'nishihara': {
       title: '調整中',
@@ -72,16 +74,15 @@ export default {
     },
     'takahashi': {
       title: '調整中',
-      name: '森下 智裕',
-      affiliation: '株式会社NTTドコモ　コンシューマサービスカンパニー　カスタマーサクセス部',
-      image: 'terada.png',
+      name: '高橋 一騎',
+      affiliation: 'スターフェスティバル株式会社 プロダクト開発部<br>一般社団法人情報処理学会 会誌編集委員',
+      image: 'takahashi.jpg',
       detail: `調整中`,
-      twitter: 'https://twitter.com/yoshioterada',
-      facebook: 'https://www.facebook.com/yoshio.terada',
-      github: 'https://github.com/yoshioterada/',
-      externals: ['https://yoshio3.com', 'https://qiita.com/yoshioterada', 'https://dev.to/yoshioterada'],
-      profile: `2015年7月より日本マイクロソフト株式会社で Java エバンジェリストとして活動を開始し、2018年7月にマイクロソフト本社に移動し、現職のクラウド・アドボケイトとして活動中。マイクロソフトにおける Java の利用促進・啓蒙活動を実施中。<br>
-      2016 年 7 月、日本人で 2 人目となる Java Champion に就任。JJUG 幹事の一員でもある。`
+      twitter: 'https://x.com/ikkitang',
+      facebook: '',
+      github: 'https://github.com/TakahashiIkki',
+      externals: ['https://www.ikkitang1211.site/'],
+      profile: `岡山市在住。岡山大学 教育学部を卒業後、システムエンジニア職に就職、その後株式会社オミカレでシステムフルリプレースとテックリードを経て現職。システムリプレース業務に多く携わった経験を持ち、スキルセットの多くをバックエンド・インフラレイヤーに費やしている。2017 年よりPostgreSQLユーザー会の中国地方理事長に就任。中国地方DB勉強会を各県で開催するなど、コミュニティ活動も積極的に行っている。最近は二児の父として子育てに奮闘中。`
     },
   }
 }
