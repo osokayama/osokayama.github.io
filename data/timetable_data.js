@@ -2,7 +2,7 @@ export default {
   timetable: {
     'morishita': {
       title: '調整中',
-      name: '森下 智裕',
+      name: '森下 智裕（もりした ともひろ）',
       affiliation: '株式会社NTTドコモ コンシューマサービスカンパニー カスタマーサクセス部',
       image: 'morishita.jpg',
       detail: `調整中`,
@@ -62,7 +62,7 @@ export default {
     },
     'nishihara': {
       title: '調整中',
-      name: '西原 翔太',
+      name: '西原 翔太（にしはら しょうた）',
       affiliation: 'サイボウズ株式会社 開発本部 People Experience チーム Developer Concourse Unit<br>一般社団法人情報処理学会 会誌編集委員',
       image: 'nishihara.jpg',
       detail: `調整中`,
@@ -74,7 +74,7 @@ export default {
     },
     'takahashi': {
       title: '調整中',
-      name: '高橋 一騎',
+      name: '高橋 一騎（たかはし いっき）',
       affiliation: 'スターフェスティバル株式会社 プロダクト開発部',
       image: 'takahashi.jpg',
       detail: `調整中`,
