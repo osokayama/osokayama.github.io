@@ -46,6 +46,15 @@
                       </a>
                     </div>
                     <div
+                      v-if="!!staff.bluesky"
+                      class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon">
+                      <a :href="staff.bluesky">
+                        <i
+                          class="fab fa-bluesky"
+                          aria-hidden="true"/>
+                      </a>
+                    </div>
+                    <div
                       v-if="!!staff.external"
                       class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon">
                       <a :href="staff.external">
@@ -84,7 +93,7 @@ export default {
 </script>
 <style scoped>
 .oso-staff { max-width: 1280px; }
-.siimple-box.oso-staff-box { width: 100%; padding-top: 0; padding-right: 0; padding-left: 0; padding-bottom: 40px; }
+.siimple-box.oso-staff-box { width: 100%; padding-top: 0; padding-right: 0; padding-left: 0; padding-bottom: 90px; }
 .oso-staff-image img {
   border-radius: 5px 5px 0 0 / 5px 5px 0 0;
   width: 100%;

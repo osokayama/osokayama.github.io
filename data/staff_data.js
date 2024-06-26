@@ -1,21 +1,23 @@
 export default {
   staffs: [
     {
-      name: '広岡 健太郎',
+      name: '前川 昌幸',
       roll: '実行委員長',
+      image: 'maekawa.jpg',
+      twitter: 'https://twitter.com/maepon',
+      facebook: 'https://www.facebook.com/masayuki.maekawa',
+      github: 'https://github.com/maepon',
+      bluesky: 'https://bsky.app/profile/maepon.bsky.social',
+      external: 'https://maepon.blog'
+    },
+    {
+      name: '広岡 健太郎',
+      roll: '副実行委員長',
       image: 'hirooka.jpg',
       twitter: 'https://twitter.com/LeGenD_BeaT',
       facebook: 'https://www.facebook.com/kenntarou.hirooka',
       github: 'https://github.com/HiroKen-LB',
-      external: ''
-    },
-    {
-      name: '井上 大輔',
-      roll: '副実行委員長',
-      image: 'inoue.png',
-      twitter: 'https://twitter.com/a_know',
-      facebook: '',
-      github: 'https://github.com/a-know',
+      bluesky: '',
       external: ''
     },
     {
@@ -25,6 +27,7 @@ export default {
       twitter: 'https://twitter.com/bleu48',
       facebook: 'https://www.facebook.com/bleu48',
       github: '',
+      bluesky: '',
       external: ''
     },
     {
@@ -34,6 +37,7 @@ export default {
       twitter: 'https://twitter.com/razon',
       facebook: 'https://www.facebook.com/shiz0ne',
       github: 'https://github.com/shizone',
+      bluesky: 'https://bsky.app/profile/razon.bsky.social',
       external: 'https://about.me/shizone'
     },
     {
@@ -43,16 +47,8 @@ export default {
       twitter: 'https://twitter.com/mao_instantlife',
       facebook: 'https://www.facebook.com/mao.instantlife',
       github: 'https://github.com/Shinsuke-Abe',
+      bluesky: '',
       external: ''
-    },
-    {
-      name: '岩田 隆治',
-      roll: '',
-      image: 'iwata.jpg',
-      twitter: 'https://twitter.com/qt_luigi',
-      facebook: '',
-      github: 'https://github.com/qt-luigi',
-      external: 'https://sites.google.com/view/ryuji-iwata-portfolio'
     },
     {
       name: '栗原 健',
@@ -61,6 +57,7 @@ export default {
       twitter: 'https://twitter.com/kuripoon',
       facebook: '',
       github: 'https://github.com/Ruketa',
+      bluesky: '',
       external: ''
     },
     {
@@ -70,6 +67,7 @@ export default {
       twitter: 'https://twitter.com/kakeru_213',
       facebook: '',
       github: '',
+      bluesky: '',
       external: 'http://kakerun-mouse.hatenablog.com/'
     },
     {
@@ -79,7 +77,28 @@ export default {
       twitter: 'https://twitter.com/r_hayakasa',
       facebook: '',
       github: 'https://github.com/hayakasa',
-      external: 'https://hyks.jp'
+      bluesky: '',
+      external: 'https://hyks.jp'      
+    },
+    {
+      name: '平井 久貴',
+      roll: '',
+      image: 'hirai.jpg',
+      twitter: 'https://x.com/hisatarou_oisii',
+      facebook: 'https://www.facebook.com/hisataka.hirai.3/',
+      github: 'https://github.com/hisatarosu',
+      bluesky: '',
+      external: ''
+    },
+    {
+      name: '古里 武士',
+      roll: '',
+      image: 'furusato.jpg',
+      twitter: 'https://twitter.com/t_furusato',
+      facebook: 'https://www.facebook.com/takeshi.furusato',
+      github: '',
+      bluesky: '',
+      external: 'https://takeshi.furusato.blog'
     },
     {
       name: '逸見 誠',
@@ -88,16 +107,8 @@ export default {
       twitter: 'https://twitter.com/mako_wis',
       facebook: 'https://www.facebook.com/makoto.henmi',
       github: 'https://github.com/makowis',
+      bluesky: '',
       external: 'https://mako-wis.hatenablog.com/'
-    },
-    {
-      name: '三輪 昭生',
-      roll: '',
-      image: 'miwa.jpg',
-      twitter: 'https://twitter.com/triring',
-      facebook: '',
-      github: '',
-      external: ''
     },
     {
       name: '宗安 沙希恵',
@@ -106,16 +117,8 @@ export default {
       twitter: 'https://twitter.com/sakie_boondock',
       facebook: 'https://www.facebook.com/sakie.muneyasu',
       github: 'https://github.com/sakiebon',
+      bluesky: '',
       external: 'https://hunter-girl.jp/'
-    },
-    {
-      name: '吉田 貴文',
-      roll: '',
-      image: 'yoshida.jpg',
-      twitter: 'https://twitter.com/zephiransas',
-      facebook: 'https://www.facebook.com/takafumi.yoshida.718',
-      github: 'https://github.com/zephiransas',
-      external: ''
     },
   ]
 }
