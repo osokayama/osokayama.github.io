@@ -71,6 +71,16 @@ export default {
       external: 'http://kakerun-mouse.hatenablog.com/'
     },
     {
+      name: '早坂 竜二',
+      roll: '',
+      image: 'hayasaka.jpg',
+      twitter: 'https://twitter.com/r_hayakasa',
+      facebook: '',
+      github: 'https://github.com/hayakasa',
+      bluesky: '',
+      external: 'https://hyks.jp'      
+    },
+    {
       name: '平井 久貴',
       roll: '',
       image: 'hirai.jpg',
