@@ -17,8 +17,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('sueda')">
-              <span v-html="timetable.timetable['sueda'].title" /><br>{{ timetable.timetable['sueda'].name }}
+              @click="show('morishita')">
+              <span v-html="timetable.timetable['morishita'].title" /><br>{{ timetable.timetable['morishita'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -31,8 +31,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('littleossa')">
-              <span v-html="timetable.timetable['littleossa'].title" /><br>{{ timetable.timetable['littleossa'].name }}
+              @click="show('matsuura')">
+              <span v-html="timetable.timetable['matsuura'].title" /><br>{{ timetable.timetable['matsuura'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -45,8 +45,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('sinmetal')">
-              <span v-html="timetable.timetable['sinmetal'].title" /><br>{{ timetable.timetable['sinmetal'].name }}
+              @click="show('koki')">
+              <span v-html="timetable.timetable['koki'].title" /><br>{{ timetable.timetable['koki'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -59,8 +59,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('kondo')">
-              <span v-html="timetable.timetable['kondo'].title" /><br>{{ timetable.timetable['kondo'].name }}
+              @click="show('tanabe')">
+              <span v-html="timetable.timetable['tanabe'].title" /><br>{{ timetable.timetable['tanabe'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -73,8 +73,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('nakamichi')">
-              <span v-html="timetable.timetable['nakamichi'].title" /><br>{{ timetable.timetable['nakamichi'].name }}
+              @click="show('nishihara')">
+              <span v-html="timetable.timetable['nishihara'].title" /><br>{{ timetable.timetable['nishihara'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -87,8 +87,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('terada')">
-              <span v-html="timetable.timetable['terada'].title" /><br>{{ timetable.timetable['terada'].name }}
+              @click="show('takahashi')">
+              <span v-html="timetable.timetable['takahashi'].title" /><br>{{ timetable.timetable['takahashi'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">

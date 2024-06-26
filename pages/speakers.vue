@@ -10,43 +10,43 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('sueda')">
-              {{ timetable.timetable['sueda'].name }}
+              @click="show('morishita')">
+              {{ timetable.timetable['morishita'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('littleossa')">
-              {{ timetable.timetable['littleossa'].name }}
+              @click="show('matsuura')">
+              {{ timetable.timetable['matsuura'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('sinmetal')">
-              {{ timetable.timetable['sinmetal'].name }}
+              @click="show('koki')">
+              {{ timetable.timetable['koki'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('kondo')">
-              {{ timetable.timetable['kondo'].name }}
+              @click="show('tanabe')">
+              {{ timetable.timetable['tanabe'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('nakamichi')">
-              {{ timetable.timetable['nakamichi'].name }}
+              @click="show('nishihara')">
+              {{ timetable.timetable['nishihara'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('terada')">
-              {{ timetable.timetable['terada'].name }}
+              @click="show('takahashi')">
+              {{ timetable.timetable['takahashi'].name }}
             </td>
           </tr>
         </tbody>
