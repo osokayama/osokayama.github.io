@@ -15,7 +15,7 @@
         </div>
         <div class="speaker_info">
           <h2>{{ name }}</h2>
-          <p>{{ affiliation }}</p>
+          <p v-html="affiliation"/>
           <ul class="speaker_social_icons">
             <li v-if="twitter">
               <a :href="twitter">

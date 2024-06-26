@@ -75,7 +75,7 @@ export default {
     'takahashi': {
       title: '調整中',
       name: '高橋 一騎',
-      affiliation: 'スターフェスティバル株式会社 プロダクト開発部<br>一般社団法人情報処理学会 会誌編集委員',
+      affiliation: 'スターフェスティバル株式会社 プロダクト開発部',
       image: 'takahashi.jpg',
       detail: `調整中`,
       twitter: 'https://x.com/ikkitang',
