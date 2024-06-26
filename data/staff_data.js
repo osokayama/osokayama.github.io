@@ -21,6 +21,16 @@ export default {
       external: ''
     },
     {
+      name: '芝 世弐',
+      roll: '事務局長',
+      image: 'shiba.jpg',
+      twitter: 'https://twitter.com/bleu48',
+      facebook: 'https://www.facebook.com/bleu48',
+      github: '',
+      bluesky: '',
+      external: ''
+    },
+    {
       name: '角田 裕樹',
       roll: '会計',
       image: 'sumida.jpg',
@@ -59,6 +69,16 @@ export default {
       github: '',
       bluesky: '',
       external: 'http://kakerun-mouse.hatenablog.com/'
+    },
+    {
+      name: '平井 久貴',
+      roll: '',
+      image: 'hirai.jpg',
+      twitter: 'https://x.com/hisatarou_oisii',
+      facebook: 'https://www.facebook.com/hisataka.hirai.3/',
+      github: 'https://github.com/hisatarosu',
+      bluesky: '',
+      external: ''
     },
     {
       name: '古里 武士',
