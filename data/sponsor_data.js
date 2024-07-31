@@ -2,6 +2,11 @@ export default {
   sponsor: {
     platina: [
       {
+        name: '株式会社サブスレッド',
+        url: 'https://subthread.co.jp/',
+        image: 'sponsor/subthread.png'
+      },
+      {
         name: 'セリオ株式会社',
         url: 'https://www.serio.inc/',
         image: 'sponsor/serio.png'
@@ -21,19 +26,9 @@ export default {
     ],
     silver: [
       {
-        name: '株式会社サブスレッド',
-        url: 'https://subthread.co.jp/',
-        image: 'sponsor/subthread.png'
-      },
-      {
-        name: 'モチヤ株式会社',
-        url: 'https://www.mochiya.ad.jp/',
-        image: 'sponsor/mochiya.svg'
-      },
-      {
-        name: '株式会社リゾーム',
-        url: 'https://www.rhizome-e.com/',
-        image: 'sponsor/rhizome.png'
+        name: '株式会社両備システムズ',
+        url: 'https://www.ryobi.co.jp/',
+        image: 'sponsor/ryobi-systems.svg'
       },
     ],
     bronze: [
@@ -45,11 +40,6 @@ export default {
       url: 'https://backlog.com/',
       image: 'sponsor/backlog.png'
     },
-    {
-      name: 'Typetalk',
-      url: 'https://www.typetalk.com/',
-      image: 'sponsor/typetalk.png'
-    }
   ],
   audio: [
   ],
