@@ -27,12 +27,12 @@
             <td class="siimple-table-cell">質疑応答</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">10:55 - 11:00</td>
+            <td class="siimple-table-cell">10:55 - 11:10</td>
             <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">幕間</td>
+            <td class="siimple-table-cell">休憩</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">11:00 - 11:40</td>
+            <td class="siimple-table-cell">11:10 - 11:50</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -41,27 +41,27 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">11:40 - 11:45</td>
+            <td class="siimple-table-cell">11:50 - 11:55</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">質疑応答</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">11:45 - 13:10</td>
+            <td class="siimple-table-cell">11:55 - 13:30</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">昼休憩</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">13:10 - 13:50</td>
-            <td class="siimple-table-cell">40分</td>
+            <td class="siimple-table-cell">13:30 - 13:40</td>
+            <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">スポンサーセッション</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">13:50 - 13:55</td>
+            <td class="siimple-table-cell">13:40 - 13:45</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">13:55 - 14:35</td>
+            <td class="siimple-table-cell">13:45 - 14:25</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -70,17 +70,17 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">14:35 - 14:40</td>
+            <td class="siimple-table-cell">14:25 - 14:30</td>
             <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">幕間</td>
+            <td class="siimple-table-cell">質疑応答</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">14:40 - 14:55</td>
+            <td class="siimple-table-cell">14:30 - 14:45</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">休憩</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">14:55 - 15:35</td>
+            <td class="siimple-table-cell">14:45 - 15:25</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -89,14 +89,14 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">15:35 - 15:40</td>
+            <td class="siimple-table-cell">15:25 - 15:30</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">質疑応答</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">15:40 - 15:45</td>
+            <td class="siimple-table-cell">15:30 - 15:45</td>
             <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">幕間</td>
+            <td class="siimple-table-cell">休憩</td>
           </tr>
           <tr class="siimple-table-row session">
             <td class="siimple-table-cell">15:45 - 16:25</td>
