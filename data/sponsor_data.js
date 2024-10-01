@@ -26,6 +26,11 @@ export default {
     ],
     silver: [
       {
+        name: 'モチヤ株式会社',
+        url: 'https://www.mochiya.ad.jp/',
+        image: 'sponsor/mochiya.svg'
+      },
+      {
         name: '株式会社両備システムズ',
         url: 'https://www.ryobi.co.jp/',
         image: 'sponsor/ryobi-systems.svg'
