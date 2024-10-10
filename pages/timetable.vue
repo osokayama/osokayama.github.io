@@ -46,22 +46,25 @@
             <td class="siimple-table-cell">質疑応答</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">11:55 - 13:30</td>
+            <td class="siimple-table-cell">11:55 - 13:00</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">昼休憩</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">13:30 - 13:40</td>
+            <td class="siimple-table-cell">13:00 - 13:10</td>
             <td class="siimple-table-cell">10分</td>
-            <td class="siimple-table-cell">スポンサーセッション</td>
+            <td class="siimple-table-cell">
+              スポンサーセッション {{ timetable.timetable['psc'].company }}<br>
+              <span v-if="timetable.timetable['psc'].title"><span v-html="timetable.timetable['psc'].title" /><br>{{ timetable.timetable['psc'].name }}</span>
+            </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">13:40 - 13:45</td>
+            <td class="siimple-table-cell">13:10 - 13:15</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">13:45 - 14:25</td>
+            <td class="siimple-table-cell">13:15 - 13:55</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -70,17 +73,30 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">14:25 - 14:30</td>
+            <td class="siimple-table-cell">13:55 - 14:00</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">質疑応答</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">14:30 - 14:45</td>
+            <td class="siimple-table-cell">14:00 - 14:15</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">休憩</td>
           </tr>
+          <tr class="siimple-table-row">
+            <td class="siimple-table-cell">14:15 - 14:25</td>
+            <td class="siimple-table-cell">10分</td>
+            <td class="siimple-table-cell">
+              スポンサーセッション {{ timetable.timetable['subthread'].company }}<br>
+              <span v-if="timetable.timetable['subthread'].title"><span v-html="timetable.timetable['subthread'].title" /><br>{{ timetable.timetable['subthread'].name }}</span>
+            </td>
+          </tr>
+          <tr class="siimple-table-row">
+            <td class="siimple-table-cell">14:25 - 14:30</td>
+            <td class="siimple-table-cell">&nbsp;</td>
+            <td class="siimple-table-cell">幕間</td>
+          </tr>
           <tr class="siimple-table-row session">
-            <td class="siimple-table-cell">14:45 - 15:25</td>
+            <td class="siimple-table-cell">14:30 - 15:10</td>
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
@@ -89,14 +105,27 @@
             </td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">15:25 - 15:30</td>
+            <td class="siimple-table-cell">15:10 - 15:15</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">質疑応答</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">15:30 - 15:45</td>
+            <td class="siimple-table-cell">15:15 - 15:30</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">休憩</td>
+          </tr>
+          <tr class="siimple-table-row">
+            <td class="siimple-table-cell">15:30 - 15:40</td>
+            <td class="siimple-table-cell">10分</td>
+            <td class="siimple-table-cell">
+              スポンサーセッション {{ timetable.timetable['serio'].company }}<br>
+              <span v-if="timetable.timetable['serio'].title"><span v-html="timetable.timetable['serio'].title" /><br>{{ timetable.timetable['serio'].name }}</span>
+            </td>
+          </tr>
+          <tr class="siimple-table-row">
+            <td class="siimple-table-cell">15:40 - 15:45</td>
+            <td class="siimple-table-cell">&nbsp;</td>
+            <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
             <td class="siimple-table-cell">15:45 - 16:25</td>
