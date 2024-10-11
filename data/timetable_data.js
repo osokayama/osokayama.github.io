@@ -123,8 +123,8 @@ export default {
       company: 'ピープルソフトウェア株式会社',
     },
     'subthread': {
-      title: '',
-      name: '',
+      title: 'のびしろとサブスレッド',
+      name: '小西 啓太（こにし けいた）',
       company: '株式会社サブスレッド',
     },
     'serio': {
