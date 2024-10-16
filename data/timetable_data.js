@@ -128,8 +128,8 @@ export default {
       company: '株式会社サブスレッド',
     },
     'serio': {
-      title: '',
-      name: '',
+      title: '変化を力に自由な未来へ',
+      name: '栗原健（くりはらたける）',
       company: 'セリオ株式会社',
     },
   }
