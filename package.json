@@ -16,14 +16,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "jquery": "^3.7.1",
-    "nuxt": "^3.11.1",
+    "nuxt": "^3.16.0",
     "path-browserify": "^1.0.1",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "sass": "^1.72.0"
+    "sass": "^1.85.1"
   }
 }
