@@ -104,7 +104,7 @@ export default {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px;
-  background-image: linear-gradient(rgba(64, 64, 64, .8), rgba(64, 64, 64, .8)), url(@/assets/images/top.png);
+  background-image: linear-gradient(rgba(64, 64, 64, .8), rgba(64, 64, 64, .8)), url(@/assets/images/top.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   -moz-background-size: cover;
