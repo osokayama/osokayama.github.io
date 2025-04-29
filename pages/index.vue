@@ -4,43 +4,43 @@
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="@/assets/images/logo.svg"></div>
-      <div class="siimple-jumbotron-subtitle">【のびしろ】</div>
-      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2024年10月19日(土)開催</div>
+      <div class="siimple-jumbotron-subtitle">【情熱】</div>
+      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2025年10月18日(土)開催</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
           <li>
             <a
-              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12024&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
+              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12025&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
               onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=1'); return false;">
               <i class="fab fa-x-twitter"/>
             </a>
           </li>
           <li>
             <a
-              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12024"
+              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12025"
               onclick="window.open(this.href, 'fbsharewindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;">
               <i class="fab fa-facebook-f"/>
             </a>
           </li>
         </ul>
       </div>
-      <div class="siimple-jumbotron-detail"><a href="https://oso.connpass.com/event/328613/"><div class="siimple-btn siimple-btn--blue entry">ご参加ありがとうございました</div></a></div>
+      <div class="siimple-jumbotron-detail"><a href="#"><div class="siimple-btn siimple-btn--blue entry">申込開始までお待ち下さい</div></a></div>
     </div>
     <div class="siimple-content siimple-content--medium siimple--mt-5">
       <!-- theme -->
       <h2 id="theme">テーマ</h2>
-      <div class="content-theme">【のびしろ】</div>
+      <div class="content-theme">【情熱】</div>
       <p>
-        オープンセミナー2024@岡山実行委員長の前川です。
+        オープンセミナー2025@岡山 (OSO) 実行委員長の末田です。
       </p>
       <p>
-        「オープンセミナー2024@岡山」は、「のびしろ」がメインテーマです。今回のイベントを通じて、自身や周りの人たちの未開拓の可能性に気づき、自己成長への意欲を一層高めるきっかけにしてほしいです。
+        今年の OSO のメインテーマである「情熱」は、私たち技術者が過去から持ち続けてきた、IT ひいてはものづくり全てへの情動や熱意を形容するものです。
       </p>
       <p>
-        この目的を実現するために、参加者自身が自分や周りの人たちの「のびしろ」を見出し、刺激し合えるよう、ロールモデルとなる方に登壇をお願いしました。登壇者には、経験談や直面した課題の克服方法、興味関心のある技術や分野を共有してもらいます。それぞれの「のびしろ」をどのように見いだし、向き合ってきたか。これらの話は、同世代やそれに近い参加者にとって、自らの潜在能力を引き出すための重要なヒントとなります。
+        多くの人が集ってトークを繰り広げる OSO の場では、これまで具体的な知見や意見の交換が行われてきました。その十余年におよぶ開催実績を眺めると、その場で話される話題も時代に合わせて変化してきたことがわかります。OSO 18回目の今回は視点を心の中へと移し、我々技術者の原点であるパッションについて、登壇頂く方々十人十色の切り口で語って頂く回にしたいと考えています。
       </p>
       <p>
-        今回は「のびしろ」というテーマなので、特に「のびしろしか無い」方々に自分自身と周囲の無限の可能性を発見し、刺激し合うことのできる実践的なセッションを用意しています。そのため、登壇は同じぐらいと少し上の年代ということで、全員35歳以下の方々にお願いしています。ひとりでも、周りの人たちとも一緒でも参加いただければうれしいです。ぜひ、ご期待ください。
+        情熱というテーマを語っていただくにあたり、今回は従前より技術者としての情熱を発信しつづけてきた方々に登壇頂きます。皆さんにとって親しみある分野から、まるで聞いたことのない事柄に至るまで、アツい思いとクリエイティビティが弾ける濃密な1日となることでしょう。聴講から懇親会にかけて、当日はどのような会話が繰り広げられるか私自身楽しみにしています。
       </p>
       <!-- oso -->
       <h2 id="about-oso">オープンセミナーとは</h2>
@@ -68,7 +68,7 @@
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2024年10月19日(土) <a href="https://okayama.coop/ps/hall/#hall1">オルガホール</a>
+        2025年10月18日(土) <a href="https://okayama.coop/ps/hall/#hall1">オルガホール</a>
       </p>
       <p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5518.733563331652!2d133.91517748030932!3d34.668373160657154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7fdd05de77aa705!2z44Kq44Or44Ks44Ob44O844Or!5e0!3m2!1sja!2sjp!4v1466575776828" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -89,7 +89,7 @@ export default {
   components: { AppHeader, AppFooter },
   head() {
     return {
-      titleTemplate: 'オープンセミナー2024@岡山'
+      titleTemplate: 'オープンセミナー2025@岡山'
     }
   }
 }
@@ -104,7 +104,7 @@ export default {
   text-align: center;
   padding-top: 48px;
   padding-bottom: 48px;
-  background-image: linear-gradient(rgba(64, 64, 64, .8), rgba(64, 64, 64, .8)), url(@/assets/images/top.png);
+  background-image: linear-gradient(rgba(64, 64, 64, .8), rgba(64, 64, 64, .8)), url(@/assets/images/top.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   -moz-background-size: cover;
