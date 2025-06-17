@@ -13,8 +13,10 @@
             class="siimple-grid-col siimple-grid-col-sm--6 siimple-grid-col-md--4 siimple-grid-col-lg--3 siimple-grid-col--2">
             <div class="siimple-box siimple-box--navy oso-staff-box">
               <div class="oso-staff-image"><img :src="$imagePath(`staff/${staff.image}`)"></div>
-              <div class="oso-staff-name">{{ staff.name }}</div>
-              <div class="oso-staff-roll">{{ staff.roll }}</div>
+              <div class="oso-staff-names">
+                <div class="oso-staff-name">{{ staff.name }}</div>
+                <div class="oso-staff-roll" v-if="staff.roll">{{ staff.roll }}</div>
+              </div>
               <div class="oso-staff-sns">
                 <div class="siimple-grid oso-staff-sns-icons">
                   <div class="siimple-grid-row">
@@ -99,6 +101,7 @@ export default {
   width: 100%;
   padding-bottom: 10px;
 }
+.oso-staff-names { height: 65px; }
 .oso-staff-name { font-size: 20px; }
 .oso-staff-name,.oso-staff-roll,.oso-staff-sns { padding-left: 10px; padding-right: 10px; padding-bottom: 5px; }
 .oso-staff-roll { height: 26px; }
