@@ -10,43 +10,43 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('morishita')">
-              {{ timetable.timetable['morishita'].name }}
+              @click="show('koba789')">
+              {{ timetable.timetable['koba789'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('matsuura')">
-              {{ timetable.timetable['matsuura'].name }}
+              @click="show('majima')">
+              {{ timetable.timetable['majima'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('koki')">
-              {{ timetable.timetable['koki'].name }}
+              @click="show('talk1')">
+              {{ timetable.timetable['talk1'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('tanabe')">
-              {{ timetable.timetable['tanabe'].name }}
+              @click="show('talk2')">
+              {{ timetable.timetable['talk2'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('nishihara')">
-              {{ timetable.timetable['nishihara'].name }}
+              @click="show('talk3')">
+              {{ timetable.timetable['talk3'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('takahashi')">
-              {{ timetable.timetable['takahashi'].name }}
+              @click="show('talk4')">
+              {{ timetable.timetable['talk4'].name }}
             </td>
           </tr>
         </tbody>
