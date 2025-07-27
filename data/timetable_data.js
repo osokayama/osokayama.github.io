@@ -1,5 +1,29 @@
 export default {
   timetable: {
+    'aknow': {
+      title: '調整中',
+      name: 'a-know（井上大輔）',
+      affiliation: '株式会社SmartHR プロダクトエンジニア',
+      image: 'aknow.png',
+      detail: `調整中`,
+      twitter: 'https://x.com/a_know',
+      facebook: '',
+      github: 'https://github.com/a-know',
+      externals: ['https://about.a-know.me/'],
+      profile: `岡山県岡山市出身・倉敷市在住。ソフトウェアエンジニアを約10年経験したのち、約9年のカスタマーサクセス・セールスなどのカスタマーフェイシング職の経験を経て、現在は株式会社SmartHR にてプロダクトエンジニアとして CRE（Customer Reliability Engineering）に取り組んでいる。個人開発（ https://pixe.la ）や地域ITコミュニティの運営（ https://okayama-nanka.org/ ）などをライフワークとしている。`
+    },
+    'kyoro': {
+      title: '調整中',
+      name: '井上 恭輔 （きょろ）',
+      affiliation: '株式会社SANU 執行役員 CCXO<br>SUNSET CELLARS 共同オーナー',
+      image: 'kyoro.png',
+      detail: `調整中`,
+      twitter: 'https://x.com/kyoro353',
+      facebook: 'https://www.facebook.com/kyoro353',
+      github: '',
+      externals: ['https://note.com/kyoro353', 'https://sftt.jp/'],
+      profile: `2008年MIXIに新卒入社。 新規事業としてアプリ開発支援サービスDeployGateを共同創業。2013年に米国シリコンバレーに渡米し、 Cookpad米国法人の技術責任者、DeployGate米国法人代表、 スマートホーム開発を行う HOMMAのi-CTOなどを歴任。現在はシェア別荘開発を行う株式会社SANUにおいて執行役員を努め、ソフトからハード、 建築を含む幅広い技術と知識を活用した横断的な顧客体験の開発に取り組む。個人ではカリフォルニアに住みながら小規模ワイナリー 「SUNSET CELLARS」 を経営し、 ワイン造りにも取り組む。 料理とワイン、 自然とDIYを愛するフルスタックエンジニア。`
+    },
     'koba789': {
       title: '調整中',
       name: 'KOBA789',
@@ -14,7 +38,7 @@ export default {
     },
     'majima': {
       title: '調整中',
-      name: '間嶋 沙知（まじま さち）',
+      name: '間嶋 沙知',
       affiliation: 'majima DESIGN',
       image: 'majima.jpg',
       detail: `調整中`,
@@ -24,7 +48,7 @@ export default {
       externals: ['https://note.com/mjmjsachi/', 'https://mjmj.co/'],
       profile: `1985年兵庫県生まれ。大学卒業後、桑沢デザイン研究所の夜間部に学ぶ。東京、高知のデザイン事務所を経て、2016年に majima DESIGN の屋号で開業。高知市を拠点に、県内外の企業、団体、個人のサービスや商品に関わるデザインを手がける。2025年から公益社団法人日本広報協会広報アドバイザーとしても活動中。著書『見えにくい、読みにくい「困った！」を解決するデザイン』（マイナビ出版）。こぶたのうたちゃんと暮らしている。`
     },
-    'talk1': {
+    'talk5': {
       title: '調整中',
       name: '調整中',
       affiliation: '調整中',
@@ -36,31 +60,7 @@ export default {
       externals: [],
       profile: ``
     },
-    'talk2': {
-      title: '調整中',
-      name: '調整中',
-      affiliation: '調整中',
-      image: 'tbd',
-      detail: `調整中`,
-      twitter: '',
-      facebook: '',
-      github: '',
-      externals: [],
-      profile: ``
-    },
-    'talk3': {
-      title: '調整中',
-      name: '調整中',
-      affiliation: '調整中',
-      image: 'tbd',
-      detail: `調整中`,
-      twitter: '',
-      facebook: '',
-      github: '',
-      externals: [],
-      profile: ``
-    },
-    'talk4': {
+    'talk6': {
       title: '調整中',
       name: '調整中',
       affiliation: '調整中',

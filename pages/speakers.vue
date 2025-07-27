@@ -10,6 +10,20 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
+              @click="show('aknow')">
+              {{ timetable.timetable['aknow'].name }}
+            </td>
+          </tr>
+          <tr class="siimple-table-row session">
+            <td
+              class="siimple-table-cell hover"
+              @click="show('kyoro')">
+              {{ timetable.timetable['kyoro'].name }}
+            </td>
+          </tr>
+          <tr class="siimple-table-row session">
+            <td
+              class="siimple-table-cell hover"
               @click="show('koba789')">
               {{ timetable.timetable['koba789'].name }}
             </td>
@@ -24,29 +38,15 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('talk1')">
-              {{ timetable.timetable['talk1'].name }}
+              @click="show('talk5')">
+              {{ timetable.timetable['talk5'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('talk2')">
-              {{ timetable.timetable['talk2'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td
-              class="siimple-table-cell hover"
-              @click="show('talk3')">
-              {{ timetable.timetable['talk3'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td
-              class="siimple-table-cell hover"
-              @click="show('talk4')">
-              {{ timetable.timetable['talk4'].name }}
+              @click="show('talk6')">
+              {{ timetable.timetable['talk6'].name }}
             </td>
           </tr>
         </tbody>
