@@ -24,6 +24,19 @@ export default {
       externals: ['https://note.com/kyoro353', 'https://sftt.jp/'],
       profile: `2008年MIXIに新卒入社。 新規事業としてアプリ開発支援サービスDeployGateを共同創業。2013年に米国シリコンバレーに渡米し、 Cookpad米国法人の技術責任者、DeployGate米国法人代表、 スマートホーム開発を行う HOMMAのi-CTOなどを歴任。現在はシェア別荘開発を行う株式会社SANUにおいて執行役員を努め、ソフトからハード、 建築を含む幅広い技術と知識を活用した横断的な顧客体験の開発に取り組む。個人ではカリフォルニアに住みながら小規模ワイナリー 「SUNSET CELLARS」 を経営し、 ワイン造りにも取り組む。 料理とワイン、 自然とDIYを愛するフルスタックエンジニア。`
     },
+    'kiryu': {
+      title: '調整中',
+      name: '桐生 あんず',
+      affiliation: 'Classi株式会社 エンジニア',
+      image: 'kiryu.png',
+      detail: `調整中`,
+      twitter: 'https://x.com/anzu_mmm',
+      facebook: '',
+      github: 'https://github.com/Kiryuanzu',
+      externals: ['https://kiryuanzu.hatenablog.com/', 'https://www.youtube.com/@kiryuanzu', 'https://kiryuanzu.booth.pm/'],
+      profile: `長野県長野市出身。京都で6年間の学生生活を経て、現在は神奈川県の三浦半島在住。Classi株式会社にエンジニアとして新卒入社・在籍(6年目)。
+                好きなことはブログ・同人誌制作・ポッドキャストなどの媒体で日々の出来事や趣味について発信すること。学生時代から個人サービス開発を趣味としており、現在はポッドキャストを自前配信するサービス(https://anzucast.com )を運用中。 2025年1月から地域ITコミュニティである三浦半島.rb を設立・運営として携わっている。`
+    },
     'koba789': {
       title: '調整中',
       name: 'KOBA789',
@@ -47,18 +60,6 @@ export default {
       github: '',
       externals: ['https://note.com/mjmjsachi/', 'https://mjmj.co/'],
       profile: `1985年兵庫県生まれ。大学卒業後、桑沢デザイン研究所の夜間部に学ぶ。東京、高知のデザイン事務所を経て、2016年に majima DESIGN の屋号で開業。高知市を拠点に、県内外の企業、団体、個人のサービスや商品に関わるデザインを手がける。2025年から公益社団法人日本広報協会広報アドバイザーとしても活動中。著書『見えにくい、読みにくい「困った！」を解決するデザイン』（マイナビ出版）。こぶたのうたちゃんと暮らしている。`
-    },
-    'talk5': {
-      title: '調整中',
-      name: '調整中',
-      affiliation: '調整中',
-      image: 'tbd',
-      detail: `調整中`,
-      twitter: '',
-      facebook: '',
-      github: '',
-      externals: [],
-      profile: ``
     },
     'talk6': {
       title: '調整中',

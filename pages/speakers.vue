@@ -24,6 +24,13 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
+              @click="show('kiryu')">
+              {{ timetable.timetable['kiryu'].name }}
+            </td>
+          </tr>
+          <tr class="siimple-table-row session">
+            <td
+              class="siimple-table-cell hover"
               @click="show('koba789')">
               {{ timetable.timetable['koba789'].name }}
             </td>
@@ -33,13 +40,6 @@
               class="siimple-table-cell hover"
               @click="show('majima')">
               {{ timetable.timetable['majima'].name }}
-            </td>
-          </tr>
-          <tr class="siimple-table-row session">
-            <td
-              class="siimple-table-cell hover"
-              @click="show('talk5')">
-              {{ timetable.timetable['talk5'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
