@@ -17,21 +17,21 @@
           <h2>{{ name }}</h2>
           <p v-html="affiliation"/>
           <ul class="speaker_social_icons">
-            <li v-if="twitter">
+            <li v-for="twitter in twitters" :key="twitter">
               <a :href="twitter">
                 <i
                   class="fab fa-x-twitter"
                   aria-hidden="true"/>
               </a>
             </li>
-            <li v-if="facebook">
+            <li v-for="facebook in facebooks" :key="facebook">
               <a :href="facebook">
                 <i
                   class="fab fa-facebook"
                   aria-hidden="true"/>
               </a>
             </li>
-            <li v-if="github">
+            <li v-for="github in githubs" :key="github">
               <a :href="github">
                 <i
                   class="fab fa-github"
@@ -89,9 +89,9 @@ export default {
       this.affiliation = speaker.affiliation
       this.image = speaker.image
       this.detail = speaker.detail
-      this.twitter = speaker.twitter
-      this.facebook = speaker.facebook
-      this.github = speaker.github
+      this.twitters = speaker.twitter
+      this.facebooks = speaker.facebook
+      this.githubs = speaker.github
       this.externals = speaker.externals
       this.profile = speaker.profile
     }

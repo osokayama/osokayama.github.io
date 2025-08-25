@@ -38,15 +38,15 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('majima')">
-              {{ timetable.timetable['majima'].name }}
+              @click="show('hsjoihs')">
+              {{ timetable.timetable['hsjoihs'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('talk6')">
-              {{ timetable.timetable['talk6'].name }}
+              @click="show('majima')">
+              {{ timetable.timetable['majima'].name }}
             </td>
           </tr>
         </tbody>
