@@ -10,43 +10,43 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('morishita')">
-              {{ timetable.timetable['morishita'].name }}
+              @click="show('aknow')">
+              {{ timetable.timetable['aknow'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('matsuura')">
-              {{ timetable.timetable['matsuura'].name }}
+              @click="show('kyoro')">
+              {{ timetable.timetable['kyoro'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('koki')">
-              {{ timetable.timetable['koki'].name }}
+              @click="show('kiryu')">
+              {{ timetable.timetable['kiryu'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('tanabe')">
-              {{ timetable.timetable['tanabe'].name }}
+              @click="show('koba789')">
+              {{ timetable.timetable['koba789'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('nishihara')">
-              {{ timetable.timetable['nishihara'].name }}
+              @click="show('hsjoihs')">
+              {{ timetable.timetable['hsjoihs'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('takahashi')">
-              {{ timetable.timetable['takahashi'].name }}
+              @click="show('majima')">
+              {{ timetable.timetable['majima'].name }}
             </td>
           </tr>
         </tbody>
