@@ -6,7 +6,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "scripts": {
     "build": "nuxt build",
@@ -16,6 +16,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001737",
     "dotenv": "^16.4.7",
     "jquery": "^3.7.1",
     "nuxt": "^3.16.0",
