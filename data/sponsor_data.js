@@ -23,18 +23,23 @@ export default {
       },
     ],
     gold: [
+      {
+        name: '株式会社オーディオストック',
+        url: 'https://audiostock.co.jp/',
+        image: 'sponsor/audiostock.png'
+      },
+      {
+        name: '株式会社SmartHR',
+        url: 'https://hello-world.smarthr.co.jp/',
+        image: 'sponsor/smarthr.svg'
+      },
+      {
+        name: '株式会社DIGITALJET',
+        url: 'https://www.digitaljet.co.jp/',
+        image: 'sponsor/digitaljet.svg'
+      },
     ],
     silver: [
-      {
-        name: 'モチヤ株式会社',
-        url: 'https://www.mochiya.ad.jp/',
-        image: 'sponsor/mochiya.svg'
-      },
-      {
-        name: '株式会社両備システムズ',
-        url: 'https://www.ryobi.co.jp/',
-        image: 'sponsor/ryobi-systems.svg'
-      },
     ],
     bronze: [
     ]
