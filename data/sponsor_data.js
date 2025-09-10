@@ -38,6 +38,11 @@ export default {
         url: 'https://www.digitaljet.co.jp/',
         image: 'sponsor/digitaljet.svg'
       },
+      {
+        name: '転職ドラフト',
+        url: 'https://job-draft.jp/?utm_source=site&utm_medium=conference&utm_campaign=allconference&utm_term=okayama2025',
+        image: 'sponsor/jobdraft.svg'
+      },
     ],
     silver: [
     ],
