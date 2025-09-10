@@ -23,18 +23,28 @@ export default {
       },
     ],
     gold: [
+      {
+        name: '株式会社オーディオストック',
+        url: 'https://audiostock.co.jp/',
+        image: 'sponsor/audiostock.png'
+      },
+      {
+        name: '株式会社SmartHR',
+        url: 'https://hello-world.smarthr.co.jp/',
+        image: 'sponsor/smarthr.svg'
+      },
+      {
+        name: '株式会社DIGITALJET',
+        url: 'https://www.digitaljet.co.jp/',
+        image: 'sponsor/digitaljet.svg'
+      },
+      {
+        name: '転職ドラフト',
+        url: 'https://job-draft.jp/?utm_source=site&utm_medium=conference&utm_campaign=allconference&utm_term=okayama2025',
+        image: 'sponsor/jobdraft.svg'
+      },
     ],
     silver: [
-      {
-        name: 'モチヤ株式会社',
-        url: 'https://www.mochiya.ad.jp/',
-        image: 'sponsor/mochiya.svg'
-      },
-      {
-        name: '株式会社両備システムズ',
-        url: 'https://www.ryobi.co.jp/',
-        image: 'sponsor/ryobi-systems.svg'
-      },
     ],
     bronze: [
     ]
