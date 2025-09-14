@@ -12,6 +12,11 @@ export default {
         image: 'sponsor/serio.png'
       },
       {
+        name: '転職ドラフト',
+        url: 'https://job-draft.jp/?utm_source=site&utm_medium=conference&utm_campaign=allconference&utm_term=okayama2025',
+        image: 'sponsor/jobdraft.svg'
+      },
+      {
         name: 'ピープルソフトウェア株式会社',
         url: 'https://pscsrv.co.jp/',
         image: 'sponsor/psc.png'
@@ -37,11 +42,6 @@ export default {
         name: '株式会社DIGITALJET',
         url: 'https://www.digitaljet.co.jp/',
         image: 'sponsor/digitaljet.svg'
-      },
-      {
-        name: '転職ドラフト',
-        url: 'https://job-draft.jp/?utm_source=site&utm_medium=conference&utm_campaign=allconference&utm_term=okayama2025',
-        image: 'sponsor/jobdraft.svg'
       },
     ],
     silver: [
