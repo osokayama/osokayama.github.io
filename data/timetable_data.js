@@ -91,9 +91,9 @@ export default {
       company: '調整中',
     },
     'jobdraft': {
-      title: '調整中',
-      name: '調整中',
-      company: '調整中',
+      title: 'コミュニティを支援する情熱',
+      name: '大倉 潤也',
+      company: '転職ドラフト',
     },
     'psc': {
       title: '調整中',
