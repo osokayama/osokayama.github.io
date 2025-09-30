@@ -54,8 +54,8 @@
             <td class="siimple-table-cell">12:45 - 12:55</td>
             <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['psc'].company }}<br>
-              <span v-if="timetable.timetable['psc'].title"><span v-html="timetable.timetable['psc'].title" /><br>{{ timetable.timetable['psc'].name }}</span>
+              スポンサーセッション {{ timetable.timetable['serio'].company }}<br>
+              <span v-if="timetable.timetable['serio'].title"><span v-html="timetable.timetable['serio'].title" /><br>{{ timetable.timetable['serio'].name }}</span>
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -86,8 +86,8 @@
             <td class="siimple-table-cell">14:00 - 14:10</td>
             <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['subthread'].company }}<br>
-              <span v-if="timetable.timetable['subthread'].title"><span v-html="timetable.timetable['subthread'].title" /><br>{{ timetable.timetable['subthread'].name }}</span>
+              スポンサーセッション {{ timetable.timetable['psc'].company }}<br>
+              <span v-if="timetable.timetable['psc'].title"><span v-html="timetable.timetable['psc'].title" /><br>{{ timetable.timetable['psc'].name }}</span>
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -118,8 +118,8 @@
             <td class="siimple-table-cell">15:15 - 15:25</td>
             <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['serio'].company }}<br>
-              <span v-if="timetable.timetable['serio'].title"><span v-html="timetable.timetable['serio'].title" /><br>{{ timetable.timetable['serio'].name }}</span>
+              スポンサーセッション {{ timetable.timetable['subthread'].company }}<br>
+              <span v-if="timetable.timetable['subthread'].title"><span v-html="timetable.timetable['subthread'].title" /><br>{{ timetable.timetable['subthread'].name }}</span>
             </td>
           </tr>
           <tr class="siimple-table-row">
