@@ -99,9 +99,9 @@ export default {
       company: '転職ドラフト',
     },
     'psc': {
-      title: '調整中',
-      name: '調整中',
-      company: '調整中',
+      title: '情熱ってなんだろう',
+      name: '小林 健太',
+      company: 'ピープルソフトウェア株式会社',
     },
   }
 }
