@@ -89,9 +89,9 @@ export default {
       company: '調整中',
     },
     'serio': {
-      title: '調整中',
-      name: '調整中',
-      company: '調整中',
+      title: '熱意で羽ばたくセリオ',
+      name: '山本 祐維（やまもと ゆうい）',
+      company: 'セリオ株式会社',
     },
     'jobdraft': {
       title: 'コミュニティを支援する情熱',
