@@ -43,6 +43,11 @@ export default {
         url: 'https://www.digitaljet.co.jp/',
         image: 'sponsor/digitaljet.svg'
       },
+      {
+        name: 'TOPPANデジタル株式会社',
+        url: 'https://www.digital.toppan.com/ja/',
+        image: 'sponsor/toppan.svg'
+      },
     ],
     silver: [
     ],
