@@ -16,6 +16,7 @@
     </div>
     <div
       id="menus"
+      v-show="menuVisible"
       class="siimple-layout--right menus">
       <nuxt-link
         v-for="menu in menus"
@@ -28,32 +29,36 @@
   </header>
 </template>
 <script>
-import $ from 'jquery'
 import HeaderData from '@/data/header_data'
 
 export default {
   data: function () {
-    return HeaderData
+    return {
+      ...HeaderData,
+      menuVisible: false
+    }
   },
   mounted: function () {
     this.$nextTick(function () {
-      $(window).resize(this.resize)
+      window.addEventListener('resize', this.resize)
       this.resize()
     })
   },
+  beforeUnmount: function () {
+    window.removeEventListener('resize', this.resize)
+  },
   methods: {
     resize () {
-      var win = $(window).width()
-      var p = 765
+      var win = window.innerWidth
+      var p = 792
       if (win > p) {
-        $('#menus').show()
+        this.menuVisible = true
       } else {
-        $('#menus').hide()
+        this.menuVisible = false
       }
     },
     toggleCanvas () {
-      console.log('toggleCanvas')
-      $('#menus').slideToggle()
+      this.menuVisible = !this.menuVisible
     }
   }
 }

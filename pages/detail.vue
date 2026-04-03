@@ -54,6 +54,9 @@
     <app-footer/>
   </div>
 </template>
+<script setup>
+useHead({ title: '登壇内容・講師詳細' })
+</script>
 <script>
 import AppHeader from '@/components/header'
 import AppFooter from '@/components/footer'
@@ -75,11 +78,6 @@ export default {
       profile: ''
     }
   },
-  head() {
-    return {
-      title: `登壇内容・講師詳細`
-    }
-  },
   mounted: function () {
     const route = useRoute()
     const speaker = this.getSpeaker(route.query.speaker)
@@ -99,7 +97,7 @@ export default {
   },
   methods: {
     getSpeaker(speaker) {
-      if (!process.browser) return null
+      if (process.server) return null
       return TimetableData.timetable[speaker]
     },
     back() {

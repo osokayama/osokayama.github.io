@@ -2,7 +2,7 @@
   <Head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta data-hid="description" name="description" content="">
+    <meta name="description" content="">
     <title>オープンセミナー2025@岡山</title>
     <meta property="og:title" content="オープンセミナー2025@岡山">
     <meta property="og:type" content="website">

@@ -22,6 +22,9 @@
     <app-footer/>
   </div>
 </template>
+<script setup>
+useHead({ title: '過去の開催実績' })
+</script>
 <script>
 import AppHeader from '@/components/header'
 import AppFooter from '@/components/footer'
@@ -31,11 +34,6 @@ export default {
   components: { AppHeader, AppFooter },
   data: function () {
     return PastData
-  },
-  head() {
-    return {
-      title: '過去の開催実績'
-    }
   }
 }
 </script>

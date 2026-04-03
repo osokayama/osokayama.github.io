@@ -76,6 +76,9 @@
     <app-footer/>
   </div>
 </template>
+<script setup>
+useHead({ title: '実行委員会' })
+</script>
 <script>
 import AppHeader from '@/components/header'
 import AppFooter from '@/components/footer'
@@ -85,11 +88,6 @@ export default {
   components: { AppHeader, AppFooter },
   data: function () {
     return StaffData
-  },
-  head() {
-    return {
-      title: '実行委員会'
-    }
   }
 }
 </script>
