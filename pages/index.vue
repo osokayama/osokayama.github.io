@@ -81,17 +81,17 @@
     <app-footer/>
   </div>
 </template>
+<script setup>
+useHead({
+  titleTemplate: 'オープンセミナー2025@岡山'
+})
+</script>
 <script>
 import AppHeader from '@/components/header'
 import AppFooter from '@/components/footer'
 
 export default {
-  components: { AppHeader, AppFooter },
-  head() {
-    return {
-      titleTemplate: 'オープンセミナー2025@岡山'
-    }
-  }
+  components: { AppHeader, AppFooter }
 }
 </script>
 <style scoped lang="scss">

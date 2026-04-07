@@ -55,6 +55,9 @@
     <app-footer/>
   </div>
 </template>
+<script setup>
+useHead({ title: '登壇者' })
+</script>
 <script>
 import AppHeader from '@/components/header'
 import AppFooter from '@/components/footer'
@@ -65,11 +68,6 @@ export default {
   data: function () {
     return {
       timetable: TimetableData
-    }
-  },
-  head() {
-    return {
-      title: '登壇者'
     }
   },
   methods: {

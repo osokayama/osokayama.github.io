@@ -111,6 +111,9 @@
     <app-footer/>
   </div>
 </template>
+<script setup>
+useHead({ title: '協賛企業・協力・後援団体一覧' })
+</script>
 <script>
 import AppHeader from '@/components/header'
 import AppFooter from '@/components/footer'
@@ -120,11 +123,6 @@ export default {
   components: { AppHeader, AppFooter },
   data: function () {
     return SponsorData
-  },
-  head() {
-    return {
-      title: '協賛企業・協力・後援団体一覧'
-    }
   }
 }
 </script>
