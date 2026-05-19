@@ -1,0 +1,27 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`pages/faq.vue > renders correctly 1`] = `
+"<div data-v-ce0b5106="">
+  <header data-v-5be51a94="" data-v-ce0b5106="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
+    <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
+    <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/timetable" class="siimple-navbar-link">タイムテーブル</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/sponsor" class="siimple-navbar-link">スポンサー</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+  </header>
+  <div class="siimple-content siimple-content--medium siimple--mt-5" data-v-ce0b5106="">
+    <div class="siimple-box page-title" data-v-ce0b5106="">
+      <div class="siimple-box-title" data-v-ce0b5106=""><i class="fas fa-question" data-v-ce0b5106=""></i> よくあるご質問</div>
+    </div>
+    <h2 data-v-ce0b5106=""><i class="fas fa-question" data-v-ce0b5106=""></i> どのような開催形式になりますか？</h2>
+    <p class="siimple-p" data-v-ce0b5106=""> オフライン形式での開催となります。 </p>
+    <h2 data-v-ce0b5106=""><i class="fas fa-question" data-v-ce0b5106=""></i> 懇親会はありますか？</h2>
+    <p class="siimple-p" data-v-ce0b5106="">開催します。<a href="../#after-party" data-v-ce0b5106="">懇親会</a>の情報をご確認ください。<br data-v-ce0b5106="">参加者、登壇者と気軽に交流できるチャンスです。お気軽にご参加下さい。</p>
+    <h2 data-v-ce0b5106=""><i class="fas fa-question" data-v-ce0b5106=""></i> 最寄り駅はどこですか？</h2>
+    <p class="siimple-p" data-v-ce0b5106="">岡山駅西口より徒歩約7分です。<a href="../#venue" data-v-ce0b5106="">会場の情報はこちら</a></p>
+    <h2 data-v-ce0b5106=""><i class="fas fa-question" data-v-ce0b5106=""></i> 会場での飲食は可能ですか？</h2>
+    <p class="siimple-p" data-v-ce0b5106="">可能です。</p>
+    <h2 data-v-ce0b5106=""><i class="fas fa-question" data-v-ce0b5106=""></i> 来年もやりますか？</h2>
+    <p class="siimple-p" data-v-ce0b5106="">やります。</p>
+  </div>
+  <footer data-v-45a0dde9="" data-v-ce0b5106="" class="siimple-footer siimple-footer--navy"> オープンセミナー岡山実行委員会 </footer>
+</div>"
+`;
