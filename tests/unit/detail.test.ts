@@ -1,6 +1,25 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import { mountSuspended, mockNuxtImport } from '@nuxt/test-utils/runtime'
 import DetailPage from '~/pages/detail.vue'
+
+vi.mock('~/data/timetable_data', () => ({
+  default: {
+    timetable: {
+      testSpeaker: {
+        title: 'テストタイトル',
+        name: 'テストスピーカー',
+        affiliation: 'テスト所属',
+        image: 'test.png',
+        detail: '<p>テスト詳細</p>',
+        twitter: ['https://x.com/test'],
+        facebook: [],
+        github: ['https://github.com/test'],
+        externals: ['https://example.com'],
+        profile: 'テストプロフィール',
+      },
+    },
+  },
+}))
 
 const { useRouteMock } = vi.hoisted(() => ({
   useRouteMock: vi.fn(),
@@ -9,63 +28,15 @@ const { useRouteMock } = vi.hoisted(() => ({
 mockNuxtImport('useRoute', () => useRouteMock)
 
 describe('pages/detail.vue', () => {
-  describe('有効な speaker クエリ（aknow）が与えられた場合', () => {
-    beforeEach(() => {
-      useRouteMock.mockReturnValue({ query: { speaker: 'aknow' } })
-    })
-
-    it('登壇者名が表示される', async () => {
+  describe('有効な speaker クエリ（testSpeaker）が与えられた場合', () => {
+    it('renders correctly', async () => {
+      useRouteMock.mockReturnValue({ query: { speaker: 'testSpeaker' } })
       const wrapper = await mountSuspended(DetailPage)
-      expect(wrapper.find('h2').text()).toContain('a-know')
-    })
-
-    it('登壇タイトルが存在する', async () => {
-      const wrapper = await mountSuspended(DetailPage)
-      expect(wrapper.find('h1').exists()).toBe(true)
-    })
-
-    it('プロフィールが表示される', async () => {
-      const wrapper = await mountSuspended(DetailPage)
-      expect(wrapper.find('.speaker_info p').exists()).toBe(true)
-    })
-
-    it('プロフィール写真が表示される', async () => {
-      const wrapper = await mountSuspended(DetailPage)
-      const img = wrapper.find('.speaker_photo img')
-      expect(img.exists()).toBe(true)
-      expect(img.attributes('alt')).toContain('a-know')
-    })
-
-    it('Twitter リンクが 1 件表示される', async () => {
-      const wrapper = await mountSuspended(DetailPage)
-      const icons = wrapper.findAll('.speaker_social_icons .fa-x-twitter')
-      expect(icons).toHaveLength(1)
-    })
-
-    it('GitHub リンクが 1 件表示される', async () => {
-      const wrapper = await mountSuspended(DetailPage)
-      const icons = wrapper.findAll('.speaker_social_icons .fa-github')
-      expect(icons).toHaveLength(1)
-    })
-
-    it('外部リンクが 1 件表示される', async () => {
-      const wrapper = await mountSuspended(DetailPage)
-      const icons = wrapper.findAll('.speaker_social_icons .fa-external-link-alt')
-      expect(icons).toHaveLength(1)
-    })
-
-    it('Facebook リンクが表示されない（aknow は空）', async () => {
-      const wrapper = await mountSuspended(DetailPage)
-      const icons = wrapper.findAll('.speaker_social_icons .fa-facebook')
-      expect(icons).toHaveLength(0)
-    })
-
-    it('「戻る」リンクが表示される', async () => {
-      const wrapper = await mountSuspended(DetailPage)
-      expect(wrapper.find('a[href="#"]').exists()).toBe(true)
+      expect(wrapper.html()).toMatchSnapshot()
     })
 
     it('「戻る」クリックで history.back() が呼ばれる', async () => {
+      useRouteMock.mockReturnValue({ query: { speaker: 'testSpeaker' } })
       const backSpy = vi.spyOn(history, 'back').mockImplementation(() => {})
       const wrapper = await mountSuspended(DetailPage)
       await wrapper.find('a[href="#"]').trigger('click')
@@ -75,24 +46,18 @@ describe('pages/detail.vue', () => {
   })
 
   describe('speaker クエリに対応するデータが存在しない場合', () => {
-    beforeEach(() => {
+    it('renders correctly', async () => {
       useRouteMock.mockReturnValue({ query: { speaker: 'unknown_speaker' } })
-    })
-
-    it('コンテンツエリアが表示されない', async () => {
       const wrapper = await mountSuspended(DetailPage)
-      expect(wrapper.find('.siimple-box').exists()).toBe(false)
+      expect(wrapper.html()).toMatchSnapshot()
     })
   })
 
   describe('speaker クエリが存在しない場合', () => {
-    beforeEach(() => {
+    it('renders correctly', async () => {
       useRouteMock.mockReturnValue({ query: {} })
-    })
-
-    it('コンテンツエリアが表示されない', async () => {
       const wrapper = await mountSuspended(DetailPage)
-      expect(wrapper.find('.siimple-box').exists()).toBe(false)
+      expect(wrapper.html()).toMatchSnapshot()
     })
   })
 })

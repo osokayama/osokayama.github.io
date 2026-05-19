@@ -2,6 +2,23 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { mountSuspended, mockNuxtImport } from '@nuxt/test-utils/runtime'
 import TimetablePage from '~/pages/timetable.vue'
 
+vi.mock('~/data/timetable_data', () => ({
+  default: {
+    timetable: {
+      aknow: { title: 'aknow タイトル', name: 'a-know' },
+      hsjoihs: { title: 'hsjoihs タイトル', name: '佐藤 弘崇' },
+      koba789: { title: 'koba789 タイトル', name: 'KOBA789' },
+      majima: { title: 'majima タイトル', name: '間嶋 沙知' },
+      kiryu: { title: 'kiryu タイトル', name: '桐生 あんず' },
+      kyoro: { title: 'kyoro タイトル', name: 'きょろ' },
+      serio: { company: 'セリオ株式会社', title: null, name: null },
+      psc: { company: '株式会社PSC', title: 'psc タイトル', name: 'psc スピーカー' },
+      subthread: { company: '株式会社サブスレッド', title: null, name: null },
+      jobdraft: { company: '株式会社ジョブドラフト', title: null, name: null },
+    },
+  },
+}))
+
 const { navigateToMock } = vi.hoisted(() => ({
   navigateToMock: vi.fn(),
 }))
@@ -13,20 +30,9 @@ describe('pages/timetable.vue', () => {
     navigateToMock.mockReset()
   })
 
-  it('セッション行（.session クラス）が6件存在する', async () => {
+  it('renders correctly', async () => {
     const wrapper = await mountSuspended(TimetablePage)
-    const rows = wrapper.findAll('tr.session')
-    expect(rows).toHaveLength(6)
-  })
-
-  it('「オープニング」テキストが存在する', async () => {
-    const wrapper = await mountSuspended(TimetablePage)
-    expect(wrapper.text()).toContain('オープニング')
-  })
-
-  it('「クロージング」テキストが存在する', async () => {
-    const wrapper = await mountSuspended(TimetablePage)
-    expect(wrapper.text()).toContain('クロージング')
+    expect(wrapper.html()).toMatchSnapshot()
   })
 
   it('aknow セッションクリックで navigateTo が呼ばれる', async () => {

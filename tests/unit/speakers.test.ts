@@ -2,6 +2,19 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { mountSuspended, mockNuxtImport } from '@nuxt/test-utils/runtime'
 import SpeakersPage from '~/pages/speakers.vue'
 
+vi.mock('~/data/timetable_data', () => ({
+  default: {
+    timetable: {
+      aknow: { name: 'a-know' },
+      kyoro: { name: 'きょろ' },
+      kiryu: { name: '桐生 あんず' },
+      koba789: { name: 'KOBA789' },
+      hsjoihs: { name: '佐藤 弘崇' },
+      majima: { name: '間嶋 沙知' },
+    },
+  },
+}))
+
 const { navigateToMock } = vi.hoisted(() => ({
   navigateToMock: vi.fn(),
 }))
@@ -13,10 +26,9 @@ describe('pages/speakers.vue', () => {
     navigateToMock.mockReset()
   })
 
-  it('テーブル行（.session）が6件存在する', async () => {
+  it('renders correctly', async () => {
     const wrapper = await mountSuspended(SpeakersPage)
-    const rows = wrapper.findAll('tr.session')
-    expect(rows).toHaveLength(6)
+    expect(wrapper.html()).toMatchSnapshot()
   })
 
   it('aknow 行クリックで navigateTo が呼ばれる', async () => {
