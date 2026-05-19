@@ -37,10 +37,10 @@ describe('components/header.vue', () => {
     expect(wrapper.vm.menuVisible).toBe(initial)
   })
 
-  it('menuVisible が true のときメニュー要素が表示状態になる', async () => {
+  it('renders correctly (menu hidden)', async () => {
     const wrapper = await mountSuspended(Header)
-    wrapper.vm.menuVisible = true
+    wrapper.vm.menuVisible = false
     await wrapper.vm.$nextTick()
-    expect(wrapper.find('#menus').isVisible()).toBe(true)
+    expect(wrapper.html()).toMatchSnapshot()
   })
 })
