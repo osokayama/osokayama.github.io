@@ -1,6 +1,11 @@
 export default {
   histories: [
     {
+      year: 2025,
+      theme: '【情熱】',
+      image: '../2025/_nuxt/top.rzcHk6Jb.jpg'
+    },
+    {
       year: 2024,
       theme: '【のびしろ】',
       image: '../2024/_nuxt/top.J-Ydqy6e.png'
