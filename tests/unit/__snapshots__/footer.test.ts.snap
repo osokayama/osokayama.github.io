@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`components/footer.vue > renders correctly 1`] = `"<footer data-v-45a0dde9="" class="siimple-footer siimple-footer--navy"> オープンセミナー岡山実行委員会 </footer>"`;

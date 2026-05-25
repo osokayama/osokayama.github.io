@@ -1,0 +1,81 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`pages/staff.vue > renders correctly 1`] = `
+"<div data-v-e1ad446b="">
+  <header data-v-5be51a94="" data-v-e1ad446b="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
+    <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
+    <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/timetable" class="siimple-navbar-link">タイムテーブル</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/sponsor" class="siimple-navbar-link">スポンサー</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+  </header>
+  <div data-v-e1ad446b="" class="siimple-content siimple-content--medium siimple--mt-5">
+    <div data-v-e1ad446b="" class="siimple-box page-title">
+      <div data-v-e1ad446b="" class="siimple-box-title"><i data-v-e1ad446b="" class="fas fa-users"></i> 実行委員会</div>
+    </div>
+    <div data-v-e1ad446b="" class="siimple-grid oso-staff">
+      <div data-v-e1ad446b="" class="siimple-grid-row">
+        <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col-sm--6 siimple-grid-col-md--4 siimple-grid-col-lg--3 siimple-grid-col--2">
+          <div data-v-e1ad446b="" class="siimple-box siimple-box--navy oso-staff-box">
+            <div data-v-e1ad446b="" class="oso-staff-image"><img data-v-e1ad446b="" src="/images/staff/a.jpg"></div>
+            <div data-v-e1ad446b="" class="oso-staff-names">
+              <div data-v-e1ad446b="" class="oso-staff-name">スタッフA</div>
+              <div data-v-e1ad446b="" class="oso-staff-roll">実行委員長</div>
+            </div>
+            <div data-v-e1ad446b="" class="oso-staff-sns">
+              <div data-v-e1ad446b="" class="siimple-grid oso-staff-sns-icons">
+                <div data-v-e1ad446b="" class="siimple-grid-row">
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://x.com/staffa"><i data-v-e1ad446b="" class="fab fa-x-twitter" aria-hidden="true"></i></a></div>
+                  <!--v-if-->
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://github.com/staffa"><i data-v-e1ad446b="" class="fab fa-github" aria-hidden="true"></i></a></div>
+                  <!--v-if-->
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://example-a.com/"><i data-v-e1ad446b="" class="fas fa-external-link-alt" aria-hidden="true"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col-sm--6 siimple-grid-col-md--4 siimple-grid-col-lg--3 siimple-grid-col--2">
+          <div data-v-e1ad446b="" class="siimple-box siimple-box--navy oso-staff-box">
+            <div data-v-e1ad446b="" class="oso-staff-image"><img data-v-e1ad446b="" src="/images/staff/b.jpg"></div>
+            <div data-v-e1ad446b="" class="oso-staff-names">
+              <div data-v-e1ad446b="" class="oso-staff-name">スタッフB</div>
+              <div data-v-e1ad446b="" class="oso-staff-roll">事務局長</div>
+            </div>
+            <div data-v-e1ad446b="" class="oso-staff-sns">
+              <div data-v-e1ad446b="" class="siimple-grid oso-staff-sns-icons">
+                <div data-v-e1ad446b="" class="siimple-grid-row">
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://x.com/staffb"><i data-v-e1ad446b="" class="fab fa-x-twitter" aria-hidden="true"></i></a></div>
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://www.facebook.com/staffb"><i data-v-e1ad446b="" class="fab fa-facebook-f" aria-hidden="true"></i></a></div>
+                  <!--v-if-->
+                  <!--v-if-->
+                  <!--v-if-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col-sm--6 siimple-grid-col-md--4 siimple-grid-col-lg--3 siimple-grid-col--2">
+          <div data-v-e1ad446b="" class="siimple-box siimple-box--navy oso-staff-box">
+            <div data-v-e1ad446b="" class="oso-staff-image"><img data-v-e1ad446b="" src="/images/staff/c.jpg"></div>
+            <div data-v-e1ad446b="" class="oso-staff-names">
+              <div data-v-e1ad446b="" class="oso-staff-name">スタッフC</div>
+              <!--v-if-->
+            </div>
+            <div data-v-e1ad446b="" class="oso-staff-sns">
+              <div data-v-e1ad446b="" class="siimple-grid oso-staff-sns-icons">
+                <div data-v-e1ad446b="" class="siimple-grid-row">
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://x.com/staffc"><i data-v-e1ad446b="" class="fab fa-x-twitter" aria-hidden="true"></i></a></div>
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://www.facebook.com/staffc"><i data-v-e1ad446b="" class="fab fa-facebook-f" aria-hidden="true"></i></a></div>
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://github.com/staffc"><i data-v-e1ad446b="" class="fab fa-github" aria-hidden="true"></i></a></div>
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://bsky.app/profile/staffc.bsky.social"><i data-v-e1ad446b="" class="fab fa-bluesky" aria-hidden="true"></i></a></div>
+                  <div data-v-e1ad446b="" class="siimple-grid-col siimple-grid-col--6 oso-staff-sns-icon"><a data-v-e1ad446b="" href="https://example-c.com/"><i data-v-e1ad446b="" class="fas fa-external-link-alt" aria-hidden="true"></i></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer data-v-45a0dde9="" data-v-e1ad446b="" class="siimple-footer siimple-footer--navy"> オープンセミナー岡山実行委員会 </footer>
+</div>"
+`;

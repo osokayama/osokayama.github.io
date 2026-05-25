@@ -55,55 +55,32 @@
   </div>
 </template>
 <script setup>
-useHead({ title: '登壇内容・講師詳細' })
-</script>
-<script>
 import AppHeader from '@/components/header'
 import AppFooter from '@/components/footer'
 import TimetableData from '@/data/timetable_data'
 
-export default {
-  components: { AppHeader, AppFooter },
-  data: function () {
-    return {
-      title: '',
-      name: '',
-      affiliation: '',
-      image: '',
-      detail: '',
-      twitter: '',
-      facebook: '',
-      github: '',
-      externals: [],
-      profile: ''
-    }
-  },
-  mounted: function () {
-    const route = useRoute()
-    const speaker = this.getSpeaker(route.query.speaker)
-    if (speaker) {
-      this.title = speaker.title
-      this.name = speaker.name
-      this.affiliation = speaker.affiliation
-      this.image = speaker.image
-      this.detail = speaker.detail
-      this.twitters = speaker.twitter
-      this.facebooks = speaker.facebook
-      this.githubs = speaker.github
-      this.externals = speaker.externals
-      this.profile = speaker.profile
-    }
-    document.title = `登壇内容・講師詳細(${speaker ? speaker.name : ''})`
-  },
-  methods: {
-    getSpeaker(speaker) {
-      if (process.server) return null
-      return TimetableData.timetable[speaker]
-    },
-    back() {
-      history.back()
-    }
-  }
+const route = useRoute()
+const speaker = computed(() => TimetableData.timetable[route.query.speaker] ?? null)
+
+const title = computed(() => speaker.value?.title ?? '')
+const name = computed(() => speaker.value?.name ?? '')
+const affiliation = computed(() => speaker.value?.affiliation ?? '')
+const image = computed(() => speaker.value?.image ?? '')
+const detail = computed(() => speaker.value?.detail ?? '')
+const twitters = computed(() => speaker.value?.twitter ?? [])
+const facebooks = computed(() => speaker.value?.facebook ?? [])
+const githubs = computed(() => speaker.value?.github ?? [])
+const externals = computed(() => speaker.value?.externals ?? [])
+const profile = computed(() => speaker.value?.profile ?? '')
+
+useHead({
+  title: computed(() =>
+    speaker.value ? `登壇内容・講師詳細(${speaker.value.name})` : '登壇内容・講師詳細'
+  ),
+})
+
+function back() {
+  history.back()
 }
 </script>
 <style scoped>

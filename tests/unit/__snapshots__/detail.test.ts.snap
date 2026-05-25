@@ -1,0 +1,58 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`pages/detail.vue > speaker クエリが存在しない場合 > renders correctly 1`] = `
+"<div data-v-dfbaac98="">
+  <header data-v-5be51a94="" data-v-dfbaac98="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
+    <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
+    <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/timetable" class="siimple-navbar-link">タイムテーブル</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/sponsor" class="siimple-navbar-link">スポンサー</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+  </header>
+  <!--v-if-->
+  <footer data-v-45a0dde9="" data-v-dfbaac98="" class="siimple-footer siimple-footer--navy"> オープンセミナー岡山実行委員会 </footer>
+</div>"
+`;
+
+exports[`pages/detail.vue > speaker クエリに対応するデータが存在しない場合 > renders correctly 1`] = `
+"<div data-v-dfbaac98="">
+  <header data-v-5be51a94="" data-v-dfbaac98="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
+    <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
+    <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/timetable" class="siimple-navbar-link">タイムテーブル</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/sponsor" class="siimple-navbar-link">スポンサー</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+  </header>
+  <!--v-if-->
+  <footer data-v-45a0dde9="" data-v-dfbaac98="" class="siimple-footer siimple-footer--navy"> オープンセミナー岡山実行委員会 </footer>
+</div>"
+`;
+
+exports[`pages/detail.vue > 有効な speaker クエリ（testSpeaker）が与えられた場合 > renders correctly 1`] = `
+"<div data-v-dfbaac98="">
+  <header data-v-5be51a94="" data-v-dfbaac98="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
+    <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
+    <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/timetable" class="siimple-navbar-link">タイムテーブル</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/sponsor" class="siimple-navbar-link">スポンサー</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+  </header>
+  <div data-v-dfbaac98="" class="siimple-content siimple-content--medium siimple--mt-5">
+    <div data-v-dfbaac98="" class="siimple-box page-title">
+      <div data-v-dfbaac98="" class="siimple-box-title"><i data-v-dfbaac98="" class="fas fa-user"></i> 登壇内容・講師詳細</div>
+    </div>
+    <h1 data-v-dfbaac98="">テストタイトル</h1>
+    <p data-v-dfbaac98="">
+    <p>テスト詳細</p>
+    </p>
+    <div data-v-dfbaac98="" class="speaker_profile">
+      <div data-v-dfbaac98="" class="speaker_photo"><img data-v-dfbaac98="" src="/images/speakers/test.png" alt="講演者：テストスピーカーのプロフィール写真"></div>
+      <div data-v-dfbaac98="" class="speaker_info">
+        <h2 data-v-dfbaac98="">テストスピーカー</h2>
+        <p data-v-dfbaac98="">テスト所属</p>
+        <ul data-v-dfbaac98="" class="speaker_social_icons">
+          <li data-v-dfbaac98=""><a data-v-dfbaac98="" href="https://x.com/test"><i data-v-dfbaac98="" class="fab fa-x-twitter" aria-hidden="true"></i></a></li>
+          <li data-v-dfbaac98=""><a data-v-dfbaac98="" href="https://github.com/test"><i data-v-dfbaac98="" class="fab fa-github" aria-hidden="true"></i></a></li>
+          <li data-v-dfbaac98=""><a data-v-dfbaac98="" href="https://example.com"><i data-v-dfbaac98="" class="fas fa-external-link-alt" aria-hidden="true"></i></a></li>
+        </ul>
+        <p data-v-dfbaac98="">テストプロフィール</p>
+      </div>
+    </div><a data-v-dfbaac98="" href="#">戻る</a>
+  </div>
+  <footer data-v-45a0dde9="" data-v-dfbaac98="" class="siimple-footer siimple-footer--navy"> オープンセミナー岡山実行委員会 </footer>
+</div>"
+`;
