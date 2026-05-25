@@ -4,20 +4,20 @@
     <!-- jumbotron -->
     <div class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
       <div class="siimple-jumbotron-title"><img src="@/assets/images/logo.svg"></div>
-      <div class="siimple-jumbotron-subtitle">【情熱】</div>
-      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2025年10月18日(土)開催</div>
+      <div class="siimple-jumbotron-subtitle">【巻き込む力・巻き込まれる力】</div>
+      <div class="siimple-jumbotron-detail"><i class="far fa-calendar-alt"/> 2026年9月12日(土)開催</div>
       <div class="siimple-jumbotron-detail">
         <ul class="top_social_buttons">
           <li>
             <a
-              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12025&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
+              href="http://twitter.com/intent/tweet?text=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12026&amp;url=https%3A%2F%2Fokayama.open-seminar.org%2F"
               onclick="window.open(this.href, 'tweetwindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=1'); return false;">
               <i class="fab fa-x-twitter"/>
             </a>
           </li>
           <li>
             <a
-              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12025"
+              href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12026"
               onclick="window.open(this.href, 'fbsharewindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;">
               <i class="fab fa-facebook-f"/>
             </a>
@@ -29,18 +29,24 @@
     <div class="siimple-content siimple-content--medium siimple--mt-5">
       <!-- theme -->
       <h2 id="theme">テーマ</h2>
-      <div class="content-theme">【情熱】</div>
+      <div class="content-theme">【巻き込む力・巻き込まれる力】</div>
       <p>
-        オープンセミナー2025@岡山 (OSO) 実行委員長の末田です。
+        オープンセミナー2026@岡山 (OSO) 実行委員長のよわよわです。
       </p>
       <p>
-        今年の OSO のメインテーマである「情熱」は、私たち技術者が過去から持ち続けてきた、IT ひいてはものづくり全てへの情動や熱意を形容するものです。
+        僕がエンジニアコミュニティに参加するようになったのは、2年前のOSOに参加したことがきっかけです。
       </p>
       <p>
-        多くの人が集ってトークを繰り広げる OSO の場では、これまで具体的な知見や意見の交換が行われてきました。その十余年におよぶ開催実績を眺めると、その場で話される話題も時代に合わせて変化してきたことがわかります。OSO 18回目の今回は視点を心の中へと移し、我々技術者の原点であるパッションについて、登壇頂く方々十人十色の切り口で語って頂く回にしたいと考えています。
+        そこで目にした登壇者の熱量に圧倒され、翌年には実行委員になり、今年は実行委員長としてこの場に立っています。
       </p>
       <p>
-        情熱というテーマを語っていただくにあたり、今回は従前より技術者としての情熱を発信しつづけてきた方々に登壇頂きます。皆さんにとって親しみある分野から、まるで聞いたことのない事柄に至るまで、アツい思いとクリエイティビティが弾ける濃密な1日となることでしょう。聴講から懇親会にかけて、当日はどのような会話が繰り広げられるか私自身楽しみにしています。
+        今年のテーマは「巻き込む力・巻き込まれる力」です。まさにこのテーマのように、僕自身もOSOの熱量に「巻き込まれて」しまったわけです。
+      </p>
+      <p>
+        「巻き込まれる」と聞くと、どこか受動的な印象を受けるかもしれませんが、誰かの熱量に気づき、面白がり、その渦に飛び込む勇気を持つことは、エンジニアにとって立派な「才能」だと思います。
+      </p>
+      <p>
+        岡山のコミュニティの登竜門であるOSOで、素晴らしい登壇者たちが放つ「巻き込む力」に全力で「巻き込まれ」に来てください。
       </p>
       <!-- oso -->
       <h2 id="about-oso">オープンセミナーとは</h2>
@@ -61,14 +67,14 @@
         </a>
       </p>
       <p>時間：18:00～21:00</p>
-      <p>費用：社会人4,000円/学生2,000円</p>
+      <p>費用：社会人4,500円/学生2,000円</p>
       <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation">
         ※事前にお申し込みが必要です。
       </div>
       <!-- venue -->
       <h2 id="venue">日時・場所</h2>
       <p>
-        2025年10月18日(土) <a href="https://okayama.coop/ps/hall/#hall1">オルガホール</a>
+        2026年9月12日(土) <a href="https://okayama.coop/ps/hall/#hall1">オルガホール</a>
       </p>
       <p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5518.733563331652!2d133.91517748030932!3d34.668373160657154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7fdd05de77aa705!2z44Kq44Or44Ks44Ob44O844Or!5e0!3m2!1sja!2sjp!4v1466575776828" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -83,7 +89,7 @@
 </template>
 <script setup>
 useHead({
-  titleTemplate: 'オープンセミナー2025@岡山'
+  titleTemplate: 'オープンセミナー2026@岡山'
 })
 </script>
 <script>
