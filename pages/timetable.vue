@@ -202,7 +202,7 @@ export default {
   methods: {
     show (speaker) {
       if (!this.timetable.timetable[speaker]) return
-      navigateTo(`detail/?speaker=${speaker}`)
+      navigateTo(`/detail/?speaker=${speaker}`)
     }
   }
 }
