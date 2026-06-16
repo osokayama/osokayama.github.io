@@ -1,29 +1,19 @@
 export default {
   staffs: [
     {
-      name: '末田 卓巳',
+      name: 'くらもと やすひろ',
       roll: '実行委員長',
-      image: 'sueda.jpg',
-      twitter: 'https://x.com/puhitaku',
+      image: 'kuramoto.png',
+      twitter: 'https://x.com/yowayowa_engr',
       facebook: '',
-      github: 'https://github.com/puhitaku',
-      bluesky: '',
-      external: 'https://www.zopfco.de/'
-    },
-    {
-      name: '芝 世弐',
-      roll: '事務局長',
-      image: 'shiba.jpg',
-      twitter: 'https://x.com/bleu48',
-      facebook: 'https://www.facebook.com/bleu48',
-      github: '',
+      github: 'https://github.com/yowayowaengineer',
       bluesky: '',
       external: ''
     },
     {
       name: '角田 裕樹',
       roll: '会計',
-      image: 'sumida.jpg',
+      image: 'sumida.png',
       twitter: 'https://x.com/razon',
       facebook: 'https://www.facebook.com/shiz0ne',
       github: 'https://github.com/shizone',
@@ -31,24 +21,14 @@ export default {
       external: 'https://about.me/shizone'
     },
     {
-      name: '阿部 信介',
+      name: '土屋 翔平',
       roll: '',
-      image: 'abe.jpg',
-      twitter: 'https://x.com/mao_instantlife',
-      facebook: 'https://www.facebook.com/mao.instantlife',
-      github: 'https://github.com/Shinsuke-Abe',
-      bluesky: '',
-      external: ''
-    },
-    {
-      name: 'くらもと やすひろ',
-      roll: '',
-      image: 'kuramoto.png',
-      twitter: 'https://x.com/yowayowa_engr',
+      image: 'tsuchiya.jpg',
+      twitter: ' ttps://x.com/kakeru_213',
       facebook: '',
-      github: 'https://github.com/yowayowaengineer',
+      github: '',
       bluesky: '',
-      external: ''
+      external: 'https://kakerun-mouse.hatenablog.com/'
     },
     {
       name: '広岡 健太郎',
@@ -89,6 +69,16 @@ export default {
       github: 'https://github.com/maepon',
       bluesky: 'https://bsky.app/profile/maepon.bsky.social',
       external: 'https://maepon.blog'
+    },
+    {
+      name: '三輪 昭生',
+      roll: '',
+      image: 'miwa.jpg',
+      twitter: 'https://x.com/triring',
+      facebook: '',
+      github: 'https://github.com/triring',
+      bluesky: 'https://bsky.app/profile/triring.bsky.social',
+      external: ''
     },
   ]
 }
