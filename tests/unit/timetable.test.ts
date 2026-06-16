@@ -39,41 +39,41 @@ describe('pages/timetable.vue', () => {
     const wrapper = await mountSuspended(TimetablePage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[0].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('detail/?speaker=aknow')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=aknow')
   })
 
   it('hsjoihs セッションクリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(TimetablePage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[1].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('detail/?speaker=hsjoihs')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=hsjoihs')
   })
 
   it('koba789 セッションクリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(TimetablePage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[2].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('detail/?speaker=koba789')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=koba789')
   })
 
   it('majima セッションクリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(TimetablePage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[3].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('detail/?speaker=majima')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=majima')
   })
 
   it('kiryu セッションクリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(TimetablePage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[4].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('detail/?speaker=kiryu')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=kiryu')
   })
 
   it('kyoro セッションクリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(TimetablePage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[5].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('detail/?speaker=kyoro')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=kyoro')
   })
 })
