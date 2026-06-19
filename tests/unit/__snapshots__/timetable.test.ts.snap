@@ -5,7 +5,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
   <header data-v-5be51a94="" data-v-86d62777="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
     <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
     <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
-    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/speakers" class="siimple-navbar-link">登壇者</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
   </header>
   <div data-v-86d62777="" class="siimple-content siimple-content--medium siimple--mt-5">
     <div data-v-86d62777="" class="siimple-box page-title">
@@ -21,7 +21,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row session">
           <td data-v-86d62777="" class="siimple-table-cell">10:10 - 10:50</td>
           <td data-v-86d62777="" class="siimple-table-cell">40分</td>
-          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">aknow タイトル</span><br data-v-86d62777="">a-know</td>
+          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">lucas タイトル</span><br data-v-86d62777="">ゴールドナ ルーカス</td>
         </tr>
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">10:50 - 10:55</td>
@@ -36,7 +36,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row session">
           <td data-v-86d62777="" class="siimple-table-cell">11:05 - 11:45</td>
           <td data-v-86d62777="" class="siimple-table-cell">40分</td>
-          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">hsjoihs タイトル</span><br data-v-86d62777="">佐藤 弘崇</td>
+          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">miyake タイトル</span><br data-v-86d62777="">三宅 大樹 (まょけ)</td>
         </tr>
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">11:45 - 11:50</td>
@@ -51,7 +51,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">12:45 - 12:55</td>
           <td data-v-86d62777="" class="siimple-table-cell">10分</td>
-          <td data-v-86d62777="" class="siimple-table-cell"> スポンサーセッション セリオ株式会社<br data-v-86d62777="">
+          <td data-v-86d62777="" class="siimple-table-cell"> スポンサーセッション 調整中<br data-v-86d62777="">
             <!--v-if-->
           </td>
         </tr>
@@ -63,7 +63,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row session">
           <td data-v-86d62777="" class="siimple-table-cell">13:00 - 13:40</td>
           <td data-v-86d62777="" class="siimple-table-cell">40分</td>
-          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">koba789 タイトル</span><br data-v-86d62777="">KOBA789</td>
+          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">tamacona タイトル</span><br data-v-86d62777="">河内 一弘（Kawachi Kazuhiro）</td>
         </tr>
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">13:40 - 13:45</td>
@@ -78,7 +78,9 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">14:00 - 14:10</td>
           <td data-v-86d62777="" class="siimple-table-cell">10分</td>
-          <td data-v-86d62777="" class="siimple-table-cell"> スポンサーセッション 株式会社PSC<br data-v-86d62777=""><span data-v-86d62777=""><span data-v-86d62777="">psc タイトル</span><br data-v-86d62777="">psc スピーカー</span></td>
+          <td data-v-86d62777="" class="siimple-table-cell"> スポンサーセッション 調整中<br data-v-86d62777="">
+            <!--v-if-->
+          </td>
         </tr>
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">14:10 - 14:15</td>
@@ -88,7 +90,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row session">
           <td data-v-86d62777="" class="siimple-table-cell">14:15 - 14:55</td>
           <td data-v-86d62777="" class="siimple-table-cell">40分</td>
-          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">majima タイトル</span><br data-v-86d62777="">間嶋 沙知</td>
+          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">umeta タイトル</span><br data-v-86d62777="">Yuuki Umeta</td>
         </tr>
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">14:55 - 15:00</td>
@@ -103,7 +105,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">15:15 - 15:25</td>
           <td data-v-86d62777="" class="siimple-table-cell">10分</td>
-          <td data-v-86d62777="" class="siimple-table-cell"> スポンサーセッション 株式会社サブスレッド<br data-v-86d62777="">
+          <td data-v-86d62777="" class="siimple-table-cell"> スポンサーセッション 調整中<br data-v-86d62777="">
             <!--v-if-->
           </td>
         </tr>
@@ -115,7 +117,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row session">
           <td data-v-86d62777="" class="siimple-table-cell">15:30 - 16:10</td>
           <td data-v-86d62777="" class="siimple-table-cell">40分</td>
-          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">kiryu タイトル</span><br data-v-86d62777="">桐生 あんず</td>
+          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">dailsy タイトル</span><br data-v-86d62777="">粕谷 大輔 (だいくしー)</td>
         </tr>
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">16:10 - 16:15</td>
@@ -130,7 +132,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">16:30 - 16:40</td>
           <td data-v-86d62777="" class="siimple-table-cell">10分</td>
-          <td data-v-86d62777="" class="siimple-table-cell"> スポンサーセッション 株式会社ジョブドラフト<br data-v-86d62777="">
+          <td data-v-86d62777="" class="siimple-table-cell"> スポンサーセッション 調整中<br data-v-86d62777="">
             <!--v-if-->
           </td>
         </tr>
@@ -142,7 +144,7 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
         <tr data-v-86d62777="" class="siimple-table-row session">
           <td data-v-86d62777="" class="siimple-table-cell">16:45 - 17:25</td>
           <td data-v-86d62777="" class="siimple-table-cell">40分</td>
-          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">kyoro タイトル</span><br data-v-86d62777="">きょろ</td>
+          <td data-v-86d62777="" class="siimple-table-cell hover"><span data-v-86d62777="">soudai タイトル</span><br data-v-86d62777="">曽根 壮大(そね たけとも)</td>
         </tr>
         <tr data-v-86d62777="" class="siimple-table-row">
           <td data-v-86d62777="" class="siimple-table-cell">17:25 - 17:30</td>

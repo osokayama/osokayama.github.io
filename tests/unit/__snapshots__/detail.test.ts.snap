@@ -5,7 +5,7 @@ exports[`pages/detail.vue > speaker クエリが存在しない場合 > renders 
   <header data-v-5be51a94="" data-v-dfbaac98="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
     <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
     <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
-    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/speakers" class="siimple-navbar-link">登壇者</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
   </header>
   <!--v-if-->
   <footer data-v-45a0dde9="" data-v-dfbaac98="" class="siimple-footer siimple-footer--navy"> オープンセミナー岡山実行委員会 </footer>
@@ -17,7 +17,7 @@ exports[`pages/detail.vue > speaker クエリに対応するデータが存在�
   <header data-v-5be51a94="" data-v-dfbaac98="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
     <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
     <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
-    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/speakers" class="siimple-navbar-link">登壇者</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
   </header>
   <!--v-if-->
   <footer data-v-45a0dde9="" data-v-dfbaac98="" class="siimple-footer siimple-footer--navy"> オープンセミナー岡山実行委員会 </footer>
@@ -29,7 +29,7 @@ exports[`pages/detail.vue > 有効な speaker クエリ（testSpeaker）が与�
   <header data-v-5be51a94="" data-v-dfbaac98="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
     <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
     <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
-    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/speakers" class="siimple-navbar-link">登壇者</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
   </header>
   <div data-v-dfbaac98="" class="siimple-content siimple-content--medium siimple--mt-5">
     <div data-v-dfbaac98="" class="siimple-box page-title">

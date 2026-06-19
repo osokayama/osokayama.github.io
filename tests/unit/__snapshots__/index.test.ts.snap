@@ -5,7 +5,7 @@ exports[`pages/index.vue > renders correctly 1`] = `
   <header data-v-5be51a94="" data-v-02281a80="" class="siimple-navbar siimple-navbar--navy siimple-navbar--medium">
     <div data-v-5be51a94="" class="siimple-layout--left"><a data-v-5be51a94="" href="/" class="siimple-navbar-title"><img data-v-5be51a94="" src="/assets/images/logo_white.svg"></a></div>
     <div data-v-5be51a94="" class="siimple-layout--right bars"><a data-v-5be51a94="" class="siimple-navbar-link"><i data-v-5be51a94="" class="fas fa-bars"></i></a></div>
-    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
+    <div data-v-5be51a94="" id="menus" class="siimple-layout--right menus"><a data-v-5be51a94="" href="/faq" class="siimple-navbar-link">よくあるご質問</a><a data-v-5be51a94="" href="/speakers" class="siimple-navbar-link">登壇者</a><a data-v-5be51a94="" href="/staff" class="siimple-navbar-link">実行委員会</a><a data-v-5be51a94="" href="/past" class="siimple-navbar-link">過去の開催実績</a></div>
   </header><!-- jumbotron -->
   <div data-v-02281a80="" class="siimple-jumbotron siimple-jumbotron--navy siimple-jumbotron--large jumbotron">
     <div data-v-02281a80="" class="siimple-jumbotron-title"><img data-v-02281a80="" src="/assets/images/logo.svg"></div>
@@ -17,8 +17,8 @@ exports[`pages/index.vue > renders correctly 1`] = `
         <li data-v-02281a80=""><a data-v-02281a80="" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fokayama.open-seminar.org%2F&amp;t=%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%82%BB%E3%83%9F%E3%83%8A%E3%83%BC%E5%B2%A1%E5%B1%B12026" onclick="window.open(this.href, 'fbsharewindow', 'width=550, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;"><i data-v-02281a80="" class="fab fa-facebook-f"></i></a></li>
       </ul>
     </div>
-    <div data-v-02281a80="" class="siimple-jumbotron-detail"><a data-v-02281a80="" href="https://oso.connpass.com/event/364196/">
-        <div data-v-02281a80="" class="siimple-btn siimple-btn--blue entry">お申し込みはこちらから</div>
+    <div data-v-02281a80="" class="siimple-jumbotron-detail"><a data-v-02281a80="" href="#">
+        <div data-v-02281a80="" class="siimple-btn siimple-btn--blue entry">申込開始までお待ち下さい</div>
       </a></div>
   </div>
   <div data-v-02281a80="" class="siimple-content siimple-content--medium siimple--mt-5">
