@@ -17,8 +17,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('aknow')">
-              <span v-html="timetable.timetable['aknow'].title" /><br>{{ timetable.timetable['aknow'].name }}
+              @click="show('lucas')">
+              <span v-html="timetable.timetable['lucas'].title" /><br>{{ timetable.timetable['lucas'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -36,8 +36,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('hsjoihs')">
-              <span v-html="timetable.timetable['hsjoihs'].title" /><br>{{ timetable.timetable['hsjoihs'].name }}
+              @click="show('miyake')">
+              <span v-html="timetable.timetable['miyake'].title" /><br>{{ timetable.timetable['miyake'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -54,8 +54,8 @@
             <td class="siimple-table-cell">12:45 - 12:55</td>
             <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['serio'].company }}<br>
-              <span v-if="timetable.timetable['serio'].title"><span v-html="timetable.timetable['serio'].title" /><br>{{ timetable.timetable['serio'].name }}</span>
+              スポンサーセッション {{ timetable.timetable['sponsor1'].company }}<br>
+              <span v-if="timetable.timetable['sponsor1'].title"><span v-html="timetable.timetable['sponsor1'].title" /><br>{{ timetable.timetable['sponsor1'].name }}</span>
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -68,8 +68,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('koba789')">
-              <span v-html="timetable.timetable['koba789'].title" /><br>{{ timetable.timetable['koba789'].name }}
+              @click="show('tamacona')">
+              <span v-html="timetable.timetable['tamacona'].title" /><br>{{ timetable.timetable['tamacona'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -86,8 +86,8 @@
             <td class="siimple-table-cell">14:00 - 14:10</td>
             <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['psc'].company }}<br>
-              <span v-if="timetable.timetable['psc'].title"><span v-html="timetable.timetable['psc'].title" /><br>{{ timetable.timetable['psc'].name }}</span>
+              スポンサーセッション {{ timetable.timetable['sponsor2'].company }}<br>
+              <span v-if="timetable.timetable['sponsor2'].title"><span v-html="timetable.timetable['sponsor2'].title" /><br>{{ timetable.timetable['sponsor2'].name }}</span>
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -100,8 +100,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('majima')">
-              <span v-html="timetable.timetable['majima'].title" /><br>{{ timetable.timetable['majima'].name }}
+              @click="show('umeta')">
+              <span v-html="timetable.timetable['umeta'].title" /><br>{{ timetable.timetable['umeta'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -118,8 +118,8 @@
             <td class="siimple-table-cell">15:15 - 15:25</td>
             <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['subthread'].company }}<br>
-              <span v-if="timetable.timetable['subthread'].title"><span v-html="timetable.timetable['subthread'].title" /><br>{{ timetable.timetable['subthread'].name }}</span>
+              スポンサーセッション {{ timetable.timetable['sponsor3'].company }}<br>
+              <span v-if="timetable.timetable['sponsor3'].title"><span v-html="timetable.timetable['sponsor3'].title" /><br>{{ timetable.timetable['sponsor3'].name }}</span>
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -132,8 +132,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('kiryu')">
-              <span v-html="timetable.timetable['kiryu'].title" /><br>{{ timetable.timetable['kiryu'].name }}
+              @click="show('daiksy')">
+              <span v-html="timetable.timetable['daiksy'].title" /><br>{{ timetable.timetable['daiksy'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -150,8 +150,8 @@
             <td class="siimple-table-cell">16:30 - 16:40</td>
             <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['jobdraft'].company }}<br>
-              <span v-if="timetable.timetable['jobdraft'].title"><span v-html="timetable.timetable['jobdraft'].title" /><br>{{ timetable.timetable['jobdraft'].name }}</span>
+              スポンサーセッション {{ timetable.timetable['sponsor3'].company }}<br>
+              <span v-if="timetable.timetable['sponsor3'].title"><span v-html="timetable.timetable['sponsor3'].title" /><br>{{ timetable.timetable['sponsor3'].name }}</span>
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -164,8 +164,8 @@
             <td class="siimple-table-cell">40分</td>
             <td
               class="siimple-table-cell hover"
-              @click="show('kyoro')">
-              <span v-html="timetable.timetable['kyoro'].title" /><br>{{ timetable.timetable['kyoro'].name }}
+              @click="show('soudai')">
+              <span v-html="timetable.timetable['soudai'].title" /><br>{{ timetable.timetable['soudai'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row">

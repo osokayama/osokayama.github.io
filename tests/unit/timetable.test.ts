@@ -5,16 +5,15 @@ import TimetablePage from '~/pages/timetable.vue'
 vi.mock('~/data/timetable_data', () => ({
   default: {
     timetable: {
-      aknow: { title: 'aknow タイトル', name: 'a-know' },
-      hsjoihs: { title: 'hsjoihs タイトル', name: '佐藤 弘崇' },
-      koba789: { title: 'koba789 タイトル', name: 'KOBA789' },
-      majima: { title: 'majima タイトル', name: '間嶋 沙知' },
-      kiryu: { title: 'kiryu タイトル', name: '桐生 あんず' },
-      kyoro: { title: 'kyoro タイトル', name: 'きょろ' },
-      serio: { company: 'セリオ株式会社', title: null, name: null },
-      psc: { company: '株式会社PSC', title: 'psc タイトル', name: 'psc スピーカー' },
-      subthread: { company: '株式会社サブスレッド', title: null, name: null },
-      jobdraft: { company: '株式会社ジョブドラフト', title: null, name: null },
+      daiksy: { title: 'dailsy タイトル', name: '粕谷 大輔 (だいくしー)' },
+      tamacona: { title: 'tamacona タイトル', name: '河内 一弘（Kawachi Kazuhiro）' },
+      lucas: { title: 'lucas タイトル', name: 'ゴールドナ ルーカス' },
+      soudai: { title: 'soudai タイトル', name: '曽根 壮大(そね たけとも)' },
+      miyake: { title: 'miyake タイトル', name: '三宅 大樹 (まょけ)' },
+      umeta: { title: 'umeta タイトル', name: 'Yuuki Umeta' },
+      sponsor1: { company: '調整中', title: null, name: null },
+      sponsor2: { company: '調整中', title: null, name: null },
+      sponsor3: { company: '調整中', title: null, name: null },
     },
   },
 }))
@@ -35,45 +34,45 @@ describe('pages/timetable.vue', () => {
     expect(wrapper.html()).toMatchSnapshot()
   })
 
-  it('aknow セッションクリックで navigateTo が呼ばれる', async () => {
-    const wrapper = await mountSuspended(TimetablePage)
-    const cells = wrapper.findAll('td.siimple-table-cell.hover')
-    await cells[0].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=aknow')
-  })
-
-  it('hsjoihs セッションクリックで navigateTo が呼ばれる', async () => {
-    const wrapper = await mountSuspended(TimetablePage)
-    const cells = wrapper.findAll('td.siimple-table-cell.hover')
-    await cells[1].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=hsjoihs')
-  })
-
-  it('koba789 セッションクリックで navigateTo が呼ばれる', async () => {
-    const wrapper = await mountSuspended(TimetablePage)
-    const cells = wrapper.findAll('td.siimple-table-cell.hover')
-    await cells[2].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=koba789')
-  })
-
-  it('majima セッションクリックで navigateTo が呼ばれる', async () => {
-    const wrapper = await mountSuspended(TimetablePage)
-    const cells = wrapper.findAll('td.siimple-table-cell.hover')
-    await cells[3].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=majima')
-  })
-
-  it('kiryu セッションクリックで navigateTo が呼ばれる', async () => {
+  it('daiksy セッションクリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(TimetablePage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[4].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=kiryu')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=daiksy')
   })
 
-  it('kyoro セッションクリックで navigateTo が呼ばれる', async () => {
+  it('tamacona セッションクリックで navigateTo が呼ばれる', async () => {
+    const wrapper = await mountSuspended(TimetablePage)
+    const cells = wrapper.findAll('td.siimple-table-cell.hover')
+    await cells[2].trigger('click')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=tamacona')
+  })
+
+  it('lucas セッションクリックで navigateTo が呼ばれる', async () => {
+    const wrapper = await mountSuspended(TimetablePage)
+    const cells = wrapper.findAll('td.siimple-table-cell.hover')
+    await cells[0].trigger('click')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=lucas')
+  })
+
+  it('soudai セッションクリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(TimetablePage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[5].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=kyoro')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=soudai')
+  })
+
+  it('miyake セッションクリックで navigateTo が呼ばれる', async () => {
+    const wrapper = await mountSuspended(TimetablePage)
+    const cells = wrapper.findAll('td.siimple-table-cell.hover')
+    await cells[1].trigger('click')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=miyake')
+  })
+
+  it('umeta セッションクリックで navigateTo が呼ばれる', async () => {
+    const wrapper = await mountSuspended(TimetablePage)
+    const cells = wrapper.findAll('td.siimple-table-cell.hover')
+    await cells[3].trigger('click')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=umeta')
   })
 })

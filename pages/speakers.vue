@@ -10,43 +10,43 @@
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('aknow')">
-              {{ timetable.timetable['aknow'].name }}
+              @click="show('daiksy')">
+              {{ timetable.timetable['daiksy'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('kyoro')">
-              {{ timetable.timetable['kyoro'].name }}
+              @click="show('tamacona')">
+              {{ timetable.timetable['tamacona'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('kiryu')">
-              {{ timetable.timetable['kiryu'].name }}
+              @click="show('lucas')">
+              {{ timetable.timetable['lucas'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('koba789')">
-              {{ timetable.timetable['koba789'].name }}
+              @click="show('soudai')">
+              {{ timetable.timetable['soudai'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('hsjoihs')">
-              {{ timetable.timetable['hsjoihs'].name }}
+              @click="show('miyake')">
+              {{ timetable.timetable['miyake'].name }}
             </td>
           </tr>
           <tr class="siimple-table-row session">
             <td
               class="siimple-table-cell hover"
-              @click="show('majima')">
-              {{ timetable.timetable['majima'].name }}
+              @click="show('umeta')">
+              {{ timetable.timetable['umeta'].name }}
             </td>
           </tr>
         </tbody>

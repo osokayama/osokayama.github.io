@@ -5,12 +5,12 @@ import SpeakersPage from '~/pages/speakers.vue'
 vi.mock('~/data/timetable_data', () => ({
   default: {
     timetable: {
-      aknow: { name: 'a-know' },
-      kyoro: { name: 'きょろ' },
-      kiryu: { name: '桐生 あんず' },
-      koba789: { name: 'KOBA789' },
-      hsjoihs: { name: '佐藤 弘崇' },
-      majima: { name: '間嶋 沙知' },
+      daiksy: { name: '粕谷 大輔 (だいくしー)' },
+      tamacona: { name: '河内 一弘（Kawachi Kazuhiro）' },
+      lucas: { name: 'ゴールドナ ルーカス' },
+      soudai: { name: '曽根 壮大(そね たけとも)' },
+      miyake: { name: '三宅 大樹 (まょけ)' },
+      umeta: { name: 'Yuuki Umeta' },
     },
   },
 }))
@@ -31,46 +31,45 @@ describe('pages/speakers.vue', () => {
     expect(wrapper.html()).toMatchSnapshot()
   })
 
-  it('aknow 行クリックで navigateTo が呼ばれる', async () => {
+  it('daiksy 行クリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(SpeakersPage)
     const cell = wrapper.find('td[class*="hover"]')
     await cell.trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=aknow')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=daiksy')
   })
 
-  it('kyoro 行クリックで navigateTo が呼ばれる', async () => {
+  it('tamacona 行クリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(SpeakersPage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
-    const kyoroCell = cells[1]
-    await kyoroCell.trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=kyoro')
+    await cells[1].trigger('click')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=tamacona')
   })
 
-  it('kiryu 行クリックで navigateTo が呼ばれる', async () => {
+  it('lucas 行クリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(SpeakersPage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[2].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=kiryu')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=lucas')
   })
 
-  it('koba789 行クリックで navigateTo が呼ばれる', async () => {
+  it('soudai 行クリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(SpeakersPage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[3].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=koba789')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=soudai')
   })
 
-  it('hsjoihs 行クリックで navigateTo が呼ばれる', async () => {
+  it('miyake 行クリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(SpeakersPage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[4].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=hsjoihs')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=miyake')
   })
 
-  it('majima 行クリックで navigateTo が呼ばれる', async () => {
+  it('umeta 行クリックで navigateTo が呼ばれる', async () => {
     const wrapper = await mountSuspended(SpeakersPage)
     const cells = wrapper.findAll('td.siimple-table-cell.hover')
     await cells[5].trigger('click')
-    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=majima')
+    expect(navigateToMock).toHaveBeenCalledWith('/detail/?speaker=umeta')
   })
 })
