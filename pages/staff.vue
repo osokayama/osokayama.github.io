@@ -99,7 +99,7 @@ export default {
   width: 100%;
   padding-bottom: 10px;
 }
-.oso-staff-names { height: 65px; }
+.oso-staff-names { height: 90px; }
 .oso-staff-name { font-size: 20px; }
 .oso-staff-name,.oso-staff-roll,.oso-staff-sns { padding-left: 10px; padding-right: 10px; padding-bottom: 5px; }
 .oso-staff-roll { height: 26px; }
