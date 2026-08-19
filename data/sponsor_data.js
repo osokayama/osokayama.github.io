@@ -2,11 +2,6 @@ export default {
   sponsor: {
     platina: [
       {
-        name: '株式会社サブスレッド',
-        url: 'https://subthread.co.jp/',
-        image: 'sponsor/subthread.png'
-      },
-      {
         name: 'セリオ株式会社',
         url: 'https://www.serio.inc/',
         image: 'sponsor/serio.png'
@@ -21,11 +16,6 @@ export default {
         url: 'https://pscsrv.co.jp/',
         image: 'sponsor/psc.png'
       },
-      {
-        name: '株式会社フィネット',
-        url: 'https://f-inet.co.jp/',
-        image: 'sponsor/finet.png'
-      },
     ],
     gold: [
       {
@@ -34,24 +24,19 @@ export default {
         image: 'sponsor/audiostock.png'
       },
       {
-        name: '株式会社SmartHR',
-        url: 'https://hello-world.smarthr.co.jp/',
-        image: 'sponsor/smarthr.svg'
-      },
-      {
-        name: '株式会社DIGITALJET',
-        url: 'https://www.digitaljet.co.jp/',
-        image: 'sponsor/digitaljet.svg'
-      },
-      {
-        name: 'TOPPANデジタル株式会社',
-        url: 'https://www.digital.toppan.com/ja/',
-        image: 'sponsor/toppan.svg'
+        name: '株式会社フィネット',
+        url: 'https://f-inet.co.jp/',
+        image: 'sponsor/finet.png'
       },
     ],
     silver: [
     ],
     bronze: [
+      {
+        name: '株式会社サブスレッド',
+        url: 'https://subthread.co.jp/',
+        image: 'sponsor/subthread.png'
+      },
     ]
   },
   tool: [
