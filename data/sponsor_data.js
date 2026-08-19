@@ -8,7 +8,7 @@ export default {
       },
       {
         name: '転職ドラフト',
-        url: 'https://job-draft.jp/?utm_source=site&utm_medium=conference&utm_campaign=allconference&utm_term=okayama2025',
+        url: 'https://job-draft.jp/?utm_source=site&utm_medium=conference&utm_campaign=allconference&utm_term=okayama2026',
         image: 'sponsor/jobdraft.svg'
       },
       {
