@@ -46,22 +46,9 @@
             <td class="siimple-table-cell">質疑応答</td>
           </tr>
           <tr class="siimple-table-row">
-            <td class="siimple-table-cell">11:50 - 12:45</td>
+            <td class="siimple-table-cell">11:50 - 13:00</td>
             <td class="siimple-table-cell">&nbsp;</td>
             <td class="siimple-table-cell">昼休憩</td>
-          </tr>
-          <tr class="siimple-table-row">
-            <td class="siimple-table-cell">12:45 - 12:55</td>
-            <td class="siimple-table-cell">10分</td>
-            <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['sponsor1'].company }}<br>
-              <span v-if="timetable.timetable['sponsor1'].title"><span v-html="timetable.timetable['sponsor1'].title" /><br>{{ timetable.timetable['sponsor1'].name }}</span>
-            </td>
-          </tr>
-          <tr class="siimple-table-row">
-            <td class="siimple-table-cell">12:55 - 13:00</td>
-            <td class="siimple-table-cell">&nbsp;</td>
-            <td class="siimple-table-cell">幕間</td>
           </tr>
           <tr class="siimple-table-row session">
             <td class="siimple-table-cell">13:00 - 13:40</td>
@@ -86,8 +73,8 @@
             <td class="siimple-table-cell">14:00 - 14:10</td>
             <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['sponsor2'].company }}<br>
-              <span v-if="timetable.timetable['sponsor2'].title"><span v-html="timetable.timetable['sponsor2'].title" /><br>{{ timetable.timetable['sponsor2'].name }}</span>
+              スポンサーセッション {{ timetable.timetable['sponsor1'].company }}<br>
+              <span v-if="timetable.timetable['sponsor1'].title"><span v-html="timetable.timetable['sponsor1'].title" /><br>{{ timetable.timetable['sponsor1'].name }}</span>
             </td>
           </tr>
           <tr class="siimple-table-row">
@@ -118,8 +105,8 @@
             <td class="siimple-table-cell">15:15 - 15:25</td>
             <td class="siimple-table-cell">10分</td>
             <td class="siimple-table-cell">
-              スポンサーセッション {{ timetable.timetable['sponsor3'].company }}<br>
-              <span v-if="timetable.timetable['sponsor3'].title"><span v-html="timetable.timetable['sponsor3'].title" /><br>{{ timetable.timetable['sponsor3'].name }}</span>
+              スポンサーセッション {{ timetable.timetable['sponsor2'].company }}<br>
+              <span v-if="timetable.timetable['sponsor2'].title"><span v-html="timetable.timetable['sponsor2'].title" /><br>{{ timetable.timetable['sponsor2'].name }}</span>
             </td>
           </tr>
           <tr class="siimple-table-row">
