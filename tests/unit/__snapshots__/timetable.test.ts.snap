@@ -44,21 +44,9 @@ exports[`pages/timetable.vue > renders correctly 1`] = `
           <td data-v-86d62777="" class="siimple-table-cell">質疑応答</td>
         </tr>
         <tr data-v-86d62777="" class="siimple-table-row">
-          <td data-v-86d62777="" class="siimple-table-cell">11:50 - 12:45</td>
+          <td data-v-86d62777="" class="siimple-table-cell">11:50 - 13:00</td>
           <td data-v-86d62777="" class="siimple-table-cell">&nbsp;</td>
           <td data-v-86d62777="" class="siimple-table-cell">昼休憩</td>
-        </tr>
-        <tr data-v-86d62777="" class="siimple-table-row">
-          <td data-v-86d62777="" class="siimple-table-cell">12:45 - 12:55</td>
-          <td data-v-86d62777="" class="siimple-table-cell">10分</td>
-          <td data-v-86d62777="" class="siimple-table-cell"> スポンサーセッション 調整中<br data-v-86d62777="">
-            <!--v-if-->
-          </td>
-        </tr>
-        <tr data-v-86d62777="" class="siimple-table-row">
-          <td data-v-86d62777="" class="siimple-table-cell">12:55 - 13:00</td>
-          <td data-v-86d62777="" class="siimple-table-cell">&nbsp;</td>
-          <td data-v-86d62777="" class="siimple-table-cell">幕間</td>
         </tr>
         <tr data-v-86d62777="" class="siimple-table-row session">
           <td data-v-86d62777="" class="siimple-table-cell">13:00 - 13:40</td>
