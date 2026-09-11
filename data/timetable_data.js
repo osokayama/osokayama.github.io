@@ -111,9 +111,9 @@ export default {
       company: 'ピープルソフトウェア株式会社',
     },
     'sponsor3': {
-      title: '調整中',
-      name: '調整中',
-      company: '調整中',
+      title: '巻き込む力 × 巻き込まれる力「つながる。広がる。加速する。」',
+      name: '長原 瞳(ながはら ひとみ)',
+      company: 'セリオ株式会社',
     },
   }
 }
