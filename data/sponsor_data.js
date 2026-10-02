@@ -34,7 +34,7 @@ export default {
     bronze: [
       {
         name: '株式会社サブスレッド',
-        url: 'https://subthread.co.jp/',
+        url: 'https://subthread.co.jp/?oso2026',
         image: 'sponsor/subthread.png'
       },
     ]
